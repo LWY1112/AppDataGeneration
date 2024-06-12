@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "Lacey_Raynor",
+    "email": "Margarett_Lesch53@hotmail.com",
+    "enable": true,
+    "name": "Carmel Blick",
+    "note": "I'll navigate the online THX bus, that should driver the GB interface!",
+    "password": "buninakuga",
+    "phone": {
+      "country_code": "+60",
+      "number": "012-2019641"
+    },
+    "pin": "837440",
+    "role": [
+      "STAFF"
+    ]
+  },
+  {
+    "_id": "Dena86",
+    "email": "Yvonne_Reinger@hotmail.com",
+    "enable": true,
+    "name": "Lavern Kling",
+    "note": "I'll connect the back-end SMTP bus, that should alarm the ADP microchip!",
+    "password": "bacosugafa",
+    "phone": {
+      "country_code": "+60",
+      "number": "016-9000525"
+    },
+    "pin": "231234",
+    "role": [
+      "STAFF"
+    ]
+  }
+]

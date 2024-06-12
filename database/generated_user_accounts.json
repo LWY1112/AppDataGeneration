@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "Rodrick.Hermiston36",
+    "email": "Madyson.Ortiz@hotmail.com",
+    "enable": true,
+    "name": "Kenyon Hyatt",
+    "note": "I'll quantify the online AI circuit, that should bandwidth the SQL pixel!",
+    "password": "rr_Bw3whUl",
+    "phone": {
+      "country_code": "60",
+      "number": "123126929"
+    },
+    "pin": "197733",
+    "role": [
+      "ADMIN"
+    ]
+  },
+  {
+    "_id": "Rosemary.Schmitt72",
+    "email": "Jonathan57@yahoo.com",
+    "enable": false,
+    "name": "Jodie Kassulke-Pagac",
+    "note": "navigating the hard drive won't do anything, we need to connect the primary VGA hard drive!",
+    "password": "b3E7AxgJIs",
+    "phone": {
+      "country_code": "60",
+      "number": "163838941"
+    },
+    "pin": "559018",
+    "role": [
+      "STAFF"
+    ]
+  }
+]

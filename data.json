@@ -1,0 +1,110 @@
+[
+  {
+    "firstName": "Wei Yi",
+    "lastName": "Lee",
+    "email": "lwy@live.com.my",
+    "username": "LEEWEIYI",
+    "password": "123456",
+    "address": "21L, Jalan Satu",
+    "city": "Ayer Itam",
+    "state": "Penang",
+    "zipCode": "11400",
+    "phoneNumber": "016-464 1197"
+  },
+  {
+    "firstName": "Ah Lian",
+    "lastName": "Wong",
+    "email": "Ruth.Lesch94@yahoo.com",
+    "username": "Danika.MacGyver",
+    "password": "6j4Uh3jVcF5dgY4",
+    "address": "Jalan Tun Razak",
+    "city": "Ipoh",
+    "state": "Perak",
+    "zipCode": "55100",
+    "phoneNumber": "014-5048099"
+  },
+  {
+    "firstName": "Ah Tan",
+    "lastName": "Tan",
+    "email": "Bettye.Keebler@yahoo.com",
+    "username": "Mathew19",
+    "password": "WuWANtfWiargOJe",
+    "address": "Jalan Tun Razak",
+    "city": "Shah Alam",
+    "state": "Johor",
+    "zipCode": "50000",
+    "phoneNumber": "013-6970229"
+  },
+  {
+    "firstName": "Ah Chong",
+    "lastName": "Lim",
+    "email": "Greg_Keebler@gmail.com",
+    "username": "Chelsie.Smitham",
+    "password": "zV0267AXN4Pdbzi",
+    "address": "Jalan Sultan Ismail",
+    "city": "Kuala Lumpur",
+    "state": "Perak",
+    "zipCode": "50000",
+    "phoneNumber": "013-1103102"
+  },
+  {
+    "firstName": "Ah Lee",
+    "lastName": "Wong",
+    "email": "Sydney4@gmail.com",
+    "username": "Asha54",
+    "password": "dNpzKVNqOZoK1t9",
+    "address": "Jalan Sultan Ismail",
+    "city": "Shah Alam",
+    "state": "Selangor",
+    "zipCode": "60000",
+    "phoneNumber": "014-6511111"
+  },
+  {
+    "firstName": "Ah Tan",
+    "lastName": "Lim",
+    "email": "Marlen7@gmail.com",
+    "username": "Sandy20",
+    "password": "dshzZSTV0q1xjZM",
+    "address": "Jalan Sultan Ismail",
+    "city": "Ipoh",
+    "state": "Kuala Lumpur",
+    "zipCode": "50250",
+    "phoneNumber": "010-2115927"
+  },
+  {
+    "firstName": "Ah Lian",
+    "lastName": "Goh",
+    "email": "Sandy88@yahoo.com",
+    "username": "Sammie.Kutch74",
+    "password": "NJPlGgsG0EApOBp",
+    "address": "Jalan Tun Razak",
+    "city": "George Town",
+    "state": "Penang",
+    "zipCode": "60000",
+    "phoneNumber": "010-6760077"
+  },
+  {
+    "firstName": "Ah Mei",
+    "lastName": "Wong",
+    "email": "Sylvester15@gmail.com",
+    "username": "Xander.Wolf",
+    "password": "dSknNUfTVEOxlph",
+    "address": "Jalan Tun Razak",
+    "city": "Johor Bahru",
+    "state": "Kuala Lumpur",
+    "zipCode": "50000",
+    "phoneNumber": "016-7603462"
+  },
+  {
+    "firstName": "Ah Chong",
+    "lastName": "Goh",
+    "email": "Christophe34@hotmail.com",
+    "username": "Madeline51",
+    "password": "CbDLXdGlW0BUY2F",
+    "address": "Jalan Tun Razak",
+    "city": "Kuala Lumpur",
+    "state": "Kuala Lumpur",
+    "zipCode": "50250",
+    "phoneNumber": "019-7918332"
+  }
+]
