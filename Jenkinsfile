@@ -42,18 +42,14 @@ pipeline {
         stage('Check Generated File') {
             steps {
                 script {
+                    // Check if JSON file has content
                     def accountType = 'user'
-                    def filePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
-
-                    // Check if the file was created and has content
-                    bat """
-                    if exist "${filePath}" (
-                        type "${filePath}"
-                    ) else (
-                        echo "File not found or is empty"
-                        exit 1
-                    )
-                    """
+                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
+                    def jsonFileContent = readFile(file: jsonFilePath)
+                    if (jsonFileContent.trim().isEmpty()) {
+                        error "The JSON file ${jsonFilePath} is empty!"
+                    } else {
+                        echo "The JSON file ${jsonFilePath} has content."
                 }
             }
         }
