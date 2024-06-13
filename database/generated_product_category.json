@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Beauty",
+    "desc": "Explore beauty products, skincare, and makeup essentials.",
+    "images": "https://loremflickr.com/640/480/Beauty?lock=4332421000462336",
+    "sequence": 1,
+    "enable": false
+  },
+  {
+    "name": "Baby",
+    "desc": "Shop for baby essentials, clothing, and accessories.",
+    "images": "https://loremflickr.com/640/480/Baby?lock=7001925891391488",
+    "sequence": 2,
+    "enable": true
+  },
+  {
+    "name": "Beauty",
+    "desc": "Explore beauty products, skincare, and makeup essentials.",
+    "images": "https://loremflickr.com/640/480/Beauty?lock=4673950397235200",
+    "sequence": 3,
+    "enable": true
+  },
+  {
+    "name": "Jewelery",
+    "desc": "Explore a variety of products in this category.",
+    "images": "https://loremflickr.com/640/480/Jewelery?lock=2824939518296064",
+    "sequence": 4,
+    "enable": true
+  },
+  {
+    "name": "Home",
+    "desc": "Discover home decor, furniture, and kitchen essentials.",
+    "images": "https://loremflickr.com/640/480/Home?lock=2666743291969536",
+    "sequence": 5,
+    "enable": false
+  },
+  {
+    "name": "Baby",
+    "desc": "Shop for baby essentials, clothing, and accessories.",
+    "images": "https://loremflickr.com/640/480/Baby?lock=41750324314112",
+    "sequence": 6,
+    "enable": false
+  },
+  {
+    "name": "Tools",
+    "desc": "Shop for power tools, hand tools, and tool accessories.",
+    "images": "https://loremflickr.com/640/480/Tools?lock=7406725271388160",
+    "sequence": 7,
+    "enable": false
+  },
+  {
+    "name": "Shoes",
+    "desc": "Find your perfect pair of shoes from a wide selection of styles.",
+    "images": "https://loremflickr.com/640/480/Shoes?lock=2020859636088832",
+    "sequence": 8,
+    "enable": true
+  },
+  {
+    "name": "Music",
+    "desc": "Find your favorite music albums and new releases across all genres.",
+    "images": "https://loremflickr.com/640/480/Music?lock=3007294677712896",
+    "sequence": 9,
+    "enable": true
+  },
+  {
+    "name": "Electronics",
+    "desc": "Browse the newest electronics, gadgets, and accessories.",
+    "images": "https://loremflickr.com/640/480/Electronics?lock=5124278441738240",
+    "sequence": 10,
+    "enable": false
+  },
+  {
+    "name": "Home",
+    "desc": "Discover home decor, furniture, and kitchen essentials.",
+    "images": "https://loremflickr.com/640/480/Home?lock=5977633821032448",
+    "sequence": 11,
+    "enable": true
+  },
+  {
+    "name": "Clothing",
+    "desc": "Discover the latest fashion trends and clothing essentials.",
+    "images": "https://loremflickr.com/640/480/Clothing?lock=4129807832973312",
+    "sequence": 12,
+    "enable": true
+  },
+  {
+    "name": "Outdoors",
+    "desc": "Shop for outdoor gear, camping equipment, and adventure essentials.",
+    "images": "https://loremflickr.com/640/480/Outdoors?lock=8933011070386176",
+    "sequence": 13,
+    "enable": true
+  },
+  {
+    "name": "Games",
+    "desc": "Shop for the latest video games, board games, and gaming accessories.",
+    "images": "https://loremflickr.com/640/480/Games?lock=3150873416957952",
+    "sequence": 14,
+    "enable": true
+  },
+  {
+    "name": "Computers",
+    "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+    "images": "https://loremflickr.com/640/480/Computers?lock=5182106506362880",
+    "sequence": 15,
+    "enable": false
+  },
+  {
+    "name": "Computers",
+    "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+    "images": "https://loremflickr.com/640/480/Computers?lock=4042366432313344",
+    "sequence": 16,
+    "enable": false
+  },
+  {
+    "name": "Movies",
+    "desc": "Explore the latest blockbusters, classic films, and everything in between.",
+    "images": "https://loremflickr.com/640/480/Movies?lock=8912841329344512",
+    "sequence": 17,
+    "enable": false
+  },
+  {
+    "name": "Beauty",
+    "desc": "Explore beauty products, skincare, and makeup essentials.",
+    "images": "https://loremflickr.com/640/480/Beauty?lock=541101108756480",
+    "sequence": 18,
+    "enable": true
+  },
+  {
+    "name": "Music",
+    "desc": "Find your favorite music albums and new releases across all genres.",
+    "images": "https://loremflickr.com/640/480/Music?lock=8642367328354304",
+    "sequence": 19,
+    "enable": true
+  },
+  {
+    "name": "Kids",
+    "desc": "Explore a variety of products in this category.",
+    "images": "https://loremflickr.com/640/480/Kids?lock=7771715406921728",
+    "sequence": 20,
+    "enable": false
+  }
+]
