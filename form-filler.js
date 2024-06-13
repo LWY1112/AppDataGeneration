@@ -125,7 +125,7 @@ async function generateAccounts(numAccounts, type) {
       accounts.push(account);
     }
   
-    const filePath = path.join(__dirname, 'Database', fileName);
+    const filePath = path.join(__dirname, 'database', fileName);
     fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
     console.log(`Saved ${numAccounts} ${type} accounts to ${filePath}`);
   }
