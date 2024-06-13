@@ -42,6 +42,7 @@ pipeline {
         stage('Check Generated File') {
             steps {
                 script {
+                    def accountType = 'user'
                     def filePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
 
                     // Check if the file was created and has content
