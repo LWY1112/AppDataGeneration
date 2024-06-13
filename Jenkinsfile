@@ -10,27 +10,43 @@ pipeline {
     }
 
     stages {
-        // ... Your other stages here ...
+        stage('Checkout') {
+            steps {
+                // Checkout the code from the repository
+                git 'https://github.com/LWY1112/Generated-Random-Account-Info.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                // Install npm dependencies
+                bat 'npm install'
+            }
+        }
+
+        stage('Run Generator Script') {
+            steps {
+                script {
+                    def numAccounts = 10
+                    def accountType = 'user' // Change this to 'employee' or 'product' as needed
+
+                    // Run the script with arguments
+                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                }
+            }
+        }
 
         stage('Check Generated File') {
             steps {
                 script {
+                    // Check if JSON file has content
                     def accountType = 'user'
                     def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
-
-                    // Check if JSON file exists and has content
-                    if (!fileExists(jsonFilePath)) {
-                        error "The JSON file ${jsonFilePath} does not exist or is empty!"
-                    }
-
-                    // Read the content of the JSON file
-                    def jsonFileContent = readFile(file: jsonFilePath).trim()
-
-                    if (jsonFileContent.isEmpty()) {
+                    def jsonFileContent = readFile(file: jsonFilePath)
+                    if (jsonFileContent.trim().isEmpty()) {
                         error "The JSON file ${jsonFilePath} is empty!"
                     } else {
                         echo "The JSON file ${jsonFilePath} has content."
-                    }
                 }
             }
         }
@@ -44,10 +60,4 @@ pipeline {
             echo 'Pipeline failed!'
         }
     }
-}
-
-// Function to check if a file exists
-def fileExists(String filePath) {
-    def file = new File(filePath)
-    return file.exists()
 }
