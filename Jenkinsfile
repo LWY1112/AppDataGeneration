@@ -10,34 +10,7 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from the repository
-                git 'https://github.com/LWY1112/Generated-Random-Account-Info.git'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                // Install npm dependencies
-                bat 'npm install'
-            }
-        }
-
-        stage('Run Generator Script') {
-            steps {
-                script {
-                    def numAccounts = 10
-                    def accountType = 'user' // Change this to 'employee' or 'product' as needed
-
-                    // Create the Database directory if it doesn't exist
-                    bat "if not exist ${env.FILE_PATH} mkdir ${env.FILE_PATH}"
-
-                    // Run the script with arguments
-                    bat "node form-filler.js ${numAccounts} ${accountType}"
-                }
-            }
-        }
+        // ... Your other stages here ...
 
         stage('Check Generated File') {
             steps {
@@ -75,5 +48,6 @@ pipeline {
 
 // Function to check if a file exists
 def fileExists(String filePath) {
-    return file(filePath).exists()
+    def file = new File(filePath)
+    return file.exists()
 }
