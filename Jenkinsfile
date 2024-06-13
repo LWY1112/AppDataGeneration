@@ -47,6 +47,7 @@ pipeline {
                         error "The JSON file ${jsonFilePath} is empty!"
                     } else {
                         echo "The JSON file ${jsonFilePath} has content."
+                    }
                 }
             }
         }
