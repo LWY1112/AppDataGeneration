@@ -47,8 +47,8 @@ pipeline {
 
                     // Check if the file was created and has content
                     bat """
-                    if exist ${filePath} (
-                        type ${filePath}
+                    if exist "${filePath}" (
+                        type "${filePath}"
                     ) else (
                         echo "File not found or is empty"
                         exit 1
