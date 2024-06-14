@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Run Generator Script') {
+        stage('Generate User Account') {
             steps {
                 script {
                     def numAccounts = 10
@@ -41,6 +41,62 @@ pipeline {
                 script {
                     // Check if JSON file has content
                     def accountType = 'user'
+                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
+                    def jsonFileContent = readFile(file: jsonFilePath)
+                    if (jsonFileContent.trim().isEmpty()) {
+                        error "The JSON file ${jsonFilePath} is empty!"
+                    } else {
+                        echo "The JSON file ${jsonFilePath} has content."
+                    }
+                }
+            }
+        }
+
+        stage('Generate Employee Account') {
+            steps {
+                script {
+                    def numAccounts = 10
+                    def accountType = 'employee' // Change this to 'employee' or 'product' as needed
+
+                    // Run the script with arguments
+                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                }
+            }
+        }
+
+        stage('Check Generated File') {
+            steps {
+                script {
+                    // Check if JSON file has content
+                    def accountType = 'employee'
+                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
+                    def jsonFileContent = readFile(file: jsonFilePath)
+                    if (jsonFileContent.trim().isEmpty()) {
+                        error "The JSON file ${jsonFilePath} is empty!"
+                    } else {
+                        echo "The JSON file ${jsonFilePath} has content."
+                    }
+                }
+            }
+        }
+
+        stage('Generate Product Account') {
+            steps {
+                script {
+                    def numAccounts = 10
+                    def accountType = 'product' // Change this to 'employee' or 'product' as needed
+
+                    // Run the script with arguments
+                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                }
+            }
+        }
+
+        stage('Check Generated File') {
+            steps {
+                script {
+                    // Check if JSON file has content
+                    def accountType = 'product'
                     def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
                     def jsonFileContent = readFile(file: jsonFilePath)
                     if (jsonFileContent.trim().isEmpty()) {
