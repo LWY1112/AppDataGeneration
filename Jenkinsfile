@@ -36,7 +36,7 @@ pipeline {
             }
         }
 
-        stage('Check Generated File') {
+        stage('Check Generated User File') {
             steps {
                 script {
                     // Check if JSON file has content
@@ -64,7 +64,7 @@ pipeline {
             }
         }
 
-        stage('Check Generated File') {
+        stage('Check Generated Employee File') {
             steps {
                 script {
                     // Check if JSON file has content
@@ -92,7 +92,7 @@ pipeline {
             }
         }
 
-        stage('Check Generated File') {
+        stage('Check Generated Product File') {
             steps {
                 script {
                     // Check if JSON file has content
