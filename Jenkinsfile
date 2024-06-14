@@ -99,7 +99,7 @@ pipeline {
                 script {
                     // Check if JSON file has content
                     def accountType = 'product'
-                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_accounts.json"
+                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_category.json"
                     def jsonFileContent = readFile(file: jsonFilePath)
                     if (jsonFileContent.trim().isEmpty()) {
                         error "The JSON file ${jsonFilePath} is empty!"
