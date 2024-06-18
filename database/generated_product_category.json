@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Toys",
+    "desc": "Find toys for all ages, from educational to fun and games.",
+    "images": [
+      "https://loremflickr.com/640/480/Toys?lock=5299311791308800",
+      "https://loremflickr.com/640/480/Toys?lock=2172870377603072",
+      "https://loremflickr.com/640/480/Toys?lock=6811849687302144",
+      "https://loremflickr.com/640/480/Toys?lock=4735767389667328"
+    ],
+    "sequence": 1,
+    "enable": false
+  },
+  {
+    "name": "Toys",
+    "desc": "Find toys for all ages, from educational to fun and games.",
+    "images": [
+      "https://loremflickr.com/640/480/Toys?lock=5540683534303232",
+      "https://loremflickr.com/640/480/Toys?lock=1333859981459456",
+      "https://loremflickr.com/640/480/Toys?lock=7802642333958144",
+      "https://loremflickr.com/640/480/Toys?lock=6887680818282496",
+      "https://loremflickr.com/640/480/Toys?lock=8549125006032896"
+    ],
+    "sequence": 2,
+    "enable": true
+  },
+  {
+    "name": "Jewelery",
+    "desc": "Explore a variety of products in this category.",
+    "images": [
+      "https://loremflickr.com/640/480/Jewelery?lock=794902092840960",
+      "https://loremflickr.com/640/480/Jewelery?lock=6566001216847872"
+    ],
+    "sequence": 3,
+    "enable": true
+  },
+  {
+    "name": "Industrial",
+    "desc": "Discover industrial supplies, equipment, and safety products.",
+    "images": [
+      "https://loremflickr.com/640/480/Industrial?lock=5816333897826304",
+      "https://loremflickr.com/640/480/Industrial?lock=765397276033024"
+    ],
+    "sequence": 4,
+    "enable": true
+  },
+  {
+    "name": "Shoes",
+    "desc": "Find your perfect pair of shoes from a wide selection of styles.",
+    "images": [
+      "https://loremflickr.com/640/480/Shoes?lock=2160876062769152",
+      "https://loremflickr.com/640/480/Shoes?lock=5596597798830080",
+      "https://loremflickr.com/640/480/Shoes?lock=538343569883136"
+    ],
+    "sequence": 5,
+    "enable": true
+  }
+]

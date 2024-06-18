@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "Jannie_Gleichner",
+    "email": "Garland_Veum55@gmail.com",
+    "enable": false,
+    "name": "Kelton Zulauf-Rolfson",
+    "note": "Use the primary IP array, then you can bypass the bluetooth port!",
+    "password": "fIq-swHuCa",
+    "phone": {
+      "country_code": "60",
+      "number": "117192689"
+    },
+    "pin": "722904",
+    "role": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ]
+  },
+  {
+    "_id": "Morton.Heller14",
+    "email": "Columbus_Jones71@hotmail.com",
+    "enable": false,
+    "name": "Odell Bartoletti",
+    "note": "If we transmit the sensor, we can get to the TCP feed through the virtual TCP application!",
+    "password": "fYo-meiNS_",
+    "phone": {
+      "country_code": "60",
+      "number": "153374529"
+    },
+    "pin": "269106",
+    "role": [
+      "ADMIN"
+    ]
+  },
+  {
+    "_id": "Sarai_Cormier91",
+    "email": "Felipa.Haley25@yahoo.com",
+    "enable": true,
+    "name": "Maude O'Reilly",
+    "note": "If we connect the feed, we can get to the AI hard drive through the auxiliary CLI port!",
+    "password": "fWOszua3GZ",
+    "phone": {
+      "country_code": "60",
+      "number": "119774262"
+    },
+    "pin": "915705",
+    "role": [
+      "ADMIN",
+      "STAFF"
+    ]
+  },
+  {
+    "_id": "Euna73",
+    "email": "Larissa_Schuster73@gmail.com",
+    "enable": true,
+    "name": "Anabelle Leuschke",
+    "note": "Use the online SSD microchip, then you can reboot the haptic monitor!",
+    "password": "J8S60xuv_F",
+    "phone": {
+      "country_code": "60",
+      "number": "112163537"
+    },
+    "pin": "587232",
+    "role": [
+      "MANAGER",
+      "STAFF"
+    ]
+  },
+  {
+    "_id": "Lonzo1",
+    "email": "Lilian.Lynch39@hotmail.com",
+    "enable": true,
+    "name": "Manley Johnston",
+    "note": "You can't bypass the hard drive without calculating the digital SSD program!",
+    "password": "QuoIK2jN5z",
+    "phone": {
+      "country_code": "60",
+      "number": "177116033"
+    },
+    "pin": "301931",
+    "role": [
+      "MANAGER"
+    ]
+  }
+]

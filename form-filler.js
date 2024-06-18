@@ -141,11 +141,11 @@ async function generateAccounts(numAccounts, type) {
       process.exit(1);
   }
 
-  /*for (let i = 0; i < numAccounts; i++) {
+  for (let i = 0; i < numAccounts; i++) {
     const account = generateFunction();
-    console.log(`Generated ${type} Account ${i + 1}:`, account);
+    //console.log(`Generated ${type} Account ${i + 1}:`, account);
     accounts.push(account);
-  }*/
+  }
 
   const filePath = path.join(__dirname, 'database', fileName);
   fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
