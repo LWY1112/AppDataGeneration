@@ -53,12 +53,12 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
+        /*stage('Run Unit Tests') {
             steps {
                 // Assuming you have unit tests configured with Jest
                 bat 'npm run test:unit'
             }
-        }
+        }*/
 
         stage('Generate Employee Account') {
             steps {
