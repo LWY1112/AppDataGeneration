@@ -102,5 +102,668 @@
         "MANAGER"
       ]
     }
+  ],
+  [
+    {
+      "_id": "Hellen.Marks",
+      "email": "Antonette_Bartoletti13@yahoo.com",
+      "enable": false,
+      "name": "Kristian Stroman",
+      "note": "indexing the protocol won't do anything, we need to calculate the virtual UDP interface!",
+      "password": "lNP61msL8y",
+      "phone": {
+        "country_code": "60",
+        "number": "159283515"
+      },
+      "pin": "293836",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Armando82",
+      "email": "Reyes_Harris@hotmail.com",
+      "enable": true,
+      "name": "Sarah Spinka-Kirlin",
+      "note": "Try to override the SMS monitor, maybe it will program the back-end driver!",
+      "password": "OqUnd5Rl4v",
+      "phone": {
+        "country_code": "60",
+        "number": "103359897"
+      },
+      "pin": "839379",
+      "role": [
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Marcia59",
+      "email": "Beatrice.Maggio71@gmail.com",
+      "enable": true,
+      "name": "Ashleigh Jacobs",
+      "note": "Try to calculate the SCSI system, maybe it will index the multi-byte program!",
+      "password": "8vrwRqqW59",
+      "phone": {
+        "country_code": "60",
+        "number": "129744387"
+      },
+      "pin": "213768",
+      "role": [
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Wilburn.Borer",
+      "email": "Nicola_Zieme50@yahoo.com",
+      "enable": true,
+      "name": "Emmett Conn",
+      "note": "The EXE capacitor is down, reboot the cross-platform program so we can quantify the ADP transmitter!",
+      "password": "glETIN4MCl",
+      "phone": {
+        "country_code": "60",
+        "number": "132468142"
+      },
+      "pin": "115349",
+      "role": [
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Gracie_Hansen8",
+      "email": "Spencer.Mayert85@hotmail.com",
+      "enable": false,
+      "name": "Jaron Zulauf",
+      "note": "If we index the transmitter, we can get to the TLS transmitter through the 1080p SAS card!",
+      "password": "_aUCkb_t-T",
+      "phone": {
+        "country_code": "60",
+        "number": "192001151"
+      },
+      "pin": "589144",
+      "role": [
+        "ADMIN",
+        "STAFF",
+        "MANAGER"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Halle.Homenick",
+      "email": "Lonie_Denesik@yahoo.com",
+      "enable": false,
+      "name": "Eudora Dickinson",
+      "note": "We need to index the optical RAM port!",
+      "password": "0PrhALXRLL",
+      "phone": {
+        "country_code": "60",
+        "number": "182129577"
+      },
+      "pin": "392150",
+      "role": [
+        "STAFF",
+        "ADMIN",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Adolphus_King",
+      "email": "Conor78@hotmail.com",
+      "enable": false,
+      "name": "Dariana Heidenreich",
+      "note": "We need to override the open-source USB matrix!",
+      "password": "f4yOavmz3W",
+      "phone": {
+        "country_code": "60",
+        "number": "161558471"
+      },
+      "pin": "452909",
+      "role": [
+        "ADMIN",
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Merritt_Williamson60",
+      "email": "Sydnee_Pfannerstill@yahoo.com",
+      "enable": false,
+      "name": "Elijah Romaguera",
+      "note": "Use the bluetooth UTF8 bandwidth, then you can transmit the 1080p driver!",
+      "password": "RPSZZOOxVs",
+      "phone": {
+        "country_code": "60",
+        "number": "189597501"
+      },
+      "pin": "757059",
+      "role": [
+        "MANAGER",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Tyler87",
+      "email": "Lambert.Padberg92@hotmail.com",
+      "enable": false,
+      "name": "Douglas O'Reilly-Treutel",
+      "note": "Use the mobile SSL bus, then you can synthesize the wireless driver!",
+      "password": "fU7otrCI5y",
+      "phone": {
+        "country_code": "60",
+        "number": "197343129"
+      },
+      "pin": "380158",
+      "role": [
+        "MANAGER",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Jarrod.Sporer",
+      "email": "Shanel.Hermiston11@hotmail.com",
+      "enable": false,
+      "name": "Faye Casper",
+      "note": "Use the online AGP matrix, then you can navigate the cross-platform port!",
+      "password": "1MUtBFyb0Q",
+      "phone": {
+        "country_code": "60",
+        "number": "147877320"
+      },
+      "pin": "425001",
+      "role": [
+        "MANAGER",
+        "STAFF",
+        "ADMIN"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Trent_Konopelski-Rau99",
+      "name": "Scottie Tromp",
+      "position": [
+        "Manager"
+      ],
+      "email": "Benedict_Carter@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "183862909"
+      },
+      "note": "The UTF8 microchip is down, synthesize the solid state interface so we can connect the ASCII matrix!"
+    },
+    {
+      "_id": "Kade.Kessler78",
+      "name": "Filiberto Grady",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Nova.Streich@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "185035856"
+      },
+      "note": "We need to navigate the optical ADP microchip!"
+    },
+    {
+      "_id": "Madilyn51",
+      "name": "Toney Miller",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Lucio_Goldner@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "161249797"
+      },
+      "note": "The PCI transmitter is down, parse the bluetooth protocol so we can hack the OCR feed!"
+    },
+    {
+      "_id": "Pablo46",
+      "name": "Gunner Simonis",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Thomas.Bins-Fadel@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "123243446"
+      },
+      "note": "You can't index the program without connecting the bluetooth SMTP application!"
+    },
+    {
+      "_id": "Preston_Lakin",
+      "name": "Dan Klein",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Jaylan35@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "163852864"
+      },
+      "note": "I'll compress the virtual SMTP capacitor, that should microchip the RAM firewall!"
+    }
+  ],
+  [
+    {
+      "_id": "Erika50",
+      "email": "Damaris64@hotmail.com",
+      "enable": false,
+      "name": "Kirk Lehner",
+      "note": "The HEX hard drive is down, override the multi-byte application so we can connect the OCR bus!",
+      "password": "5h3742UpwS",
+      "phone": {
+        "country_code": "60",
+        "number": "176600300"
+      },
+      "pin": "276989",
+      "role": [
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Lukas.Von36",
+      "email": "Major62@yahoo.com",
+      "enable": false,
+      "name": "Franz Beahan-Wiegand",
+      "note": "You can't connect the program without calculating the digital EXE port!",
+      "password": "q0XGC4z_ww",
+      "phone": {
+        "country_code": "60",
+        "number": "113841431"
+      },
+      "pin": "600120",
+      "role": [
+        "ADMIN"
+      ]
+    },
+    {
+      "_id": "Lizeth48",
+      "email": "Nick.Doyle@gmail.com",
+      "enable": true,
+      "name": "Katrine Heaney",
+      "note": "The XSS bandwidth is down, bypass the digital program so we can navigate the SDD system!",
+      "password": "tuS_azhsGy",
+      "phone": {
+        "country_code": "60",
+        "number": "173101602"
+      },
+      "pin": "258624",
+      "role": [
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Devan.Hansen39",
+      "email": "Barbara.Metz15@yahoo.com",
+      "enable": false,
+      "name": "Kale Brown",
+      "note": "I'll synthesize the back-end API monitor, that should driver the VGA hard drive!",
+      "password": "xytaombU2y",
+      "phone": {
+        "country_code": "60",
+        "number": "165344311"
+      },
+      "pin": "263328",
+      "role": [
+        "MANAGER",
+        "STAFF",
+        "ADMIN"
+      ]
+    },
+    {
+      "_id": "Tad61",
+      "email": "Khalil_Thiel55@hotmail.com",
+      "enable": false,
+      "name": "Ignatius Schroeder",
+      "note": "parsing the feed won't do anything, we need to bypass the cross-platform CLI monitor!",
+      "password": "HDiueLV9LH",
+      "phone": {
+        "country_code": "60",
+        "number": "172488756"
+      },
+      "pin": "598519",
+      "role": [
+        "ADMIN",
+        "STAFF"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Kayden81",
+      "name": "Jaycee Romaguera",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Benjamin_Harris@hotmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "122785089"
+      },
+      "note": "I'll compress the cross-platform DRAM monitor, that should bus the RAM interface!"
+    },
+    {
+      "_id": "Jayme_Stoltenberg",
+      "name": "Charlie Rolfson",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Chandler.Koch2@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "106075070"
+      },
+      "note": "If we connect the protocol, we can get to the CLI port through the optical XSS interface!"
+    },
+    {
+      "_id": "Nikita.Franecki",
+      "name": "Kaycee Schamberger",
+      "position": [
+        "Manager"
+      ],
+      "email": "Dylan.Quitzon22@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "115400531"
+      },
+      "note": "You can't connect the hard drive without programming the haptic FTP circuit!"
+    },
+    {
+      "_id": "Salma53",
+      "name": "Mayra Herman",
+      "position": [
+        "Manager"
+      ],
+      "email": "Tressie88@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "187994469"
+      },
+      "note": "The EXE monitor is down, calculate the online capacitor so we can hack the VGA protocol!"
+    },
+    {
+      "_id": "Ally15",
+      "name": "Robert Zieme",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Adam29@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "196919061"
+      },
+      "note": "Use the neural HDD circuit, then you can navigate the optical array!"
+    }
+  ],
+  [
+    {
+      "name": "Industrial",
+      "desc": "Discover industrial supplies, equipment, and safety products.",
+      "images": [
+        "https://loremflickr.com/640/480/Industrial?lock=1022761667395584"
+      ],
+      "sequence": 1,
+      "enable": false
+    },
+    {
+      "name": "Sports",
+      "desc": "Find sports equipment, apparel, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Sports?lock=3681243042414592",
+        "https://loremflickr.com/640/480/Sports?lock=137126186319872",
+        "https://loremflickr.com/640/480/Sports?lock=6726691382624256",
+        "https://loremflickr.com/640/480/Sports?lock=4331182938390528",
+        "https://loremflickr.com/640/480/Sports?lock=5044088424366080"
+      ],
+      "sequence": 2,
+      "enable": false
+    },
+    {
+      "name": "Baby",
+      "desc": "Shop for baby essentials, clothing, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Baby?lock=6197941557526528"
+      ],
+      "sequence": 3,
+      "enable": false
+    },
+    {
+      "name": "Garden",
+      "desc": "Explore gardening tools, outdoor furniture, and plants.",
+      "images": [
+        "https://loremflickr.com/640/480/Garden?lock=3214353786470400",
+        "https://loremflickr.com/640/480/Garden?lock=3052196442669056"
+      ],
+      "sequence": 4,
+      "enable": true
+    },
+    {
+      "name": "Beauty",
+      "desc": "Explore beauty products, skincare, and makeup essentials.",
+      "images": [
+        "https://loremflickr.com/640/480/Beauty?lock=7904561404575744",
+        "https://loremflickr.com/640/480/Beauty?lock=3716495494348800"
+      ],
+      "sequence": 5,
+      "enable": false
+    }
+  ],
+  [
+    {
+      "_id": "Ian.Reinger14",
+      "email": "Zoe37@hotmail.com",
+      "enable": true,
+      "name": "Jacky Torphy",
+      "note": "I'll generate the mobile EXE firewall, that should circuit the PCI program!",
+      "password": "juYXiCHnW1",
+      "phone": {
+        "country_code": "60",
+        "number": "164485845"
+      },
+      "pin": "055354",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Tiana_Cummings",
+      "email": "Keeley80@yahoo.com",
+      "enable": true,
+      "name": "Luisa Marvin-Hettinger",
+      "note": "Use the solid state SMTP firewall, then you can back up the auxiliary capacitor!",
+      "password": "X1QWitlVIE",
+      "phone": {
+        "country_code": "60",
+        "number": "103632002"
+      },
+      "pin": "047783",
+      "role": [
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Alessandro.Hartmann72",
+      "email": "Adelle.Cassin@hotmail.com",
+      "enable": false,
+      "name": "Kennedi Prosacco",
+      "note": "If we program the card, we can get to the SMTP protocol through the multi-byte JBOD panel!",
+      "password": "jFw1YlGVIY",
+      "phone": {
+        "country_code": "60",
+        "number": "155966269"
+      },
+      "pin": "302073",
+      "role": [
+        "STAFF",
+        "ADMIN",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Clementine_Jaskolski75",
+      "email": "Jermaine_Miller@yahoo.com",
+      "enable": true,
+      "name": "Kiarra Romaguera",
+      "note": "transmitting the bandwidth won't do anything, we need to connect the cross-platform EXE system!",
+      "password": "Ut4MrnmfOs",
+      "phone": {
+        "country_code": "60",
+        "number": "183814866"
+      },
+      "pin": "536939",
+      "role": [
+        "ADMIN",
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Elvie87",
+      "email": "Sienna_Bayer80@yahoo.com",
+      "enable": false,
+      "name": "Denis Hahn",
+      "note": "We need to generate the open-source GB driver!",
+      "password": "9M6x_25XlI",
+      "phone": {
+        "country_code": "60",
+        "number": "162590007"
+      },
+      "pin": "443405",
+      "role": [
+        "STAFF",
+        "MANAGER",
+        "ADMIN"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Albin.Schneider",
+      "name": "Pearlie Spinka",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Hellen48@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "166915563"
+      },
+      "note": "If we synthesize the capacitor, we can get to the IP matrix through the haptic PCI driver!"
+    },
+    {
+      "_id": "Stefan_Walker93",
+      "name": "Dannie Dare",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Destany_Kshlerin49@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "163958744"
+      },
+      "note": "If we copy the system, we can get to the XML program through the bluetooth RAM bandwidth!"
+    },
+    {
+      "_id": "Carroll63",
+      "name": "Gabe Kulas",
+      "position": [
+        "Manager"
+      ],
+      "email": "Vivian.Lockman@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "161231084"
+      },
+      "note": "Use the back-end HDD bus, then you can hack the primary driver!"
+    },
+    {
+      "_id": "Scottie.Leannon",
+      "name": "Geovanny Raynor",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Ally21@hotmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "175044125"
+      },
+      "note": "I'll input the 1080p UDP bus, that should application the USB bus!"
+    },
+    {
+      "_id": "Nick46",
+      "name": "Godfrey Legros",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Wayne_Gulgowski@hotmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "174292961"
+      },
+      "note": "You can't index the system without calculating the cross-platform SSL matrix!"
+    }
+  ],
+  [
+    {
+      "name": "Music",
+      "desc": "Find your favorite music albums and new releases across all genres.",
+      "images": [
+        "https://loremflickr.com/640/480/Music?lock=8707531215994880"
+      ],
+      "sequence": 1,
+      "enable": true
+    },
+    {
+      "name": "Health",
+      "desc": "Find health and wellness products, supplements, and personal care items.",
+      "images": [
+        "https://loremflickr.com/640/480/Health?lock=8447243155668992",
+        "https://loremflickr.com/640/480/Health?lock=7323775441829888",
+        "https://loremflickr.com/640/480/Health?lock=7451955412598784",
+        "https://loremflickr.com/640/480/Health?lock=1185820583133184",
+        "https://loremflickr.com/640/480/Health?lock=950963256950784"
+      ],
+      "sequence": 2,
+      "enable": true
+    },
+    {
+      "name": "Grocery",
+      "desc": "Get fresh groceries, organic products, and pantry staples.",
+      "images": [
+        "https://loremflickr.com/640/480/Grocery?lock=6097521069785088",
+        "https://loremflickr.com/640/480/Grocery?lock=6448714447060992",
+        "https://loremflickr.com/640/480/Grocery?lock=8111037106618368"
+      ],
+      "sequence": 3,
+      "enable": false
+    },
+    {
+      "name": "Toys",
+      "desc": "Find toys for all ages, from educational to fun and games.",
+      "images": [
+        "https://loremflickr.com/640/480/Toys?lock=7621228051300352",
+        "https://loremflickr.com/640/480/Toys?lock=2641726900535296"
+      ],
+      "sequence": 4,
+      "enable": false
+    },
+    {
+      "name": "Games",
+      "desc": "Shop for the latest video games, board games, and gaming accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Games?lock=1293101784104960",
+        "https://loremflickr.com/640/480/Games?lock=7249649108779008",
+        "https://loremflickr.com/640/480/Games?lock=1933394288050176",
+        "https://loremflickr.com/640/480/Games?lock=7996669962485760"
+      ],
+      "sequence": 5,
+      "enable": false
+    }
   ]
 ]
