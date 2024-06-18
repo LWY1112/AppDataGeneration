@@ -765,5 +765,433 @@
       "sequence": 5,
       "enable": false
     }
+  ],
+  [
+    {
+      "_id": "Gregorio_McKenzie",
+      "email": "Arielle_Friesen@hotmail.com",
+      "enable": false,
+      "name": "Carrie McClure",
+      "note": "The AI monitor is down, navigate the cross-platform application so we can reboot the API feed!",
+      "password": "r2J6O-_ijN",
+      "phone": {
+        "country_code": "60",
+        "number": "128265462"
+      },
+      "pin": "565129",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Mikel_Larkin40",
+      "email": "Cristopher_Larkin68@gmail.com",
+      "enable": true,
+      "name": "Oscar Little",
+      "note": "I'll index the optical SAS circuit, that should pixel the DNS port!",
+      "password": "qB2IJ9Uq39",
+      "phone": {
+        "country_code": "60",
+        "number": "191127457"
+      },
+      "pin": "305910",
+      "role": [
+        "MANAGER",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Agnes_Predovic68",
+      "email": "Micaela.Dooley@gmail.com",
+      "enable": false,
+      "name": "Bobby Parker",
+      "note": "Try to generate the TLS array, maybe it will bypass the multi-byte card!",
+      "password": "W9hnlebpOP",
+      "phone": {
+        "country_code": "60",
+        "number": "172545986"
+      },
+      "pin": "266250",
+      "role": [
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Magdalena57",
+      "email": "Hertha89@gmail.com",
+      "enable": true,
+      "name": "Mozelle Glover",
+      "note": "If we generate the feed, we can get to the SSL capacitor through the primary TCP microchip!",
+      "password": "Uowd7JLIQj",
+      "phone": {
+        "country_code": "60",
+        "number": "164411760"
+      },
+      "pin": "695370",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Morgan12",
+      "email": "Raegan89@hotmail.com",
+      "enable": false,
+      "name": "Hubert Franey",
+      "note": "synthesizing the circuit won't do anything, we need to program the multi-byte AI panel!",
+      "password": "-L8XD_abSm",
+      "phone": {
+        "country_code": "60",
+        "number": "114628615"
+      },
+      "pin": "162896",
+      "role": [
+        "STAFF",
+        "MANAGER"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Bell72",
+      "name": "Josefa Bernhard",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Hanna_Kilback@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "169403276"
+      },
+      "note": "hacking the circuit won't do anything, we need to program the wireless ADP circuit!"
+    },
+    {
+      "_id": "Audra22",
+      "name": "Russ Price",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Lupe_Douglas46@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "102025096"
+      },
+      "note": "backing up the transmitter won't do anything, we need to back up the wireless AGP application!"
+    },
+    {
+      "_id": "Vena.Stiedemann",
+      "name": "Salma Mayer",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Brant_Witting@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "107335439"
+      },
+      "note": "I'll navigate the back-end SMTP protocol, that should driver the SAS hard drive!"
+    },
+    {
+      "_id": "Cornell39",
+      "name": "Jarret Berge",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Oscar.Medhurst17@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "144050956"
+      },
+      "note": "The DNS program is down, parse the solid state program so we can connect the EXE port!"
+    },
+    {
+      "_id": "Shyann.Stanton7",
+      "name": "Cleo Heller",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Mariano_Kihn@hotmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "126217979"
+      },
+      "note": "You can't index the sensor without navigating the virtual JBOD microchip!"
+    }
+  ],
+  [
+    {
+      "name": "Jewelery",
+      "desc": "Explore a variety of products in this category.",
+      "images": [
+        "https://loremflickr.com/640/480/Jewelery?lock=773282414460928",
+        "https://loremflickr.com/640/480/Jewelery?lock=6912991282855936",
+        "https://loremflickr.com/640/480/Jewelery?lock=4521165129252864"
+      ],
+      "sequence": 1,
+      "enable": true
+    },
+    {
+      "name": "Outdoors",
+      "desc": "Shop for outdoor gear, camping equipment, and adventure essentials.",
+      "images": [
+        "https://loremflickr.com/640/480/Outdoors?lock=7630872603787264",
+        "https://loremflickr.com/640/480/Outdoors?lock=1320297760292864",
+        "https://loremflickr.com/640/480/Outdoors?lock=6877649293017088"
+      ],
+      "sequence": 2,
+      "enable": true
+    },
+    {
+      "name": "Automotive",
+      "desc": "Browse car accessories, parts, and tools.",
+      "images": [
+        "https://loremflickr.com/640/480/Automotive?lock=1936379892203520",
+        "https://loremflickr.com/640/480/Automotive?lock=4573084371648512",
+        "https://loremflickr.com/640/480/Automotive?lock=2239259553562624",
+        "https://loremflickr.com/640/480/Automotive?lock=2795586447212544",
+        "https://loremflickr.com/640/480/Automotive?lock=584231975649280"
+      ],
+      "sequence": 3,
+      "enable": false
+    },
+    {
+      "name": "Garden",
+      "desc": "Explore gardening tools, outdoor furniture, and plants.",
+      "images": [
+        "https://loremflickr.com/640/480/Garden?lock=8954175893274624",
+        "https://loremflickr.com/640/480/Garden?lock=4445072615538688"
+      ],
+      "sequence": 4,
+      "enable": false
+    },
+    {
+      "name": "Games",
+      "desc": "Shop for the latest video games, board games, and gaming accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Games?lock=1066340806819840",
+        "https://loremflickr.com/640/480/Games?lock=8563738839875584",
+        "https://loremflickr.com/640/480/Games?lock=4341905554931712"
+      ],
+      "sequence": 5,
+      "enable": true
+    }
+  ],
+  [
+    {
+      "_id": "Rosalinda.Vandervort",
+      "email": "Marie.Ruecker@yahoo.com",
+      "enable": true,
+      "name": "Malachi Prosacco",
+      "note": "We need to synthesize the bluetooth UDP microchip!",
+      "password": "naXdVfVN9l",
+      "phone": {
+        "country_code": "60",
+        "number": "192291404"
+      },
+      "pin": "608790",
+      "role": [
+        "ADMIN",
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Randy29",
+      "email": "Araceli.Schaefer76@hotmail.com",
+      "enable": false,
+      "name": "Scarlett Hills",
+      "note": "If we override the sensor, we can get to the PNG alarm through the bluetooth PNG sensor!",
+      "password": "tvFSUtyPeb",
+      "phone": {
+        "country_code": "60",
+        "number": "194552274"
+      },
+      "pin": "455453",
+      "role": [
+        "STAFF",
+        "ADMIN",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Araceli_Schuster",
+      "email": "Janet2@yahoo.com",
+      "enable": false,
+      "name": "Merlin Pagac",
+      "note": "I'll compress the redundant PNG bus, that should bus the SSL system!",
+      "password": "aPCKZQ4yAj",
+      "phone": {
+        "country_code": "60",
+        "number": "181135278"
+      },
+      "pin": "562753",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Allene_Huel-Blanda",
+      "email": "Ettie54@yahoo.com",
+      "enable": true,
+      "name": "Dan Zemlak",
+      "note": "If we connect the application, we can get to the OCR monitor through the multi-byte HDD monitor!",
+      "password": "Dcm58kVfDk",
+      "phone": {
+        "country_code": "60",
+        "number": "197777563"
+      },
+      "pin": "225697",
+      "role": [
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Lexie.Schuster72",
+      "email": "Arnulfo.Romaguera@gmail.com",
+      "enable": true,
+      "name": "Monica Greenholt",
+      "note": "The AGP program is down, input the haptic bandwidth so we can copy the OCR application!",
+      "password": "FW3UVo6Q9e",
+      "phone": {
+        "country_code": "60",
+        "number": "178101881"
+      },
+      "pin": "984899",
+      "role": [
+        "STAFF",
+        "ADMIN"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Rhiannon.Olson34",
+      "name": "Dahlia Wolf",
+      "position": [
+        "Manager"
+      ],
+      "email": "Cierra_Herzog@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "159414531"
+      },
+      "note": "The RSS feed is down, index the primary microchip so we can bypass the SSL application!"
+    },
+    {
+      "_id": "Orlo46",
+      "name": "Ova Boyer",
+      "position": [
+        "Manager"
+      ],
+      "email": "Major49@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "166536284"
+      },
+      "note": "If we index the card, we can get to the CSS system through the haptic AGP interface!"
+    },
+    {
+      "_id": "Laury_Marvin",
+      "name": "Pietro Tromp",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Marvin_Price@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "106158062"
+      },
+      "note": "The ADP monitor is down, copy the open-source hard drive so we can reboot the FTP pixel!"
+    },
+    {
+      "_id": "Beverly47",
+      "name": "Josh Hamill",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Khalid15@hotmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "127090055"
+      },
+      "note": "I'll back up the cross-platform SCSI alarm, that should feed the SQL bus!"
+    },
+    {
+      "_id": "Tom64",
+      "name": "Leonardo Sawayn",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Garnett_Jenkins41@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "154742755"
+      },
+      "note": "I'll copy the 1080p AGP microchip, that should hard drive the JSON bandwidth!"
+    }
+  ],
+  [
+    {
+      "name": "Music",
+      "desc": "Find your favorite music albums and new releases across all genres.",
+      "images": [
+        "https://loremflickr.com/640/480/Music?lock=776994883108864",
+        "https://loremflickr.com/640/480/Music?lock=7159482052247552",
+        "https://loremflickr.com/640/480/Music?lock=8792255932399616",
+        "https://loremflickr.com/640/480/Music?lock=8093711065939968",
+        "https://loremflickr.com/640/480/Music?lock=5466034953781248"
+      ],
+      "sequence": 1,
+      "enable": false
+    },
+    {
+      "name": "Baby",
+      "desc": "Shop for baby essentials, clothing, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Baby?lock=1668918477324288",
+        "https://loremflickr.com/640/480/Baby?lock=4102004102135808"
+      ],
+      "sequence": 2,
+      "enable": true
+    },
+    {
+      "name": "Computers",
+      "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Computers?lock=763910019874816"
+      ],
+      "sequence": 3,
+      "enable": true
+    },
+    {
+      "name": "Computers",
+      "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Computers?lock=1870309072306176",
+        "https://loremflickr.com/640/480/Computers?lock=4909096388001792"
+      ],
+      "sequence": 4,
+      "enable": true
+    },
+    {
+      "name": "Electronics",
+      "desc": "Browse the newest electronics, gadgets, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Electronics?lock=8494808809078784",
+        "https://loremflickr.com/640/480/Electronics?lock=7904604861759488",
+        "https://loremflickr.com/640/480/Electronics?lock=1235526109626368",
+        "https://loremflickr.com/640/480/Electronics?lock=7124419759570944",
+        "https://loremflickr.com/640/480/Electronics?lock=8521526185820160"
+      ],
+      "sequence": 5,
+      "enable": true
+    }
   ]
 ]

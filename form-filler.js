@@ -100,6 +100,7 @@ function generateRandomProduct() {
   const category = faker.commerce.department();
   const description = categoryDescriptions[category] || "Explore a variety of products in this category.";
   const sequence = sequenceCounter++;
+  const types = ['Merchandise', 'Rental'];
 
   // Determine the number of images to generate (1 to 5)
   const numberOfImages = Math.floor(Math.random() * 5) + 1;
@@ -114,6 +115,7 @@ function generateRandomProduct() {
     desc: description,
     images: images,
     sequence: sequence,
+    type:[faker.helpers.arrayElement(types)],
     enable: faker.datatype.boolean()
   };
 }
