@@ -125,12 +125,12 @@ pipeline {
             }
         }
 
-        /*stage('Static Code Analysis') {
+        stage('Static Code Analysis') {
             steps {
                 // Run ESLint for static code analysis
-                bat 'npm run lint'
+                bat 'npx eslint form-filler.js'
             }
-        }*/
+        }
     }
 
     post {
