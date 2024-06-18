@@ -46,7 +46,6 @@ const categoryDescriptions = {
 // Global counter for sequence
 let sequenceCounter = 1;
 
-
 // Function to generate a random user account
 function generateRandomUser() {
   const firstName = faker.name.firstName();
@@ -54,16 +53,28 @@ function generateRandomUser() {
   const username = faker.internet.userName();
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
 
+  // Determine the number of roles (1 to the total number of available roles)
+  const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
+  
+  // Select the roles
+  const selectedRoles = [];
+  while (selectedRoles.length < numberOfRoles) {
+    const role = faker.helpers.arrayElement(roles);
+    if (!selectedRoles.includes(role)) {
+      selectedRoles.push(role);
+    }
+  }
+
   return {
     _id: username,
     email: faker.internet.email(),
     enable: faker.datatype.boolean(),
     name: `${firstName} ${lastName}`,
-    note: faker.hacker.phrase(), 
-    password:faker.internet.password({length:10, pattern:/[a-zA-Z0-9_-]/}),  // Alphanumeric password of length 10
+    note: faker.hacker.phrase(),
+    password: faker.internet.password({ length: 10, pattern: /[a-zA-Z0-9_-]/ }),  // Alphanumeric password of length 10
     phone: malaysianLocale.phone.phoneNumber(),
     pin: faker.random.numeric(6),  // Numeric string of length 6
-    role: [faker.helpers.arrayElement(roles)]  // Randomly select one role
+    role: selectedRoles
   };
 }
 
@@ -71,12 +82,12 @@ function generateRandomUser() {
 function generateRandomEmployee() {
   const firstName = faker.name.firstName();
   const lastName = faker.name.lastName();
-  const position = ['Manager', 'Trainer','Full Timer','Part Timer'];
+  const positions = ['Manager', 'Trainer', 'Full Timer', 'Part Timer'];
 
   return {
     _id: faker.internet.userName(),
     name: `${firstName} ${lastName}`,
-    position: [faker.helpers.arrayElement(position)],
+    position: [faker.helpers.arrayElement(positions)],
     email: faker.internet.email(),
     phone: malaysianLocale.phone.phoneNumber(),
     note: faker.hacker.phrase(),
@@ -88,55 +99,66 @@ function generateRandomProduct() {
   const category = faker.commerce.department();
   const description = categoryDescriptions[category] || "Explore a variety of products in this category.";
   const sequence = sequenceCounter++;
-  const imageUrl = faker.image.urlLoremFlickr({ category, width: 640, height: 480 });
+
+  // Determine the number of images to generate (1 to 5)
+  const numberOfImages = Math.floor(Math.random() * 5) + 1;
+  const images = [];
+  for (let i = 0; i < numberOfImages; i++) {
+    const imageUrl = faker.image.urlLoremFlickr({ category, width: 640, height: 480 });
+    images.push(imageUrl);
+  }
 
   return {
-    name: category, 
-    desc: description, 
-    images: imageUrl, 
-    sequence: sequence, 
-    enable: faker.datatype.boolean() 
+    name: category,
+    desc: description,
+    images: images,
+    sequence: sequence,
+    enable: faker.datatype.boolean()
   };
 }
 
 // Function to generate and save accounts to a JSON file
 async function generateAccounts(numAccounts, type) {
-    const accounts = [];
-    let generateFunction;
-    let fileName;
-  
-    if (type === 'user') {
+  const accounts = [];
+  let generateFunction;
+  let fileName;
+
+  switch (type) {
+    case 'user':
       generateFunction = generateRandomUser;
       fileName = 'generated_user_accounts.json';
-    } else if (type === 'employee') {
+      break;
+    case 'employee':
       generateFunction = generateRandomEmployee;
       fileName = 'generated_employee_accounts.json';
-    } else if (type === 'product') {
+      break;
+    case 'product':
       generateFunction = generateRandomProduct;
       fileName = 'generated_product_category.json';
-    } else {
+      break;
+    default:
       console.error('Invalid account type specified.');
       process.exit(1);
-    }
-  
-    for (let i = 0; i < numAccounts; i++) {
-      const account = generateFunction();
-      console.log(`Generated ${type} Account ${i + 1}:`, account);
-      accounts.push(account);
-    }
-  
-    const filePath = path.join(__dirname, 'database', fileName);
-    fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
-    console.log(`Saved ${numAccounts} ${type} accounts to ${filePath}`);
   }
-  
-  // Check if the number of accounts and type is provided as command-line arguments
-  const numAccounts = process.argv[2];
-  const accountType = process.argv[3];
-  if (!numAccounts || isNaN(numAccounts) || !accountType || !['user', 'employee','product'].includes(accountType)) {
-    console.error('Please provide a valid number of accounts and account type (user/employee/product) as command-line arguments.');
-    process.exit(1);
+
+  for (let i = 0; i < numAccounts; i++) {
+    const account = generateFunction();
+    console.log(`Generated ${type} Account ${i + 1}:`, account);
+    accounts.push(account);
   }
-  
-  // Generate the specified number of accounts of the specified type
-  generateAccounts(Number(numAccounts), accountType);
+
+  const filePath = path.join(__dirname, 'database', fileName);
+  fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
+  console.log(`Saved ${numAccounts} ${type} accounts to ${filePath}`);
+}
+
+// Check if the number of accounts and type is provided as command-line arguments
+const numAccounts = process.argv[2];
+const accountType = process.argv[3];
+if (!numAccounts || isNaN(numAccounts) || !accountType || !['user', 'employee', 'product'].includes(accountType)) {
+  console.error('Please provide a valid number of accounts and account type (user/employee/product) as command-line arguments.');
+  process.exit(1);
+}
+
+// Generate the specified number of accounts of the specified type
+generateAccounts(Number(numAccounts), accountType);
