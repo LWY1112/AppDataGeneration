@@ -48,8 +48,8 @@ let sequenceCounter = 1;
 
 // Function to generate a random user account
 function generateRandomUser() {
-  const firstName = faker.name.firstName();
-  const lastName = faker.name.lastName();
+  const firstName = faker.person.firstName();
+  const lastName = faker.person.lastName();
   const username = faker.internet.userName();
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
 
@@ -73,15 +73,15 @@ function generateRandomUser() {
     note: faker.hacker.phrase(),
     password: faker.internet.password({ length: 10, pattern: /[a-zA-Z0-9_-]/ }),  // Alphanumeric password of length 10
     phone: malaysianLocale.phone.phoneNumber(),
-    pin: faker.random.numeric(6),  // Numeric string of length 6
+    pin: faker.string.numeric(6),  // Numeric string of length 6
     role: selectedRoles
   };
 }
 
 // Function to generate a random employee account
 function generateRandomEmployee() {
-  const firstName = faker.name.firstName();
-  const lastName = faker.name.lastName();
+  const firstName = faker.person.firstName();
+  const lastName = faker.person.lastName();
   const positions = ['Manager', 'Trainer', 'Full Timer', 'Part Timer'];
 
   return {
