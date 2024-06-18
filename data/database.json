@@ -66,5 +66,41 @@
         "STAFF"
       ]
     }
+  ],
+  [
+    {
+      "_id": "Montana26",
+      "email": "Hannah_Botsford@gmail.com",
+      "enable": true,
+      "name": "Harmon Barton-Kunde",
+      "note": "We need to program the virtual IP feed!",
+      "password": "UskFUUFmYH",
+      "phone": {
+        "country_code": "60",
+        "number": "112443629"
+      },
+      "pin": "888058",
+      "role": [
+        "MANAGER",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Torrance76",
+      "email": "Jayson5@hotmail.com",
+      "enable": true,
+      "name": "Walter Mitchell",
+      "note": "Try to copy the HTTP pixel, maybe it will transmit the redundant protocol!",
+      "password": "snXkGzYqw7",
+      "phone": {
+        "country_code": "60",
+        "number": "125865987"
+      },
+      "pin": "529875",
+      "role": [
+        "ADMIN",
+        "MANAGER"
+      ]
+    }
   ]
 ]

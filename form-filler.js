@@ -1,6 +1,7 @@
 const { faker } = require('@faker-js/faker/locale/en');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
 // Custom provider for Malaysian phone numbers
 const malaysianLocale = {
@@ -143,13 +144,20 @@ async function generateAccounts(numAccounts, type) {
 
   for (let i = 0; i < numAccounts; i++) {
     const account = generateFunction();
-    //console.log(`Generated ${type} Account ${i + 1}:`, account);
     accounts.push(account);
   }
 
   const filePath = path.join(__dirname, 'database', fileName);
   fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
   console.log(`Saved ${numAccounts} ${type} accounts to ${filePath}`);
+
+  // Send the data using Axios
+  try {
+    const response = await axios.post('http://localhost:3000/saveData', accounts);
+    console.log('Data sent successfully:', response.data);
+  } catch (error) {
+    console.error('Error sending data:', error);
+  }
 }
 
 // Check if the number of accounts and type is provided as command-line arguments
