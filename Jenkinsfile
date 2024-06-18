@@ -27,7 +27,7 @@ pipeline {
         stage('Generate User Account') {
             steps {
                 script {
-                    def numAccounts = 10
+                    def numAccounts = 5
                     def accountType = 'user' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
@@ -48,7 +48,6 @@ pipeline {
                     } else {
                         echo "The JSON file ${jsonFilePath} has content."
                         echo jsonFileContent
-                    }
                 }
             }
         }
@@ -56,7 +55,7 @@ pipeline {
         stage('Generate Employee Account') {
             steps {
                 script {
-                    def numAccounts = 10
+                    def numAccounts = 5
                     def accountType = 'employee' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
@@ -85,7 +84,7 @@ pipeline {
         stage('Generate Product Account') {
             steps {
                 script {
-                    def numAccounts = 10
+                    def numAccounts = 5
                     def accountType = 'product' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
