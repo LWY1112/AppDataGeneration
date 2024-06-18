@@ -48,6 +48,7 @@ pipeline {
                     } else {
                         echo "The JSON file ${jsonFilePath} has content."
                         echo jsonFileContent
+                    }
                 }
             }
         }
