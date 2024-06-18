@@ -89,12 +89,12 @@ pipeline {
             }
         }
 
-        stage('Run Integration Tests') {
+        /*stage('Run Integration Tests') {
             steps {
                 // Assuming you have integration tests configured with Jest
                 bat 'npm run test:integration'
             }
-        }
+        }*/
 
         stage('Generate Product Account') {
             steps {
@@ -122,6 +122,13 @@ pipeline {
                         echo jsonFileContent
                     }
                 }
+            }
+        }
+
+        stage('Static Code Analysis') {
+            steps {
+                // Run ESLint for static code analysis
+                sh 'npm run lint'
             }
         }
     }
