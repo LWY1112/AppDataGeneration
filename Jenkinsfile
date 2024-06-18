@@ -53,6 +53,13 @@ pipeline {
             }
         }
 
+        stage('Run Unit Tests') {
+            steps {
+                // Assuming you have unit tests configured with Jest
+                bat 'npm run test:unit'
+            }
+        }
+
         stage('Generate Employee Account') {
             steps {
                 script {
@@ -79,6 +86,13 @@ pipeline {
                         echo jsonFileContent
                     }
                 }
+            }
+        }
+
+        stage('Run Integration Tests') {
+            steps {
+                // Assuming you have integration tests configured with Jest
+                bat 'npm run test:integration'
             }
         }
 
