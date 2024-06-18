@@ -1193,5 +1193,404 @@
       "sequence": 5,
       "enable": true
     }
+  ],
+  [
+    {
+      "_id": "Jace.OReilly",
+      "email": "Greta_Waters@gmail.com",
+      "enable": true,
+      "name": "Dan Schoen",
+      "note": "Use the back-end RSS circuit, then you can back up the back-end array!",
+      "password": "kZIYihSReW",
+      "phone": {
+        "country_code": "60",
+        "number": "149091460"
+      },
+      "pin": "005787",
+      "role": [
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Kaitlyn.Funk79",
+      "email": "Keegan66@hotmail.com",
+      "enable": false,
+      "name": "Jacinto Volkman",
+      "note": "If we connect the driver, we can get to the HDD driver through the redundant SMS feed!",
+      "password": "FFtCSYgFuH",
+      "phone": {
+        "country_code": "60",
+        "number": "155826904"
+      },
+      "pin": "696016",
+      "role": [
+        "ADMIN"
+      ]
+    },
+    {
+      "_id": "Hobart.Toy",
+      "email": "Delta.Kemmer@gmail.com",
+      "enable": false,
+      "name": "Shad Swift",
+      "note": "You can't calculate the driver without overriding the bluetooth HEX system!",
+      "password": "F2FGaJYDw9",
+      "phone": {
+        "country_code": "60",
+        "number": "152266054"
+      },
+      "pin": "321206",
+      "role": [
+        "STAFF",
+        "MANAGER"
+      ]
+    },
+    {
+      "_id": "Clint_Krajcik",
+      "email": "Philip_Hand47@hotmail.com",
+      "enable": true,
+      "name": "Florian Lind",
+      "note": "synthesizing the microchip won't do anything, we need to hack the mobile VGA system!",
+      "password": "qG6dz0-Z7p",
+      "phone": {
+        "country_code": "60",
+        "number": "187755809"
+      },
+      "pin": "709241",
+      "role": [
+        "MANAGER",
+        "ADMIN",
+        "STAFF"
+      ]
+    },
+    {
+      "_id": "Vinnie.Turner76",
+      "email": "Pete17@hotmail.com",
+      "enable": true,
+      "name": "Jeanie Durgan",
+      "note": "synthesizing the interface won't do anything, we need to hack the primary PCI port!",
+      "password": "tzp-FBkxj-",
+      "phone": {
+        "country_code": "60",
+        "number": "118509737"
+      },
+      "pin": "625398",
+      "role": [
+        "STAFF"
+      ]
+    }
+  ],
+  [
+    {
+      "_id": "Cecelia69",
+      "name": "Caterina Bartell",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Dolly_Kuhic31@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "102834669"
+      },
+      "note": "If we generate the system, we can get to the SSD capacitor through the multi-byte TCP circuit!"
+    },
+    {
+      "_id": "Retta_Block",
+      "name": "Gus Morissette-Considine",
+      "position": [
+        "Part Timer"
+      ],
+      "email": "Pablo_Beatty28@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "109485529"
+      },
+      "note": "We need to connect the open-source HTTP program!"
+    },
+    {
+      "_id": "Adrien.Schultz",
+      "name": "Ocie Parker",
+      "position": [
+        "Trainer"
+      ],
+      "email": "June_Veum-Mohr@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "148080657"
+      },
+      "note": "We need to input the bluetooth UTF8 pixel!"
+    },
+    {
+      "_id": "Lorenzo62",
+      "name": "Xander Schmeler-Wolff",
+      "position": [
+        "Trainer"
+      ],
+      "email": "Gwendolyn94@yahoo.com",
+      "phone": {
+        "country_code": "60",
+        "number": "129803140"
+      },
+      "note": "You can't program the sensor without synthesizing the digital XML port!"
+    },
+    {
+      "_id": "Jenifer44",
+      "name": "Isabella Klocko",
+      "position": [
+        "Full Timer"
+      ],
+      "email": "Karl.Lowe78@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "184470393"
+      },
+      "note": "Try to navigate the UTF8 panel, maybe it will parse the neural driver!"
+    }
+  ],
+  [
+    {
+      "name": "Computers",
+      "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Computers?lock=7790009834799104",
+        "https://loremflickr.com/640/480/Computers?lock=340095202754560",
+        "https://loremflickr.com/640/480/Computers?lock=1032056050024448",
+        "https://loremflickr.com/640/480/Computers?lock=8190362747142144",
+        "https://loremflickr.com/640/480/Computers?lock=6170913487716352"
+      ],
+      "sequence": 1,
+      "type": [
+        "Rental"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Baby",
+      "desc": "Shop for baby essentials, clothing, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Baby?lock=7741987872571392",
+        "https://loremflickr.com/640/480/Baby?lock=5810704554655744",
+        "https://loremflickr.com/640/480/Baby?lock=1724540671492096"
+      ],
+      "sequence": 2,
+      "type": [
+        "Merchandise"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Tools",
+      "desc": "Shop for power tools, hand tools, and tool accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Tools?lock=6354417039179776",
+        "https://loremflickr.com/640/480/Tools?lock=4721360270000128"
+      ],
+      "sequence": 3,
+      "type": [
+        "Merchandise"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Movies",
+      "desc": "Explore the latest blockbusters, classic films, and everything in between.",
+      "images": [
+        "https://loremflickr.com/640/480/Movies?lock=5376054608789504",
+        "https://loremflickr.com/640/480/Movies?lock=1469974270967808",
+        "https://loremflickr.com/640/480/Movies?lock=5430046070145024"
+      ],
+      "sequence": 4,
+      "type": [
+        "Merchandise"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Kids",
+      "desc": "Explore a variety of products in this category.",
+      "images": [
+        "https://loremflickr.com/640/480/Kids?lock=4083844288348160",
+        "https://loremflickr.com/640/480/Kids?lock=6558245363646464"
+      ],
+      "sequence": 5,
+      "type": [
+        "Rental"
+      ],
+      "enable": false
+    }
+  ],
+  [
+    {
+      "name": "Toys",
+      "desc": "Find toys for all ages, from educational to fun and games.",
+      "images": [
+        "https://loremflickr.com/640/480/Toys?lock=5522084987928576",
+        "https://loremflickr.com/640/480/Toys?lock=2071887142191104",
+        "https://loremflickr.com/640/480/Toys?lock=6775984650977280",
+        "https://loremflickr.com/640/480/Toys?lock=6311965160898560",
+        "https://loremflickr.com/640/480/Toys?lock=7284674659352576"
+      ],
+      "sequence": 1,
+      "type": [
+        "RENTAL"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Outdoors",
+      "desc": "Shop for outdoor gear, camping equipment, and adventure essentials.",
+      "images": [
+        "https://loremflickr.com/640/480/Outdoors?lock=6595874354364416"
+      ],
+      "sequence": 2,
+      "type": [
+        "RENTAL"
+      ],
+      "enable": true
+    }
+  ],
+  [
+    {
+      "name": "Books",
+      "desc": "Discover a wide range of books from various genres and authors.",
+      "images": [
+        "https://loremflickr.com/640/480/Books?lock=4782121350594560",
+        "https://loremflickr.com/640/480/Books?lock=1476672752713728",
+        "https://loremflickr.com/640/480/Books?lock=3825538850357248"
+      ],
+      "sequence": 1,
+      "type": [
+        "RENTAL"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Computers",
+      "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Computers?lock=543155929743360",
+        "https://loremflickr.com/640/480/Computers?lock=6503875058073600"
+      ],
+      "sequence": 2,
+      "type": [
+        "RENTAL",
+        "MERCHANDISE"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Sports",
+      "desc": "Find sports equipment, apparel, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Sports?lock=5668823866802176",
+        "https://loremflickr.com/640/480/Sports?lock=2200607205097472",
+        "https://loremflickr.com/640/480/Sports?lock=4898407189577728",
+        "https://loremflickr.com/640/480/Sports?lock=414458167951360"
+      ],
+      "sequence": 3,
+      "type": [
+        "RENTAL"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Toys",
+      "desc": "Find toys for all ages, from educational to fun and games.",
+      "images": [
+        "https://loremflickr.com/640/480/Toys?lock=3520195444342784",
+        "https://loremflickr.com/640/480/Toys?lock=8795594118135808",
+        "https://loremflickr.com/640/480/Toys?lock=4274663228178432",
+        "https://loremflickr.com/640/480/Toys?lock=4862593543962624",
+        "https://loremflickr.com/640/480/Toys?lock=5329352562573312"
+      ],
+      "sequence": 4,
+      "type": [
+        "MERCHANDISE"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Home",
+      "desc": "Discover home decor, furniture, and kitchen essentials.",
+      "images": [
+        "https://loremflickr.com/640/480/Home?lock=8683057169039360"
+      ],
+      "sequence": 5,
+      "type": [
+        "RENTAL",
+        "MERCHANDISE"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Books",
+      "desc": "Discover a wide range of books from various genres and authors.",
+      "images": [
+        "https://loremflickr.com/640/480/Books?lock=3889835215421440",
+        "https://loremflickr.com/640/480/Books?lock=6167466233298944",
+        "https://loremflickr.com/640/480/Books?lock=5884135272873984"
+      ],
+      "sequence": 6,
+      "type": [
+        "MERCHANDISE"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Sports",
+      "desc": "Find sports equipment, apparel, and accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Sports?lock=1762963016908800",
+        "https://loremflickr.com/640/480/Sports?lock=5156668448964608",
+        "https://loremflickr.com/640/480/Sports?lock=4742321794973696"
+      ],
+      "sequence": 7,
+      "type": [
+        "MERCHANDISE"
+      ],
+      "enable": false
+    },
+    {
+      "name": "Games",
+      "desc": "Shop for the latest video games, board games, and gaming accessories.",
+      "images": [
+        "https://loremflickr.com/640/480/Games?lock=1212940288000000"
+      ],
+      "sequence": 8,
+      "type": [
+        "RENTAL"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Outdoors",
+      "desc": "Shop for outdoor gear, camping equipment, and adventure essentials.",
+      "images": [
+        "https://loremflickr.com/640/480/Outdoors?lock=8416732886597632",
+        "https://loremflickr.com/640/480/Outdoors?lock=2419090226413568",
+        "https://loremflickr.com/640/480/Outdoors?lock=7777190840107008"
+      ],
+      "sequence": 9,
+      "type": [
+        "RENTAL",
+        "MERCHANDISE"
+      ],
+      "enable": true
+    },
+    {
+      "name": "Health",
+      "desc": "Find health and wellness products, supplements, and personal care items.",
+      "images": [
+        "https://loremflickr.com/640/480/Health?lock=8079647338135552",
+        "https://loremflickr.com/640/480/Health?lock=7886768693051392",
+        "https://loremflickr.com/640/480/Health?lock=4588720202186752",
+        "https://loremflickr.com/640/480/Health?lock=4927209514991616",
+        "https://loremflickr.com/640/480/Health?lock=465741579026432"
+      ],
+      "sequence": 10,
+      "type": [
+        "MERCHANDISE"
+      ],
+      "enable": true
+    }
   ]
 ]

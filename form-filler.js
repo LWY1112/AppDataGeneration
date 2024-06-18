@@ -19,29 +19,29 @@ const malaysianLocale = {
 
 // Predefined mapping of categories to potential descriptions
 const categoryDescriptions = {
-  "Books": "Discover a wide range of books from various genres and authors.",
-  "Movies": "Explore the latest blockbusters, classic films, and everything in between.",
-  "Music": "Find your favorite music albums and new releases across all genres.",
-  "Games": "Shop for the latest video games, board games, and gaming accessories.",
-  "Electronics": "Browse the newest electronics, gadgets, and accessories.",
-  "Computers": "Find the best deals on laptops, desktops, and computer accessories.",
-  "Home": "Discover home decor, furniture, and kitchen essentials.",
-  "Garden": "Explore gardening tools, outdoor furniture, and plants.",
-  "Tools": "Shop for power tools, hand tools, and tool accessories.",
-  "Grocery": "Get fresh groceries, organic products, and pantry staples.",
-  "Health": "Find health and wellness products, supplements, and personal care items.",
-  "Beauty": "Explore beauty products, skincare, and makeup essentials.",
-  "Clothing": "Discover the latest fashion trends and clothing essentials.",
-  "Shoes": "Find your perfect pair of shoes from a wide selection of styles.",
-  "Jewelry": "Shop for fine jewelry, watches, and accessories.",
-  "Toys": "Find toys for all ages, from educational to fun and games.",
-  "Baby": "Shop for baby essentials, clothing, and accessories.",
-  "Automotive": "Browse car accessories, parts, and tools.",
-  "Industrial": "Discover industrial supplies, equipment, and safety products.",
-  "Sports": "Find sports equipment, apparel, and accessories.",
-  "Outdoors": "Shop for outdoor gear, camping equipment, and adventure essentials.",
-  "Office": "Explore office supplies, furniture, and equipment.",
-  "Pet Supplies": "Find everything you need for your pets, from food to accessories."
+  'Books': 'Discover a wide range of books from various genres and authors.',
+  'Movies': 'Explore the latest blockbusters, classic films, and everything in between.',
+  'Music': 'Find your favorite music albums and new releases across all genres.',
+  'Games': 'Shop for the latest video games, board games, and gaming accessories.',
+  'Electronics': 'Browse the newest electronics, gadgets, and accessories.',
+  'Computers': 'Find the best deals on laptops, desktops, and computer accessories.',
+  'Home': 'Discover home decor, furniture, and kitchen essentials.',
+  'Garden': 'Explore gardening tools, outdoor furniture, and plants.',
+  'Tools': 'Shop for power tools, hand tools, and tool accessories.',
+  'Grocery': 'Get fresh groceries, organic products, and pantry staples.',
+  'Health': 'Find health and wellness products, supplements, and personal care items.',
+  'Beauty': 'Explore beauty products, skincare, and makeup essentials.',
+  'Clothing': 'Discover the latest fashion trends and clothing essentials.',
+  'Shoes': 'Find your perfect pair of shoes from a wide selection of styles.',
+  'Jewelry': 'Shop for fine jewelry, watches, and accessories.',
+  'Toys': 'Find toys for all ages, from educational to fun and games.',
+  'Baby': 'Shop for baby essentials, clothing, and accessories.',
+  'Automotive': 'Browse car accessories, parts, and tools.',
+  'Industrial': 'Discover industrial supplies, equipment, and safety products.',
+  'Sports': 'Find sports equipment, apparel, and accessories.',
+  'Outdoors': 'Shop for outdoor gear, camping equipment, and adventure essentials.',
+  'Office': 'Explore office supplies, furniture, and equipment.',
+  'Pet Supplies': 'Find everything you need for your pets, from food to accessories.'
 };
 
 // Global counter for sequence
@@ -83,7 +83,7 @@ function generateRandomUser() {
 function generateRandomEmployee() {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
-  const positions = ['Manager', 'Trainer', 'Full Timer', 'Part Timer'];
+  const positions = ['MANAGER', 'TRAINER', 'FULL TIMER', 'PART TIMER'];
 
   return {
     _id: faker.internet.userName(),
@@ -98,9 +98,21 @@ function generateRandomEmployee() {
 // Function to generate a random products category
 function generateRandomProduct() {
   const category = faker.commerce.department();
-  const description = categoryDescriptions[category] || "Explore a variety of products in this category.";
+  const description = categoryDescriptions[category] || 'Explore a variety of products in this category.';
   const sequence = sequenceCounter++;
-  const types = ['Merchandise', 'Rental'];
+  const types = ['MERCHANDISE', 'RENTAL'];
+
+  // Determine the number of roles (1 to the total number of available roles)
+  const numberOfTypes = Math.floor(Math.random() * types.length) + 1;
+  
+  // Select the roles
+  const selectedTypes = [];
+  while (selectedTypes.length < numberOfTypes) {
+    const type = faker.helpers.arrayElement(types);
+    if (!selectedTypes.includes(type)) {
+      selectedTypes.push(type);
+    }
+  }
 
   // Determine the number of images to generate (1 to 5)
   const numberOfImages = Math.floor(Math.random() * 5) + 1;
@@ -115,7 +127,7 @@ function generateRandomProduct() {
     desc: description,
     images: images,
     sequence: sequence,
-    type:[faker.helpers.arrayElement(types)],
+    type:selectedTypes,
     enable: faker.datatype.boolean()
   };
 }
@@ -127,21 +139,21 @@ async function generateAccounts(numAccounts, type) {
   let fileName;
 
   switch (type) {
-    case 'user':
-      generateFunction = generateRandomUser;
-      fileName = 'generated_user_accounts.json';
-      break;
-    case 'employee':
-      generateFunction = generateRandomEmployee;
-      fileName = 'generated_employee_accounts.json';
-      break;
-    case 'product':
-      generateFunction = generateRandomProduct;
-      fileName = 'generated_product_category.json';
-      break;
-    default:
-      console.error('Invalid account type specified.');
-      process.exit(1);
+  case 'user':
+    generateFunction = generateRandomUser;
+    fileName = 'generated_user_accounts.json';
+    break;
+  case 'employee':
+    generateFunction = generateRandomEmployee;
+    fileName = 'generated_employee_accounts.json';
+    break;
+  case 'product':
+    generateFunction = generateRandomProduct;
+    fileName = 'generated_product_category.json';
+    break;
+  default:
+    console.error('Invalid account type specified.');
+    process.exit(1);
   }
 
   for (let i = 0; i < numAccounts; i++) {

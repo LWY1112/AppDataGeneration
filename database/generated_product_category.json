@@ -1,58 +1,145 @@
 [
   {
-    "name": "Toys",
-    "desc": "Find toys for all ages, from educational to fun and games.",
+    "name": "Books",
+    "desc": "Discover a wide range of books from various genres and authors.",
     "images": [
-      "https://loremflickr.com/640/480/Toys?lock=5299311791308800",
-      "https://loremflickr.com/640/480/Toys?lock=2172870377603072",
-      "https://loremflickr.com/640/480/Toys?lock=6811849687302144",
-      "https://loremflickr.com/640/480/Toys?lock=4735767389667328"
+      "https://loremflickr.com/640/480/Books?lock=4782121350594560",
+      "https://loremflickr.com/640/480/Books?lock=1476672752713728",
+      "https://loremflickr.com/640/480/Books?lock=3825538850357248"
     ],
     "sequence": 1,
+    "type": [
+      "RENTAL"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Computers",
+    "desc": "Find the best deals on laptops, desktops, and computer accessories.",
+    "images": [
+      "https://loremflickr.com/640/480/Computers?lock=543155929743360",
+      "https://loremflickr.com/640/480/Computers?lock=6503875058073600"
+    ],
+    "sequence": 2,
+    "type": [
+      "RENTAL",
+      "MERCHANDISE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Sports",
+    "desc": "Find sports equipment, apparel, and accessories.",
+    "images": [
+      "https://loremflickr.com/640/480/Sports?lock=5668823866802176",
+      "https://loremflickr.com/640/480/Sports?lock=2200607205097472",
+      "https://loremflickr.com/640/480/Sports?lock=4898407189577728",
+      "https://loremflickr.com/640/480/Sports?lock=414458167951360"
+    ],
+    "sequence": 3,
+    "type": [
+      "RENTAL"
+    ],
     "enable": false
   },
   {
     "name": "Toys",
     "desc": "Find toys for all ages, from educational to fun and games.",
     "images": [
-      "https://loremflickr.com/640/480/Toys?lock=5540683534303232",
-      "https://loremflickr.com/640/480/Toys?lock=1333859981459456",
-      "https://loremflickr.com/640/480/Toys?lock=7802642333958144",
-      "https://loremflickr.com/640/480/Toys?lock=6887680818282496",
-      "https://loremflickr.com/640/480/Toys?lock=8549125006032896"
-    ],
-    "sequence": 2,
-    "enable": true
-  },
-  {
-    "name": "Jewelery",
-    "desc": "Explore a variety of products in this category.",
-    "images": [
-      "https://loremflickr.com/640/480/Jewelery?lock=794902092840960",
-      "https://loremflickr.com/640/480/Jewelery?lock=6566001216847872"
-    ],
-    "sequence": 3,
-    "enable": true
-  },
-  {
-    "name": "Industrial",
-    "desc": "Discover industrial supplies, equipment, and safety products.",
-    "images": [
-      "https://loremflickr.com/640/480/Industrial?lock=5816333897826304",
-      "https://loremflickr.com/640/480/Industrial?lock=765397276033024"
+      "https://loremflickr.com/640/480/Toys?lock=3520195444342784",
+      "https://loremflickr.com/640/480/Toys?lock=8795594118135808",
+      "https://loremflickr.com/640/480/Toys?lock=4274663228178432",
+      "https://loremflickr.com/640/480/Toys?lock=4862593543962624",
+      "https://loremflickr.com/640/480/Toys?lock=5329352562573312"
     ],
     "sequence": 4,
+    "type": [
+      "MERCHANDISE"
+    ],
     "enable": true
   },
   {
-    "name": "Shoes",
-    "desc": "Find your perfect pair of shoes from a wide selection of styles.",
+    "name": "Home",
+    "desc": "Discover home decor, furniture, and kitchen essentials.",
     "images": [
-      "https://loremflickr.com/640/480/Shoes?lock=2160876062769152",
-      "https://loremflickr.com/640/480/Shoes?lock=5596597798830080",
-      "https://loremflickr.com/640/480/Shoes?lock=538343569883136"
+      "https://loremflickr.com/640/480/Home?lock=8683057169039360"
     ],
     "sequence": 5,
+    "type": [
+      "RENTAL",
+      "MERCHANDISE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Books",
+    "desc": "Discover a wide range of books from various genres and authors.",
+    "images": [
+      "https://loremflickr.com/640/480/Books?lock=3889835215421440",
+      "https://loremflickr.com/640/480/Books?lock=6167466233298944",
+      "https://loremflickr.com/640/480/Books?lock=5884135272873984"
+    ],
+    "sequence": 6,
+    "type": [
+      "MERCHANDISE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Sports",
+    "desc": "Find sports equipment, apparel, and accessories.",
+    "images": [
+      "https://loremflickr.com/640/480/Sports?lock=1762963016908800",
+      "https://loremflickr.com/640/480/Sports?lock=5156668448964608",
+      "https://loremflickr.com/640/480/Sports?lock=4742321794973696"
+    ],
+    "sequence": 7,
+    "type": [
+      "MERCHANDISE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Games",
+    "desc": "Shop for the latest video games, board games, and gaming accessories.",
+    "images": [
+      "https://loremflickr.com/640/480/Games?lock=1212940288000000"
+    ],
+    "sequence": 8,
+    "type": [
+      "RENTAL"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Outdoors",
+    "desc": "Shop for outdoor gear, camping equipment, and adventure essentials.",
+    "images": [
+      "https://loremflickr.com/640/480/Outdoors?lock=8416732886597632",
+      "https://loremflickr.com/640/480/Outdoors?lock=2419090226413568",
+      "https://loremflickr.com/640/480/Outdoors?lock=7777190840107008"
+    ],
+    "sequence": 9,
+    "type": [
+      "RENTAL",
+      "MERCHANDISE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Health",
+    "desc": "Find health and wellness products, supplements, and personal care items.",
+    "images": [
+      "https://loremflickr.com/640/480/Health?lock=8079647338135552",
+      "https://loremflickr.com/640/480/Health?lock=7886768693051392",
+      "https://loremflickr.com/640/480/Health?lock=4588720202186752",
+      "https://loremflickr.com/640/480/Health?lock=4927209514991616",
+      "https://loremflickr.com/640/480/Health?lock=465741579026432"
+    ],
+    "sequence": 10,
+    "type": [
+      "MERCHANDISE"
+    ],
     "enable": true
   }
 ]
