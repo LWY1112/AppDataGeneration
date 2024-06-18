@@ -128,7 +128,7 @@ pipeline {
         stage('Static Code Analysis') {
             steps {
                 // Run ESLint for static code analysis
-                sh 'npm run lint'
+                bat 'npm run lint'
             }
         }
     }
