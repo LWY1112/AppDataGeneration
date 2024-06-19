@@ -18,13 +18,11 @@ export default [
       'indent': ['error', 2],
       'semi': ['error', 'always'],
       'quotes': ['error', 'single'],
-      // Add more rules as per your requirements
+      // Add more rules as per requirements
     },
     languageOptions: {
       globals: {
         // Define global variables here if needed
-        // Example:
-        // myGlobalVariable: 'readonly'
       },
     },
   },
