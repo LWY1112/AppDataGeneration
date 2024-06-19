@@ -31,7 +31,7 @@ pipeline {
                     def accountType = 'user' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
-                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                    bat "node generateAccount.js ${numAccounts} ${accountType}"
                 }
             }
         }
@@ -67,7 +67,7 @@ pipeline {
                     def accountType = 'employee' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
-                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                    bat "node generateAccount.js ${numAccounts} ${accountType}"
                 }
             }
         }
@@ -103,7 +103,7 @@ pipeline {
                     def accountType = 'product' // Change this to 'employee' or 'product' as needed
 
                     // Run the script with arguments
-                    bat "node form-filler.js ${numAccounts} ${accountType}"
+                    bat "node generateAccount.js ${numAccounts} ${accountType}"
                 }
             }
         }
@@ -113,6 +113,35 @@ pipeline {
                 script {
                     // Check if JSON file has content
                     def accountType = 'product'
+                    def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_category.json"
+                    def jsonFileContent = readFile(file: jsonFilePath)
+                    if (jsonFileContent.trim().isEmpty()) {
+                        error "The JSON file ${jsonFilePath} is empty!"
+                    } else {
+                        echo "The JSON file ${jsonFilePath} has content."
+                        echo jsonFileContent
+                    }
+                }
+            }
+        }
+
+        stage('Generate Customer Account') {
+            steps {
+                script {
+                    def numAccounts = 5
+                    def accountType = 'customer' // Change this to 'employee' or 'product' as needed
+
+                    // Run the script with arguments
+                    bat "node generateAccount.js ${numAccounts} ${accountType}"
+                }
+            }
+        }
+
+        stage('Check Generated Product File') {
+            steps {
+                script {
+                    // Check if JSON file has content
+                    def accountType = 'customer'
                     def jsonFilePath = "${env.FILE_PATH}/generated_${accountType}_category.json"
                     def jsonFileContent = readFile(file: jsonFilePath)
                     if (jsonFileContent.trim().isEmpty()) {
