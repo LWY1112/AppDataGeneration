@@ -37,7 +37,6 @@ function generateRandomCustomer() {
   }
 
   return {
-    _id: faker.internet.userName(),
     name: `${firstName} ${lastName}`,
     identity: {
       type: identityType,

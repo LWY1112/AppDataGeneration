@@ -1,0 +1,117 @@
+[
+  {
+    "name": "T-shirts",
+    "desc": "Discover a wide range of T-shirts for all occasions and styles.",
+    "images": [
+      "https://loremflickr.com/640/480/T-shirts"
+    ],
+    "sequence": 1,
+    "type": [
+      "RENTAL"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Accessories",
+    "desc": "Explore a variety of accessories to complement your look.",
+    "images": [
+      "https://loremflickr.com/640/480/Accessories",
+      "https://loremflickr.com/640/480/Accessories",
+      "https://loremflickr.com/640/480/Accessories",
+      "https://loremflickr.com/640/480/Accessories"
+    ],
+    "sequence": 2,
+    "type": [
+      "RENTAL"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Gears",
+    "desc": "Shop for gear and equipment for your hobbies and adventures.",
+    "images": [
+      "https://loremflickr.com/640/480/Gears"
+    ],
+    "sequence": 3,
+    "type": [
+      "RENTAL",
+      "MERCHANDISE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Shoes",
+    "desc": "Find your perfect pair of shoes from a wide selection of styles.",
+    "images": [
+      "https://loremflickr.com/640/480/Shoes",
+      "https://loremflickr.com/640/480/Shoes",
+      "https://loremflickr.com/640/480/Shoes"
+    ],
+    "sequence": 4,
+    "type": [
+      "RENTAL"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Classes",
+    "desc": "Discover educational classes and workshops for personal growth.",
+    "images": [
+      "https://loremflickr.com/640/480/Classes",
+      "https://loremflickr.com/640/480/Classes",
+      "https://loremflickr.com/640/480/Classes",
+      "https://loremflickr.com/640/480/Classes"
+    ],
+    "sequence": 5,
+    "type": [
+      "MERCHANDISE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Fees",
+    "desc": "Explore fees and charges for various services and transactions.",
+    "images": [
+      "https://loremflickr.com/640/480/Fees",
+      "https://loremflickr.com/640/480/Fees",
+      "https://loremflickr.com/640/480/Fees",
+      "https://loremflickr.com/640/480/Fees"
+    ],
+    "sequence": 6,
+    "type": [
+      "MERCHANDISE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Sales",
+    "desc": "Find great deals and discounts on a variety of products.",
+    "images": [
+      "https://loremflickr.com/640/480/Sales",
+      "https://loremflickr.com/640/480/Sales",
+      "https://loremflickr.com/640/480/Sales",
+      "https://loremflickr.com/640/480/Sales"
+    ],
+    "sequence": 7,
+    "type": [
+      "RENTAL",
+      "MERCHANDISE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Food and Drinks",
+    "desc": "Discover delicious food and refreshing drinks for every palate.",
+    "images": [
+      "https://loremflickr.com/640/480/Food and Drinks",
+      "https://loremflickr.com/640/480/Food and Drinks",
+      "https://loremflickr.com/640/480/Food and Drinks",
+      "https://loremflickr.com/640/480/Food and Drinks"
+    ],
+    "sequence": 8,
+    "type": [
+      "MERCHANDISE"
+    ],
+    "enable": false
+  }
+]

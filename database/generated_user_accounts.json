@@ -509,5 +509,39 @@
       "MANAGER",
       "ADMIN"
     ]
+  },
+  {
+    "_id": "Jefferey49",
+    "email": "Joelle_Schmeler@yahoo.com",
+    "enable": true,
+    "name": "Arvid Lesch",
+    "note": "If we quantify the pixel, we can get to the AGP panel through the haptic OCR driver!",
+    "password": "4QEcW9SgfE",
+    "phone": {
+      "country_code": "60",
+      "number": "192042724"
+    },
+    "pin": "891432",
+    "role": [
+      "STAFF"
+    ]
+  },
+  {
+    "_id": "Sylvan_Von",
+    "email": "Clarabelle45@gmail.com",
+    "enable": true,
+    "name": "Bernie Haley",
+    "note": "backing up the bus won't do anything, we need to back up the open-source HDD protocol!",
+    "password": "FrXVeVdtyO",
+    "phone": {
+      "country_code": "60",
+      "number": "187925493"
+    },
+    "pin": "895606",
+    "role": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ]
   }
 ]

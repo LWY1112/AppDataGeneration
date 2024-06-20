@@ -3,7 +3,6 @@ const path = require('path');
 const axios = require('axios');
 const { generateRandomUser } = require('./accountType/generateUser');
 const { generateRandomEmployee } = require('./accountType/generateEmployee');
-const { generateRandomProduct } = require('./accountType/generateProduct');
 const { generateRandomCustomer } = require('./accountType/generateCustomer');
 
 // Function to generate and save accounts to a JSON file
@@ -22,11 +21,6 @@ async function generateAccounts(numAccounts, type) {
       generateFunction = generateRandomEmployee;
       fileName = 'generated_employee_accounts.json';
       apiUrl = 'https://batuu.sensoft.cloud:9889/v1/employees';
-      break;
-    case 'product':
-      generateFunction = generateRandomProduct;
-      fileName = 'generated_product_category.json';
-      apiUrl = 'https://batuu.sensoft.cloud:9889/v1/categories';
       break;
     case 'customer':
       generateFunction = generateRandomCustomer;
@@ -51,15 +45,27 @@ async function generateAccounts(numAccounts, type) {
   }
 
   const filePath = path.join(__dirname, 'database', fileName);
-  fs.writeFileSync(filePath, JSON.stringify(accounts, null, 2));
+
+  // Read existing data from the file, if it exists
+  let existingAccounts = [];
+  if (fs.existsSync(filePath)) {
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    existingAccounts = JSON.parse(fileContent);
+  }
+
+  // Append new accounts to the existing ones
+  const updatedAccounts = existingAccounts.concat(accounts);
+
+  // Save the updated accounts back to the file
+  fs.writeFileSync(filePath, JSON.stringify(updatedAccounts, null, 2));
   console.log(`Saved ${numAccounts} ${type} accounts to ${filePath}`);
 }
 
 // Check if the number of accounts and type is provided as command-line arguments
 const numAccounts = process.argv[2];
 const accountType = process.argv[3];
-if (!numAccounts || isNaN(numAccounts) || !accountType || !['user', 'employee', 'product','customer'].includes(accountType)) {
-  console.error('Please provide a valid number of accounts and account type (user/employee/product) as command-line arguments.');
+if (!numAccounts || isNaN(numAccounts) || !accountType || !['user', 'employee', 'customer'].includes(accountType)) {
+  console.error('Please provide a valid number of accounts and account type (user/employee/customer) as command-line arguments.');
   process.exit(1);
 }
 
