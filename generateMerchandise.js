@@ -13,9 +13,11 @@ const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace wi
 // Function to transform and extract the required fields from the merchandise data
 function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
+  const stores = ['GYM', 'ONLINE'];
 
-  // Determine the number of roles (1 to the total number of available roles)
+  // Determine the number of store (1 to the total number of available roles)
   const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
+  const numberOfStore = Math.floor(Math.random() * stores.length) + 1;
 
   // Select the roles
   const selectedRoles = [];
@@ -26,12 +28,21 @@ function transformMerchandiseData(merchandise) {
     }
   }
 
+  // Select the store
+  const selectedStore = [];
+  while (selectedStore.length < numberOfStore) {
+    const store = faker.helpers.arrayElement(stores);
+    if (!selectedStore.includes(store)) {
+      selectedStore.push(store);
+    }
+  }
+
   // Generate random enable status
   const enable = faker.datatype.boolean();
 
   return {
     name: merchandise.name,
-    sku: merchandise._id,
+    sku: faker.datatype.uuid(),
     parent_sku: merchandise.parent_sku,
     category: merchandise.category,
     desc: merchandise.desc,
@@ -45,10 +56,10 @@ function transformMerchandiseData(merchandise) {
     }],
     // Add generated authority and enable
     authority: selectedRoles,
+    store: selectedStore,
     enable: enable,
   };
 }
-
 
 // Function to post data using Axios
 async function postData(url, data) {
@@ -56,9 +67,12 @@ async function postData(url, data) {
     const response = await axios.post(url, data);
     console.log('Data posted successfully:', response.data);
   } catch (error) {
-    console.error('Error posting data:', error);
+    console.error('Error posting data:', error.response ? error.response.data : error.message);
   }
 }
+
+// Delay function to avoid rate limiting
+const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 // Asynchronous function to transform, save, and post merchandise data
 async function transformSaveAndPostMerchandise() {
@@ -76,11 +90,12 @@ async function transformSaveAndPostMerchandise() {
     // Post each merchandise item to the API endpoint one by one
     for (const merchandise of transformedData) {
       await postData(apiUrl, merchandise);
+      await delay(1000); // Delay of 1 second between posts to avoid rate-limiting issues
     }
 
     console.log('All merchandise items posted successfully.');
   } catch (error) {
-    console.error('Error transforming, saving, or posting merchandise data:', error);
+    console.error('Error transforming, saving, or posting merchandise data:', error.message);
   }
 }
 
