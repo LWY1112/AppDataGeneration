@@ -17,62 +17,62 @@ async function generateAccounts(numAccounts, type) {
   let genders = ['MALE', 'FEMALE']; // Default genders
 
   switch (type) {
-    case 'user':
-      generateFunction = generateRandomUser;
-      fileName = 'generated_user_accounts.json';
-      apiUrl = 'https://batuu.sensoft.cloud:9889/v1/users';
+  case 'user':
+    generateFunction = generateRandomUser;
+    fileName = 'generated_user_accounts.json';
+    apiUrl = 'https://batuu.sensoft.cloud:9889/v1/users';
 
-      const rolesApiEndpoint = 'https://batuu.sensoft.cloud:9889/role'; 
-      roles = await fetchRoles(rolesApiEndpoint);
-      if (roles.length === 0) {
-        console.error('No roles available, cannot generate users.');
-        return;
-      }
+    const rolesApiEndpoint = 'https://batuu.sensoft.cloud:9889/role'; 
+    roles = await fetchRoles(rolesApiEndpoint);
+    if (roles.length === 0) {
+      console.error('No roles available, cannot generate users.');
+      return;
+    }
 
-      break;
-    case 'employee':
-      generateFunction = generateRandomEmployee;
-      fileName = 'generated_employee_accounts.json';
+    break;
+  case 'employee':
+    generateFunction = generateRandomEmployee;
+    fileName = 'generated_employee_accounts.json';
 
-      apiUrl = 'https://batuu.sensoft.cloud:9889/v1/employees';
-      const positionsApiEndpoint = 'https://batuu.sensoft.cloud:9889/position'; 
-      positions = await fetchPositions(positionsApiEndpoint);
-      if (positions.length === 0) {
-        console.error('No positions available, cannot generate employees.');
-        return;
-      }
+    apiUrl = 'https://batuu.sensoft.cloud:9889/v1/employees';
+    const positionsApiEndpoint = 'https://batuu.sensoft.cloud:9889/position'; 
+    positions = await fetchPositions(positionsApiEndpoint);
+    if (positions.length === 0) {
+      console.error('No positions available, cannot generate employees.');
+      return;
+    }
 
-      break;
-    case 'customer':
-      generateFunction = generateRandomCustomer;
-      fileName = 'generated_customer_accounts.json';
+    break;
+  case 'customer':
+    generateFunction = generateRandomCustomer;
+    fileName = 'generated_customer_accounts.json';
 
-      apiUrl = 'https://batuu.sensoft.cloud:9889/v1/customers';
-      const statusesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/status'; 
-      statuses = await fetchStatuses(statusesApiEndpoint);
-      if (statuses.length === 0) {
-        console.error('No statuses available, cannot generate customers.');
-        return;
-      }
+    apiUrl = 'https://batuu.sensoft.cloud:9889/v1/customers';
+    const statusesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/status'; 
+    statuses = await fetchStatuses(statusesApiEndpoint);
+    if (statuses.length === 0) {
+      console.error('No statuses available, cannot generate customers.');
+      return;
+    }
 
-      const identityTypesApiEndpoint = 'https://batuu.sensoft.cloud:9889/identity_type'; 
-      identityTypes = await fetchIdentityTypes(identityTypesApiEndpoint);
-      if (identityTypes.length === 0) {
-        console.error('No types available, cannot generate customers.');
-        return;
-      }
+    const identityTypesApiEndpoint = 'https://batuu.sensoft.cloud:9889/identity_type'; 
+    identityTypes = await fetchIdentityTypes(identityTypesApiEndpoint);
+    if (identityTypes.length === 0) {
+      console.error('No types available, cannot generate customers.');
+      return;
+    }
 
-      const gendersApiEndpoint = 'https://batuu.sensoft.cloud:9889/gender'; 
-      genders = await fetchGenders(gendersApiEndpoint);
-      if (genders.length === 0) {
-        console.error('No gender available, cannot generate customers.');
-        return;
-      }
-      break;
+    const gendersApiEndpoint = 'https://batuu.sensoft.cloud:9889/gender'; 
+    genders = await fetchGenders(gendersApiEndpoint);
+    if (genders.length === 0) {
+      console.error('No gender available, cannot generate customers.');
+      return;
+    }
+    break;
       
-    default:
-      console.error('Invalid account type specified.');
-      process.exit(1);
+  default:
+    console.error('Invalid account type specified.');
+    process.exit(1);
   }
 
   const accounts = [];

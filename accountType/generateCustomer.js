@@ -70,7 +70,7 @@ async function fetchStatuses(apiEndpoint) {
   } catch (error) {
     console.error('Error fetching statuses:', error);
     return []; 
-}
+  }
 }
 
 async function fetchIdentityTypes(apiEndpoint) {

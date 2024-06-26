@@ -63,8 +63,8 @@ describe('generateAccounts tests', () => {
     const numAccounts = 2;
     const type = 'customer';
   
-    const statuses = ["REGISTERED","ACTIVE","INACTIVE","BANNED","TERMINATED"];
-    const identityTypes = ["IC","PASSPORT"];
+    const statuses = ['REGISTERED','ACTIVE','INACTIVE','BANNED','TERMINATED'];
+    const identityTypes = ['IC','PASSPORT'];
     const genders = ['MALE', 'FEMALE'];
     const customerAccount = { name: 'Test Customer', status: 'active' };
   
