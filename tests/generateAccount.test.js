@@ -31,7 +31,6 @@ describe('generateAccounts tests', () => {
     fs.writeFileSync.mockImplementation(() => {});
 
     await generateAccounts(numAccounts, type);
-
     expect(fetchRoles).toHaveBeenCalled();
     expect(generateRandomUser).toHaveBeenCalledWith(roles);
     expect(axios.post).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/v1/users', userAccount);

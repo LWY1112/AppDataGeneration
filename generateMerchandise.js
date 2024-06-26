@@ -10,6 +10,7 @@ const generateMerchandisePath = path.join(__dirname, 'database', 'generateMercha
 // API endpoint where you want to post each merchandise item
 const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace with your actual API endpoint
 
+
 // Function to transform and extract the required fields from the merchandise data
 function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
@@ -42,7 +43,7 @@ function transformMerchandiseData(merchandise) {
 
   return {
     name: merchandise.name,
-    sku: faker.datatype.uuid(),
+    sku: merchandise._id,
     parent_sku: merchandise.parent_sku,
     category: merchandise.category,
     desc: merchandise.desc,

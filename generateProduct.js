@@ -43,8 +43,12 @@ function generateRandomProduct(category) {
     images.push(imageUrl);
   }
 
+  // Generate _id based on category name
+  const _id = category.toLowerCase().replace(/\s+/g, '-');
+
   const productData = {
     name: category,
+    _id: _id, 
     desc: description,
     images: images,
     sequence: sequence,
