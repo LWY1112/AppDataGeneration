@@ -1,4 +1,4 @@
-const { generateRandomEmployee, fetchPositions } = require('./generateEmployee');
+const { generateRandomEmployee, fetchPositions } = require('../accountType/generateEmployee');
 const axios = require('axios');
 
 jest.mock('axios');

@@ -1,4 +1,4 @@
-const { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders } = require('./generateCustomer');
+const { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders } = require('../accountType/generateCustomer');
 const axios = require('axios');
 
 jest.mock('axios');
