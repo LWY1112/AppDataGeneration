@@ -1,3 +1,4 @@
+const axios = require('axios');
 const { faker } = require('@faker-js/faker/locale/en');
 
 const malaysianLocale = {
@@ -13,11 +14,20 @@ const malaysianLocale = {
   },
 };
 
-function generateRandomUser() {
+async function fetchRoles(apiEndpoint) {
+  try {
+    const response = await axios.get(apiEndpoint);
+    return response.data; // Assuming the API returns an array of roles
+  } catch (error) {
+    console.error('Error fetching roles:', error);
+    return []; // Return an empty array if there's an error
+  }
+}
+
+function generateRandomUser(roles) {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
   const username = faker.internet.userName();
-  const roles = ['ADMIN', 'MANAGER', 'STAFF'];
 
   // Determine the number of roles (1 to the total number of available roles)
   const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
@@ -44,4 +54,4 @@ function generateRandomUser() {
   };
 }
 
-module.exports = { generateRandomUser };
+module.exports = { generateRandomUser, fetchRoles };

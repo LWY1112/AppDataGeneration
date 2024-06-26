@@ -1,22 +1,32 @@
+const axios = require('axios');
 const { faker } = require('@faker-js/faker/locale/en');
 
 const malaysianLocale = {
-    phone: {
-      phoneNumber: () => {
-        const areaCode = '1' + Math.floor(Math.random() * 10);
-        const restOfNumber = Math.floor(Math.random() * 9000000) + 1000000;
-        return {
-          country_code: '60',  // Malaysia's country code
-          number: `${areaCode}${restOfNumber}`
-        };
-      }
-    },
-  };
+  phone: {
+    phoneNumber: () => {
+      const areaCode = '1' + Math.floor(Math.random() * 10);
+      const restOfNumber = Math.floor(Math.random() * 9000000) + 1000000;
+      return {
+        country_code: '60',  // Malaysia's country code
+        number: `${areaCode}${restOfNumber}`
+      };
+    }
+  },
+};
 
-function generateRandomEmployee() {
+async function fetchPositions(apiEndpoint) {
+  try {
+    const response = await axios.get(apiEndpoint);
+    return response.data; // Assuming the API returns an array of positions
+  } catch (error) {
+    console.error('Error fetching positions:', error);
+    return []; // Return an empty array if there's an error
+  }
+}
+
+function generateRandomEmployee(positions) {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
-  const positions = ['MANAGER', 'TRAINER', 'FULL TIMER', 'PART TIMER'];
 
   return {
     name: `${firstName} ${lastName}`,
@@ -27,4 +37,4 @@ function generateRandomEmployee() {
   };
 }
 
-module.exports = { generateRandomEmployee };
+module.exports = { generateRandomEmployee, fetchPositions };

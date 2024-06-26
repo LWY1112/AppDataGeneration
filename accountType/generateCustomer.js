@@ -1,5 +1,7 @@
+const axios = require('axios');
 const { faker } = require('@faker-js/faker/locale/en');
 
+// Define the Malaysian locale object
 const malaysianLocale = {
   phone: {
     phoneNumber: () => {
@@ -13,6 +15,7 @@ const malaysianLocale = {
   },
 };
 
+// Function to generate a Malaysian IC number
 function generateICNumber() {
   const year = String(faker.number.int({ min: 1950, max: 2003 })).substr(-2);
   const month = faker.number.int({ min: 1, max: 12 }).toString().padStart(2, '0');
@@ -21,20 +24,12 @@ function generateICNumber() {
   return `${year}${month}${day}${sequenceNumber}`;
 }
 
-function generateRandomCustomer() {
+// Function to generate a random customer
+function generateRandomCustomer(statuses,identityTypes,genders) {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
-  const identityTypes = ['IC', 'PASSPORT'];
-  const statuses = ['REGISTERED', 'ACTIVE', 'BANNED', 'TERMINATED'];
-  
   const identityType = faker.helpers.arrayElement(identityTypes);
-  let identityValue;
-
-  if (identityType === 'IC') {
-    identityValue = generateICNumber();
-  } else if (identityType === 'PASSPORT') {
-    identityValue = faker.datatype.uuid();
-  }
+  const identityValue = identityType === 'IC' ? generateICNumber() : faker.string.uuid();
 
   return {
     name: `${firstName} ${lastName}`,
@@ -46,7 +41,7 @@ function generateRandomCustomer() {
     email: faker.internet.email(),
     phone: malaysianLocale.phone.phoneNumber(),
     DOB: faker.date.between({ from: '1950-01-01', to: '2003-12-31' }).toISOString(),
-    gender: faker.helpers.arrayElement(['MALE', 'FEMALE']),
+    gender: faker.helpers.arrayElement(genders),
     tag: [
       {
         color: faker.internet.color(),
@@ -57,7 +52,7 @@ function generateRandomCustomer() {
       {
         name: faker.lorem.words(2),
         date: faker.date.past().toISOString(),
-        certifier: faker.company.name(), // Corrected to companyName()
+        certifier: faker.company.name(),
       }
     ],
     note: faker.hacker.phrase(),
@@ -67,4 +62,35 @@ function generateRandomCustomer() {
   };
 }
 
-module.exports = { generateRandomCustomer };
+
+async function fetchStatuses(apiEndpoint) {
+  try {
+    const response = await axios.get(apiEndpoint);
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching statuses:', error);
+    return []; 
+}
+}
+
+async function fetchIdentityTypes(apiEndpoint) {
+  try {
+    const response = await axios.get(apiEndpoint);
+    return response.data; 
+  } catch (error) {
+    console.error('Error fetching identity type:', error);
+    return []; 
+  }
+}
+
+async function fetchGenders(apiEndpoint) {
+  try {
+    const response = await axios.get(apiEndpoint);
+    return response.data; 
+  } catch (error) {
+    console.error('Error fetching gender:', error);
+    return [];
+  }
+}
+
+module.exports = { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders };
