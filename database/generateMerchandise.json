@@ -4,7 +4,7 @@
     "sku": "PCASHIRT",
     "parent_sku": "PCASHIRT",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": "Penang Climber Assiociation Tshirt",
     "images": [],
@@ -13,60 +13,6 @@
       {
         "currency": "MYR",
         "value": 60,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "CRUX Particles",
-    "sku": "CP_CORE01",
-    "parent_sku": "CP_CORE01",
-    "category": [
-      "Accessories"
-    ],
-    "desc": "CRUX Particles",
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 36,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Finger Strap",
-    "sku": "F_STRAP",
-    "parent_sku": "F_STRAP",
-    "category": [
-      "Accessories"
-    ],
-    "desc": "Finger strap",
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 9,
         "quantity": 1,
         "unit": "pc"
       }
@@ -82,12 +28,66 @@
     "enable": false
   },
   {
+    "name": "CRUX Particles",
+    "sku": "CP_CORE01",
+    "parent_sku": "CP_CORE01",
+    "category": [
+      "accessories"
+    ],
+    "desc": "CRUX Particles",
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 36,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Finger Strap",
+    "sku": "F_STRAP",
+    "parent_sku": "F_STRAP",
+    "category": [
+      "accessories"
+    ],
+    "desc": "Finger strap",
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
     "name": "Rental Shoes and Harness",
     "sku": "SR001",
     "parent_sku": "SR001",
     "category": [
-      "Accessories",
-      "Gears"
+      "accessories",
+      "gears"
     ],
     "desc": "Rental Shoes and Harness Combined",
     "images": [],
@@ -101,11 +101,9 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -115,7 +113,7 @@
     "sku": "lux001",
     "parent_sku": "lux001",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Lux Tape Black",
     "images": [],
@@ -129,21 +127,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Lux Tape White",
     "sku": "lux002",
     "parent_sku": "lux002",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Lux Tape White",
     "images": [],
@@ -158,21 +155,20 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "MASK2",
     "sku": "mask2",
     "parent_sku": "mask2",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "MASK 2",
     "images": [],
@@ -186,20 +182,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "RAVE STRAP GRAY",
     "sku": "RVG00016090",
     "parent_sku": "RVG00016090",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "RAVE STRAP GRAY",
     "images": [],
@@ -220,14 +216,14 @@
     "store": [
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave Strap Blue",
     "sku": "RVB0017055",
     "parent_sku": "RVB0017055",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "Rave Strap Blue",
     "images": [],
@@ -241,20 +237,21 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave Strap Red US 5.5",
     "sku": "RVR0017055",
     "parent_sku": "RVR0017055",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "Rave Strap Red",
     "images": [],
@@ -268,21 +265,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave Strap Red",
     "sku": "6950799023633",
     "parent_sku": "6950799023633",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "Rave strap red",
     "images": [],
@@ -296,6 +291,7 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
@@ -308,7 +304,7 @@
     "sku": "OS03544085",
     "parent_sku": "OS03544085",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OXI S",
     "images": [],
@@ -322,20 +318,20 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "OCUN OZONE QC US 7.5",
     "sku": "OQ00599065",
     "parent_sku": "OQ00599065",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -349,19 +345,21 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "OCUN OXI LADY",
     "sku": "8591804637216",
     "parent_sku": "8591804637216",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OXI LADY",
     "images": [],
@@ -375,19 +373,21 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA OASI BLUE",
     "sku": "T003OA6",
     "parent_sku": "T003OA6",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI BLUE",
     "images": [],
@@ -402,8 +402,8 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
       "ONLINE",
@@ -416,7 +416,7 @@
     "sku": "T008MU6",
     "parent_sku": "T008MU6",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA",
     "images": [],
@@ -430,22 +430,22 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "RED POINT STRAP",
     "sku": "RP0019055",
     "parent_sku": "RP0019055",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "RED POINT STRAP",
     "images": [],
@@ -459,19 +459,22 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA OASI LV",
     "sku": "T010OW7",
     "parent_sku": "T010OW7",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI LV",
     "images": [],
@@ -485,11 +488,13 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -498,7 +503,7 @@
     "sku": "T008MU6.5",
     "parent_sku": "T008MU6.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA",
     "images": [],
@@ -512,12 +517,9 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -527,7 +529,7 @@
     "sku": "8435350213510",
     "parent_sku": "8435350213510",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA",
     "images": [],
@@ -542,20 +544,20 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "TENAYA OASI BLUE",
     "sku": "T003OA7",
     "parent_sku": "T003OA7",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI BLUE",
     "images": [],
@@ -569,20 +571,22 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "OCUN OXI LADY",
     "sku": "8591804637193",
     "parent_sku": "8591804637193",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OXI LADY",
     "images": [],
@@ -596,11 +600,12 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -609,7 +614,7 @@
     "sku": "T003OA5.5",
     "parent_sku": "T003OA5.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI",
     "images": [],
@@ -623,21 +628,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "OCUN OZONE QC US 8",
     "sku": "OQ00599070",
     "parent_sku": "OQ00599070",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -651,13 +655,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -666,7 +669,7 @@
     "sku": "OQ00599075",
     "parent_sku": "OQ00599075",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -680,21 +683,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "OCUN OZONE OZI S",
     "sku": "OS03544080",
     "parent_sku": "OS03544080",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OZONE OXI S",
     "images": [],
@@ -708,12 +710,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -723,7 +722,7 @@
     "sku": "8591804637223",
     "parent_sku": "8591804637223",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OXI LADY",
     "images": [],
@@ -737,21 +736,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "OCUN OXI LADY",
     "sku": "8591804629129",
     "parent_sku": "8591804629129",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "OCUN OXI LADY",
     "images": [],
@@ -765,20 +764,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA OASI",
     "sku": "T003OA6.5",
     "parent_sku": "T003OA6.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI",
     "images": [],
@@ -792,10 +791,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -805,7 +806,7 @@
     "sku": "T003OA3.5",
     "parent_sku": "T003OA3.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI BLUE",
     "images": [],
@@ -819,22 +820,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA OASI BLUE",
     "sku": "T003OA4",
     "parent_sku": "T003OA4",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA OASI BLUE",
     "images": [],
@@ -848,12 +847,11 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -862,7 +860,7 @@
     "sku": "T008MU4",
     "parent_sku": "T008MU4",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA GREEN",
     "images": [],
@@ -876,7 +874,9 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
@@ -889,7 +889,7 @@
     "sku": "T008MU3",
     "parent_sku": "T008MU3",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA GREEN",
     "images": [],
@@ -903,22 +903,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "TENAYA MUNDAKA GREEN",
     "sku": "T008MU4.5",
     "parent_sku": "T008MU4.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "TENAYA MUNDAKA GREEN",
     "images": [],
@@ -932,7 +930,8 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
       "GYM"
@@ -944,66 +943,11 @@
     "sku": "RVG00016125",
     "parent_sku": "RVG00016125",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "RAVE STRAP GRAY",
     "images": [],
     "size": "12.5",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 285,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "RAVE STRAP RED",
-    "sku": "RVR0017060",
-    "parent_sku": "RVR0017060",
-    "category": [
-      "Shoes"
-    ],
-    "desc": "RAVE STRAP RED",
-    "images": [],
-    "size": "6.0",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 285,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "RAVE STRAP RED",
-    "sku": "RVR0017125",
-    "parent_sku": "RVR0017125",
-    "category": [
-      "Shoes"
-    ],
-    "desc": "RAVE STRAP RED",
-    "images": [],
-    "size": "US 12.5",
     "unit_price": [
       {
         "currency": "MYR",
@@ -1024,11 +968,64 @@
     "enable": false
   },
   {
+    "name": "RAVE STRAP RED",
+    "sku": "RVR0017060",
+    "parent_sku": "RVR0017060",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP RED",
+    "images": [],
+    "size": "6.0",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "RAVE STRAP RED",
+    "sku": "RVR0017125",
+    "parent_sku": "RVR0017125",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP RED",
+    "images": [],
+    "size": "US 12.5",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
     "name": "RAVE STRAP BLUE",
     "sku": "RVB0017075",
     "parent_sku": "RVB0017075",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "RAVE STRAP BLUE",
     "images": [],
@@ -1043,20 +1040,19 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "OCUN TWIST (M-XL)",
     "sku": "8591804634727",
     "parent_sku": "8591804634727",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "OCUN HARNESS",
     "images": [],
@@ -1071,11 +1067,10 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -1084,7 +1079,7 @@
     "sku": "8595033352100",
     "parent_sku": "8595033352100",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "CLIMBING HARNESS",
     "images": [],
@@ -1098,21 +1093,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "SINGING ROCK ONYX",
     "sku": "8595033352209",
     "parent_sku": "8595033352209",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "CLIMBING HARNESS",
     "images": [],
@@ -1126,19 +1120,75 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "FELIX",
     "sku": "60600233",
     "parent_sku": "60600233",
     "category": [
-      "Gears"
+      "gears"
+    ],
+    "desc": "COREZONE 8B PLUS CHALKBAGS",
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 135,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "ALEX",
+    "sku": "60600486",
+    "parent_sku": "60600486",
+    "category": [
+      "gears"
+    ],
+    "desc": "COREZONE 8B PLUS CHALKBAGS",
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 135,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "PAUL",
+    "sku": "7613119000101",
+    "parent_sku": "7613119000101",
+    "category": [
+      "gears"
     ],
     "desc": "COREZONE 8B PLUS CHALKBAGS",
     "images": [],
@@ -1159,14 +1209,14 @@
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
-    "name": "ALEX",
-    "sku": "60600486",
-    "parent_sku": "60600486",
+    "name": "cHARLIE",
+    "sku": "60600363",
+    "parent_sku": "60600363",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "COREZONE 8B PLUS CHALKBAGS",
     "images": [],
@@ -1180,19 +1230,20 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": true
   },
   {
-    "name": "PAUL",
-    "sku": "7613119000101",
-    "parent_sku": "7613119000101",
+    "name": "INGRID",
+    "sku": "60600509",
+    "parent_sku": "60600509",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "COREZONE 8B PLUS CHALKBAGS",
     "images": [],
@@ -1212,41 +1263,14 @@
       "GYM",
       "ONLINE"
     ],
-    "enable": true
-  },
-  {
-    "name": "cHARLIE",
-    "sku": "60600363",
-    "parent_sku": "60600363",
-    "category": [
-      "Gears"
-    ],
-    "desc": "COREZONE 8B PLUS CHALKBAGS",
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 135,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "GYM"
-    ],
     "enable": false
   },
   {
-    "name": "INGRID",
-    "sku": "60600509",
-    "parent_sku": "60600509",
+    "name": "PEPPI",
+    "sku": "60600295",
+    "parent_sku": "60600295",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "COREZONE 8B PLUS CHALKBAGS",
     "images": [],
@@ -1261,19 +1285,20 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": true
   },
   {
-    "name": "PEPPI",
-    "sku": "60600295",
-    "parent_sku": "60600295",
+    "name": "PAM",
+    "sku": "7613119000071",
+    "parent_sku": "7613119000071",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "COREZONE 8B PLUS CHALKBAGS",
     "images": [],
@@ -1288,48 +1313,20 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER",
       "ADMIN"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "PAM",
-    "sku": "7613119000071",
-    "parent_sku": "7613119000071",
-    "category": [
-      "Gears"
-    ],
-    "desc": "COREZONE 8B PLUS CHALKBAGS",
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 135,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "STAFF"
     ],
     "store": [
       "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Staff T-shirt",
     "sku": "staff_tshirt",
     "parent_sku": "staff_tshirt",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -1343,12 +1340,10 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -1358,7 +1353,7 @@
     "sku": "TSHIRT_BFT",
     "parent_sku": "TSHIRT_BFT",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -1372,20 +1367,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "White Cotton Shirt",
     "sku": "W_CSHIRT",
     "parent_sku": "W_CSHIRT",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -1399,75 +1394,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Purple Wristband",
     "sku": "P_WBAND",
     "parent_sku": "P_WBAND",
     "category": [
-      "Accessories"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 5,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Black DriFit Shirt",
-    "sku": "B_DSHIRT",
-    "parent_sku": "B_DSHIRT",
-    "category": [
-      "T-shirts"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 65,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "White Wristband",
-    "sku": "W_WBAND",
-    "parent_sku": "W_WBAND",
-    "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1482,8 +1423,63 @@
     ],
     "authority": [
       "ADMIN",
+      "MANAGER"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Black DriFit Shirt",
+    "sku": "B_DSHIRT",
+    "parent_sku": "B_DSHIRT",
+    "category": [
+      "t-shirts"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 65,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "White Wristband",
+    "sku": "W_WBAND",
+    "parent_sku": "W_WBAND",
+    "category": [
+      "accessories"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 5,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "GYM"
@@ -1495,7 +1491,7 @@
     "sku": "SRB_SET",
     "parent_sku": "SRB_SET",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1509,11 +1505,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -1522,7 +1519,7 @@
     "sku": "B_WBAND",
     "parent_sku": "B_WBAND",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1536,20 +1533,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Iron Patch Black",
     "sku": "B_PATCH",
     "parent_sku": "B_PATCH",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1563,13 +1559,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -1578,7 +1572,7 @@
     "sku": "W_PATCH",
     "parent_sku": "W_PATCH",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1593,19 +1587,21 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Iron Patch Yellow",
     "sku": "Y_PATCH",
     "parent_sku": "Y_PATCH",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1614,34 +1610,6 @@
       {
         "currency": "MYR",
         "value": 10,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Gray DriFit Shirt",
-    "sku": "G_DSHIRT",
-    "parent_sku": "G_DSHIRT",
-    "category": [
-      "T-shirts"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 65,
         "quantity": 1,
         "unit": "pc"
       }
@@ -1652,45 +1620,16 @@
       "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
-    "name": "Pink DriFit Shirt",
-    "sku": "PK_DSHIRT",
-    "parent_sku": "PK_DSHIRT",
+    "name": "Gray DriFit Shirt",
+    "sku": "G_DSHIRT",
+    "parent_sku": "G_DSHIRT",
     "category": [
-      "T-shirts"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 65,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Purple DriFit Shirt",
-    "sku": "P_DSHIRT",
-    "parent_sku": "P_DSHIRT",
-    "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -1705,10 +1644,64 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Pink DriFit Shirt",
+    "sku": "PK_DSHIRT",
+    "parent_sku": "PK_DSHIRT",
+    "category": [
+      "t-shirts"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 65,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "store": [
       "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Purple DriFit Shirt",
+    "sku": "P_DSHIRT",
+    "parent_sku": "P_DSHIRT",
+    "category": [
+      "t-shirts"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 65,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -1717,7 +1710,7 @@
     "sku": "D_BUNDLE",
     "parent_sku": "D_BUNDLE",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": "DriFit Bundle set of 3",
     "images": [],
@@ -1731,20 +1724,20 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Iron-on Patch Bundle",
     "sku": "P_BUNDLE",
     "parent_sku": "P_BUNDLE",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Iron-on Patch Bundle of 3",
     "images": [],
@@ -1758,19 +1751,21 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Budde Tube ATC",
     "sku": "BT_ATC",
     "parent_sku": "BT_ATC",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1784,13 +1779,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -1799,7 +1792,7 @@
     "sku": "M_BALL",
     "parent_sku": "M_BALL",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Crux Particle Chalk Ball",
     "images": [],
@@ -1813,19 +1806,22 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Send Liquid Chalk",
     "sku": "S_LCHALK",
     "parent_sku": "S_LCHALK",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Crux Particle Send Liquid Chalk",
     "images": [],
@@ -1839,21 +1835,21 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Chalkball",
     "sku": "CHALKBALL",
     "parent_sku": "CHALKBALL",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1870,17 +1866,17 @@
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Socks",
     "sku": "SOCKS",
     "parent_sku": "SOCKS",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1895,11 +1891,12 @@
     ],
     "authority": [
       "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -1908,35 +1905,7 @@
     "sku": "LOCKER",
     "parent_sku": "LOCKER",
     "category": [
-      "Accessories"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 2,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Locker",
-    "sku": "locker",
-    "parent_sku": "locker",
-    "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -1951,21 +1920,47 @@
     ],
     "authority": [
       "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Locker",
+    "sku": "locker",
+    "parent_sku": "locker",
+    "category": [
+      "accessories"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 2,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
       "ADMIN",
       "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "In a Belaytionship Tshirt",
     "sku": "BELAY65",
     "parent_sku": "LESSTALK65",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": "In a Belaytionship Tshirt",
     "images": [],
@@ -1979,13 +1974,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -1994,7 +1987,7 @@
     "sku": "LESSTALK65",
     "parent_sku": "LESSTALK65",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": "Less Talk More Chalk Tshirt",
     "images": [],
@@ -2009,21 +2002,20 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Conquer Fingerboard",
     "sku": "CONQ_FB",
     "parent_sku": "CONQ_FB",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": "Conquer Fingerboard",
     "images": [],
@@ -2037,20 +2029,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "School of Rock",
     "sku": "SOR6",
     "parent_sku": "SOR6",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "School Of Rock- 6 Classes\n(Day Pass NOT Included)",
     "images": [],
@@ -2065,19 +2057,20 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Personal Coaching",
     "sku": "P_COACH",
     "parent_sku": "P_COACH",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "Personal Coaching\n(Day Pass NOT Included)",
     "images": [],
@@ -2091,13 +2084,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -2106,7 +2097,7 @@
     "sku": "LTL_C",
     "parent_sku": "LTL_C",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "Learn to Lead \n(Day pass NOT Included)",
     "images": [],
@@ -2120,9 +2111,12 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -2132,7 +2126,7 @@
     "sku": "TNQ_C",
     "parent_sku": "TNQ_C",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "Technique Class (3 Modules) (includes Day Pass)",
     "images": [],
@@ -2146,22 +2140,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Technique Class",
     "sku": "TNQ_MEM",
     "parent_sku": "TNQ_MEM",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "Technique Class for member (3 Modules)",
     "images": [],
@@ -2175,10 +2168,12 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -2187,7 +2182,7 @@
     "sku": "TICKET_DATE_CHANGE_FEE",
     "parent_sku": "TICKET_DATE_CHANGE_FEE",
     "category": [
-      "Fees"
+      "fees"
     ],
     "desc": "Admin fees for changing ticket date online",
     "images": [],
@@ -2201,22 +2196,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Climbing 101 Workshop",
     "sku": "climbing101",
     "parent_sku": "climbing101",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": null,
     "images": [],
@@ -2231,19 +2224,21 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rope (per m)",
     "sku": "rope",
     "parent_sku": "rope",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2257,11 +2252,9 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -2271,7 +2264,7 @@
     "sku": "K0119EE00",
     "parent_sku": "K0119EE00",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2285,21 +2278,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "RAMA Grey",
     "sku": "K0043SX00",
     "parent_sku": "K0043SX00",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2313,10 +2305,11 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -2326,7 +2319,7 @@
     "sku": "K0043OX00",
     "parent_sku": "K0043OX00",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2340,20 +2333,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "PEARL M",
     "sku": "8595033352155",
     "parent_sku": "8595033352155",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2368,21 +2362,21 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "PEARL S",
     "sku": "8595033352162",
     "parent_sku": "8595033352162",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2397,11 +2391,12 @@
     ],
     "authority": [
       "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -2410,7 +2405,7 @@
     "sku": "8595033352179",
     "parent_sku": "8595033352179",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2424,21 +2419,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "VERSA 2 XS-M",
     "sku": "8595033349285",
     "parent_sku": "8595033349285",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2452,6 +2447,8 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "store": [
@@ -2464,7 +2461,7 @@
     "sku": "8595033349278",
     "parent_sku": "8595033349278",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2478,21 +2475,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "PACKET VERSA 2 XS-M",
     "sku": "8595033349339",
     "parent_sku": "8595033349339",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2506,19 +2502,22 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "VIXEN M",
     "sku": "5031290204842",
     "parent_sku": "5031290204842",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2532,8 +2531,7 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
       "GYM",
@@ -2546,7 +2544,7 @@
     "sku": "8595033352148",
     "parent_sku": "8595033352148",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2560,8 +2558,7 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
       "GYM",
@@ -2574,7 +2571,7 @@
     "sku": "5031290218597",
     "parent_sku": "5031290218597",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2588,20 +2585,21 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "store": [
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "VIPER L",
     "sku": "5031290218603",
     "parent_sku": "5031290218603",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2615,20 +2613,20 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "MITHRIL M",
     "sku": "5031290208260",
     "parent_sku": "5031290208260",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2645,7 +2643,8 @@
       "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -2654,7 +2653,7 @@
     "sku": "5031290208253",
     "parent_sku": "5031290208253",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2668,12 +2667,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -2682,7 +2680,7 @@
     "sku": "5031290218399",
     "parent_sku": "5031290218399",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2696,20 +2694,19 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "MITHRIL L",
     "sku": "5031290218368",
     "parent_sku": "5031290218368",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -2723,11 +2720,10 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -2736,7 +2732,7 @@
     "sku": "8594031824305",
     "parent_sku": "8594031824305",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2750,10 +2746,12 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -2762,7 +2760,7 @@
     "sku": "ART123-07.0",
     "parent_sku": "ART123-07.0",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2779,6 +2777,7 @@
       "STAFF"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -2788,7 +2787,7 @@
     "sku": "ART123-06.5",
     "parent_sku": "ART123-06.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2802,21 +2801,21 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "AVAX US7",
     "sku": "ART123-06.0",
     "parent_sku": "ART123-06.0",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2830,22 +2829,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "AVAX US5 1/2",
     "sku": "ART123-04.5",
     "parent_sku": "ART123-04.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2859,11 +2856,11 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
     "enable": false
   },
@@ -2872,7 +2869,7 @@
     "sku": "ART123-04.0",
     "parent_sku": "ART123-04.0",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2889,8 +2886,7 @@
       "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": false
   },
@@ -2899,7 +2895,7 @@
     "sku": "ART123-03.5",
     "parent_sku": "ART123-03.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2914,9 +2910,10 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -2926,7 +2923,7 @@
     "sku": "ART143-09.5",
     "parent_sku": "ART143-09.5",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -2935,6 +2932,310 @@
       {
         "currency": "MYR",
         "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "ENIGMA NOP 9",
+    "sku": "ART143-08.0",
+    "parent_sku": "ART143-08.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "9",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "ENIGMA BLACK 10",
+    "sku": "ART143-09.0",
+    "parent_sku": "ART143-09.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "AVAX US10 1/2",
+    "sku": "ART123-09.5",
+    "parent_sku": "ART123-09.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10 1/2",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "ENIGMA BLACK 8",
+    "sku": "ART143-07.0",
+    "parent_sku": "ART143-07.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "8",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "MITHRIL M",
+    "sku": "5031290218351",
+    "parent_sku": "5031290218351",
+    "category": [
+      "gears"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "M",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 480,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "SALTIC BONGO",
+    "sku": "ART114-07.0",
+    "parent_sku": "ART114-07.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": "SALTIC BONGO US 8",
+    "images": [],
+    "size": "US 8",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 415,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Shipment",
+    "sku": "Shipment",
+    "parent_sku": "Shipment",
+    "category": [
+      "sales"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 10,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Rave Strap 10.0 US/9.0 UK Red",
+    "sku": "11301000100RD",
+    "parent_sku": "11301000100RD",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Red point strap US 4.5/ UK 3.5",
+    "sku": "6950799020366",
+    "parent_sku": "6950799020366",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "4.5",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Red point strap US 6.0/ UK 5.0",
+    "sku": "6950799020397",
+    "parent_sku": "6950799020397",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "6.0",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Rave strap(Blue) US 5.0/ UK 4.0",
+    "sku": "6950799023909",
+    "parent_sku": "6950799023909",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "5.0",
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
         "quantity": 1,
         "unit": "pc"
       }
@@ -2951,312 +3252,11 @@
     "enable": false
   },
   {
-    "name": "ENIGMA NOP 9",
-    "sku": "ART143-08.0",
-    "parent_sku": "ART143-08.0",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "9",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 445,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "ENIGMA BLACK 10",
-    "sku": "ART143-09.0",
-    "parent_sku": "ART143-09.0",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "10",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 445,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "AVAX US10 1/2",
-    "sku": "ART123-09.5",
-    "parent_sku": "ART123-09.5",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "10 1/2",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 455,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "ENIGMA BLACK 8",
-    "sku": "ART143-07.0",
-    "parent_sku": "ART143-07.0",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "8",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 445,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "MITHRIL M",
-    "sku": "5031290218351",
-    "parent_sku": "5031290218351",
-    "category": [
-      "Gears"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "M",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 480,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "SALTIC BONGO",
-    "sku": "ART114-07.0",
-    "parent_sku": "ART114-07.0",
-    "category": [
-      "Shoes"
-    ],
-    "desc": "SALTIC BONGO US 8",
-    "images": [],
-    "size": "US 8",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 415,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "STAFF"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Shipment",
-    "sku": "Shipment",
-    "parent_sku": "Shipment",
-    "category": [
-      "Sales"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 10,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "MANAGER"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Rave Strap 10.0 US/9.0 UK Red",
-    "sku": "11301000100RD",
-    "parent_sku": "11301000100RD",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "10",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 285,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Red point strap US 4.5/ UK 3.5",
-    "sku": "6950799020366",
-    "parent_sku": "6950799020366",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "4.5",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 295,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Red point strap US 6.0/ UK 5.0",
-    "sku": "6950799020397",
-    "parent_sku": "6950799020397",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "6.0",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 295,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Rave strap(Blue) US 5.0/ UK 4.0",
-    "sku": "6950799023909",
-    "parent_sku": "6950799023909",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": "5.0",
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 285,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
     "name": "Red point strap US 6.5/UK 5.5",
     "sku": "6950799020403",
     "parent_sku": "6950799020403",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3270,10 +3270,10 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -3283,7 +3283,7 @@
     "sku": "6950799020410",
     "parent_sku": "6950799020410",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3297,7 +3297,6 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
       "STAFF"
     ],
@@ -3311,7 +3310,7 @@
     "sku": "6950799023336",
     "parent_sku": "6950799023336",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3330,7 +3329,7 @@
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -3339,7 +3338,7 @@
     "sku": "6950799023916",
     "parent_sku": "6950799023916",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3353,6 +3352,7 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
@@ -3360,14 +3360,14 @@
       "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave strap Grey US 5.5/ UK 4.5",
     "sku": "6950799023350",
     "parent_sku": "6950799023350",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3384,8 +3384,8 @@
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -3394,7 +3394,7 @@
     "sku": "6950799023602",
     "parent_sku": "6950799023602",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3409,20 +3409,20 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Red point strap US 7.5 / UK 6.5",
     "sku": "6950799020427",
     "parent_sku": "6950799020427",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3436,21 +3436,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave strap Red US 6.0/ UK 5.0",
     "sku": "6950799023640",
     "parent_sku": "6950799023640",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3465,7 +3464,6 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "store": [
@@ -3478,7 +3476,7 @@
     "sku": "6950799020434",
     "parent_sku": "6950799020434",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3492,21 +3490,22 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Red point strap US 8.5/ UK 7.5",
     "sku": "6950799020441",
     "parent_sku": "6950799020441",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3523,16 +3522,17 @@
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Red point strap US 9.0/ UK8.0",
     "sku": "6950799020458",
     "parent_sku": "6950799020458",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3546,12 +3546,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -3560,7 +3559,7 @@
     "sku": "6950799020465",
     "parent_sku": "6950799020465",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3574,8 +3573,32 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
+      "STAFF"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Rave strap(Blue) US7.0/UK6.0",
+    "sku": "6950799023947",
+    "parent_sku": "6950799023947",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
       "STAFF"
     ],
     "store": [
@@ -3585,39 +3608,11 @@
     "enable": false
   },
   {
-    "name": "Rave strap(Blue) US7.0/UK6.0",
-    "sku": "6950799023947",
-    "parent_sku": "6950799023947",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 285,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
     "name": "Rave strap(Blue) US7.5/UK6.5",
     "sku": "6950799023954",
     "parent_sku": "6950799023954",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3631,11 +3626,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -3645,7 +3638,7 @@
     "sku": "6950799023978",
     "parent_sku": "6950799023978",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3659,21 +3652,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Red point strap US 10/ UK 9.0",
     "sku": "6950799020472",
     "parent_sku": "6950799020472",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3688,19 +3681,20 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave strap (Blue) US11.5/UK10.5",
     "sku": "11301000115BL",
     "parent_sku": "11301000115BL",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3714,9 +3708,11 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -3726,7 +3722,7 @@
     "sku": "6950799023428",
     "parent_sku": "6950799023428",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3740,11 +3736,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -3754,7 +3750,7 @@
     "sku": "6950799023961",
     "parent_sku": "6950799023961",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3769,20 +3765,21 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave strap (Grey) US 10.0/UK 9.0",
     "sku": "6950799023442",
     "parent_sku": "6950799023442",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3796,11 +3793,10 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -3809,7 +3805,7 @@
     "sku": "6950799020489",
     "parent_sku": "6950799020489",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3823,8 +3819,36 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "STAFF",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Red point strap US11.5/UK10.5",
+    "sku": "6950799020502",
+    "parent_sku": "6950799020502",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
@@ -3833,37 +3857,11 @@
     "enable": true
   },
   {
-    "name": "Red point strap US11.5/UK10.5",
-    "sku": "6950799020502",
-    "parent_sku": "6950799020502",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 295,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
     "name": "Rave strap (Grey) US 7.5/ UK 6.5",
     "sku": "6950799023398",
     "parent_sku": "6950799023398",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3877,9 +3875,8 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
       "GYM"
@@ -3891,7 +3888,7 @@
     "sku": "6950799027228",
     "parent_sku": "6950799027228",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3905,11 +3902,11 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -3918,7 +3915,7 @@
     "sku": "6950799023367",
     "parent_sku": "6950799023367",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3932,20 +3929,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "CRUSH NLV (Purple) US 6.0 / UK 5.0",
     "sku": "6950799027235",
     "parent_sku": "6950799027235",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -3959,8 +3956,34 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "CRUSH NLV(Purple) US7.0/UK6.0",
+    "sku": "6950799027259",
+    "parent_sku": "6950799027259",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 269,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
@@ -3969,39 +3992,11 @@
     "enable": false
   },
   {
-    "name": "CRUSH NLV(Purple) US7.0/UK6.0",
-    "sku": "6950799027259",
-    "parent_sku": "6950799027259",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 269,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
     "name": "CRUSH NLV (Purple) US 6.5/ UK 5.5",
     "sku": "6950799027242",
     "parent_sku": "6950799027242",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -4015,7 +4010,7 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
       "GYM"
@@ -4027,7 +4022,7 @@
     "sku": "6950799020373",
     "parent_sku": "6950799020373",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -4041,9 +4036,7 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
       "ONLINE",
@@ -4056,7 +4049,7 @@
     "sku": "11301000065BL",
     "parent_sku": "11301000065BL",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -4070,11 +4063,12 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -4083,7 +4077,7 @@
     "sku": "8435350213343",
     "parent_sku": "8435350213343",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -4097,11 +4091,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -4110,7 +4104,7 @@
     "sku": "prwaterbottle",
     "parent_sku": "9555521323806",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4124,20 +4118,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Singing Rock Bora Screw (HMS)",
     "sku": "borascrewhms",
     "parent_sku": "8595033344563",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4151,9 +4145,8 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
@@ -4165,7 +4158,7 @@
     "sku": "coltscrewblack",
     "parent_sku": "coltscrewblack",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4179,22 +4172,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Singing Rock Colt Screw",
     "sku": "coltscrew",
     "parent_sku": "coltscrew",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4209,9 +4199,11 @@
     ],
     "authority": [
       "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -4221,7 +4213,7 @@
     "sku": "minid",
     "parent_sku": "minid",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4235,9 +4227,11 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -4247,7 +4241,7 @@
     "sku": "minipear",
     "parent_sku": "minipear",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4261,13 +4255,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -4276,7 +4268,7 @@
     "sku": "kinder",
     "parent_sku": "kinder",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -4294,6 +4286,7 @@
       "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -4303,7 +4296,7 @@
     "sku": "bala",
     "parent_sku": "bala",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4317,9 +4310,7 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
       "GYM",
@@ -4332,7 +4323,7 @@
     "sku": "phantomscrewgate",
     "parent_sku": "phantomscrewgate",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4347,10 +4338,10 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -4360,7 +4351,7 @@
     "sku": "cerosscrewgate",
     "parent_sku": "cerosscrewgate",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4374,10 +4365,11 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -4386,7 +4378,7 @@
     "sku": "rhinoscrewgate",
     "parent_sku": "rhinoscrewgate",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -4400,8 +4392,7 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
       "ONLINE",
@@ -4414,7 +4405,7 @@
     "sku": "barebellsbar",
     "parent_sku": "barebellsbar",
     "category": [
-      "Sales"
+      "sales"
     ],
     "desc": null,
     "images": [],
@@ -4433,7 +4424,7 @@
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -4442,7 +4433,7 @@
     "sku": "n&nbars",
     "parent_sku": "n&nbars",
     "category": [
-      "Sales"
+      "sales"
     ],
     "desc": null,
     "images": [],
@@ -4456,19 +4447,20 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "yogood yogurt coated muesli bar",
     "sku": "yogoodbar",
     "parent_sku": "yogoodbar",
     "category": [
-      "Sales"
+      "sales"
     ],
     "desc": null,
     "images": [],
@@ -4482,11 +4474,10 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -4496,7 +4487,7 @@
     "sku": "bcaadrinks",
     "parent_sku": "bcaadrinks",
     "category": [
-      "Sales"
+      "sales"
     ],
     "desc": null,
     "images": [],
@@ -4511,10 +4502,12 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -4523,7 +4516,7 @@
     "sku": "5031290223966",
     "parent_sku": "5031290223966",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4537,10 +4530,9 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -4550,7 +4542,7 @@
     "sku": "8595033352315",
     "parent_sku": "8595033352315",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4564,9 +4556,7 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
       "ONLINE",
@@ -4579,7 +4569,7 @@
     "sku": "5031290223959",
     "parent_sku": "5031290223959",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4593,8 +4583,8 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
       "GYM"
@@ -4606,7 +4596,7 @@
     "sku": "8595033352346",
     "parent_sku": "8595033352346",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4621,20 +4611,19 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "CHALKBAG MOUNTAIN BLUE",
     "sku": "C3004AA00",
     "parent_sku": "C3004AA00",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4648,12 +4637,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -4663,7 +4649,7 @@
     "sku": "8595033348639",
     "parent_sku": "8595033348639",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4677,21 +4663,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "CHALKBAG LARGE GREY",
     "sku": "8595033348646",
     "parent_sku": "8595033348646",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4705,22 +4690,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "CHALKBAG COMIC YELLOW",
     "sku": "8595033341180",
     "parent_sku": "8595033341180",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4734,7 +4717,6 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "store": [
@@ -4747,7 +4729,7 @@
     "sku": "8595033341227",
     "parent_sku": "8595033341227",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4761,21 +4743,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "SASHA",
     "sku": "7613119001467",
     "parent_sku": "7613119001467",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4790,7 +4771,7 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
@@ -4803,7 +4784,61 @@
     "sku": "7613119001436",
     "parent_sku": "7613119001436",
     "category": [
-      "Accessories"
+      "accessories"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 145,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "PHIL",
+    "sku": "7613119001405",
+    "parent_sku": "7613119001405",
+    "category": [
+      "accessories"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 145,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "INGRID",
+    "sku": "7613119001412",
+    "parent_sku": "7613119001412",
+    "category": [
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4818,66 +4853,11 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "PHIL",
-    "sku": "7613119001405",
-    "parent_sku": "7613119001405",
-    "category": [
-      "Accessories"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 145,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "INGRID",
-    "sku": "7613119001412",
-    "parent_sku": "7613119001412",
-    "category": [
-      "Accessories"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 145,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER"
-    ],
-    "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -4886,7 +4866,7 @@
     "sku": "7613119000927",
     "parent_sku": "7613119000927",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4901,11 +4881,11 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -4914,7 +4894,7 @@
     "sku": "7613119000392",
     "parent_sku": "7613119000392",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4928,9 +4908,11 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -4940,7 +4922,7 @@
     "sku": "7613119001504",
     "parent_sku": "7613119001504",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4966,7 +4948,7 @@
     "sku": "7613119000910",
     "parent_sku": "7613119000910",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -4980,20 +4962,21 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "MANNY",
     "sku": "7613119001382",
     "parent_sku": "7613119001382",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -5007,21 +4990,19 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "ALEX",
     "sku": "7613119001399",
     "parent_sku": "7613119001399",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -5036,10 +5017,10 @@
     ],
     "authority": [
       "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -5049,7 +5030,7 @@
     "sku": "7613119001450",
     "parent_sku": "7613119001450",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -5066,16 +5047,16 @@
       "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Project Rock Hoodie",
     "sku": "prhoodie",
     "parent_sku": "prhoodie",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -5089,6 +5070,7 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
@@ -5103,8 +5085,8 @@
     "sku": "Climbing Course Level 1",
     "parent_sku": "Climbing Course Level 1",
     "category": [
-      "Classes",
-      "Fees"
+      "classes",
+      "fees"
     ],
     "desc": null,
     "images": [],
@@ -5118,11 +5100,11 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -5131,8 +5113,8 @@
     "sku": "SHOES",
     "parent_sku": "SHOES",
     "category": [
-      "Gears",
-      "Accessories"
+      "gears",
+      "accessories"
     ],
     "desc": "Rental Shoes Only",
     "images": [],
@@ -5146,22 +5128,23 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rental Harness Only",
     "sku": "HARNESS",
     "parent_sku": "HARNESS",
     "category": [
-      "Gears",
-      "Accessories"
+      "gears",
+      "accessories"
     ],
     "desc": "Rental Harness Only",
     "images": [],
@@ -5175,13 +5158,11 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -5190,7 +5171,7 @@
     "sku": "FREEZE",
     "parent_sku": "FREEZE",
     "category": [
-      "Fees"
+      "fees"
     ],
     "desc": "Freezing membership per month",
     "images": [],
@@ -5208,16 +5189,17 @@
       "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Competitive Personal Coaching",
     "sku": "C_COACH",
     "parent_sku": "C_COACH",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "Personal coaching for competitive climbers",
     "images": [],
@@ -5232,11 +5214,11 @@
     ],
     "authority": [
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": false
   },
@@ -5245,7 +5227,7 @@
     "sku": "8435350219352",
     "parent_sku": "8435350219352",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5259,22 +5241,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA TANTA UL 2.5 (GREEN)",
     "sku": "8435350219369",
     "parent_sku": "8435350219369",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5288,19 +5267,20 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "TENAYA TANTA UK 3.5 (GREEN)",
     "sku": "8435350219383",
     "parent_sku": "8435350219383",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -5319,7 +5299,7 @@
       "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -5328,7 +5308,7 @@
     "sku": "8435350219437",
     "parent_sku": "8435350219437",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5342,8 +5322,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
@@ -5355,7 +5336,7 @@
     "sku": "8435350219406",
     "parent_sku": "8435350219406",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5369,7 +5350,7 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
@@ -5382,7 +5363,7 @@
     "sku": "8435350219444",
     "parent_sku": "8435350219444",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5396,20 +5377,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA TANTA UK 9 (GREEN)",
     "sku": "8435350219499",
     "parent_sku": "8435350219499",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5423,10 +5403,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": false
   },
@@ -5435,7 +5418,7 @@
     "sku": "8435350219505",
     "parent_sku": "8435350219505",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5454,6 +5437,7 @@
       "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -5463,7 +5447,7 @@
     "sku": "8435350213213",
     "parent_sku": "8435350213213",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5477,22 +5461,21 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA TANTA UK 5 (BLUE)",
     "sku": "8435350213237",
     "parent_sku": "8435350213237",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5506,12 +5489,13 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -5520,7 +5504,7 @@
     "sku": "8435350213251",
     "parent_sku": "8435350213251",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5534,22 +5518,21 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "TENAYA TANTA UK 7 (BLUE)",
     "sku": "8435350213275",
     "parent_sku": "8435350213275",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5563,22 +5546,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "TENAYA TANTA UK 7.5 (BLUE)",
     "sku": "8435350213282",
     "parent_sku": "8435350213282",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5592,12 +5573,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": false
   },
@@ -5606,7 +5587,7 @@
     "sku": "8435350213299",
     "parent_sku": "8435350213299",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5620,21 +5601,20 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "TENAYA TANTA UK 8.5 (BLUE)",
     "sku": "8435350213305",
     "parent_sku": "8435350213305",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -5648,9 +5628,9 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
       "GYM",
@@ -5663,7 +5643,7 @@
     "sku": "C_COACH_10",
     "parent_sku": "C_COACH_10",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": "10 times coaching sessions - Valid for 2 months",
     "images": [],
@@ -5677,22 +5657,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "THE TAPPING TAPIR- APPLE & VANILLA",
     "sku": "9555807600546",
     "parent_sku": "9555807600546",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5706,21 +5683,22 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "THE TAPPING TAPIR- ORANGE &JASMINE",
     "sku": "9555807600553",
     "parent_sku": "9555807600553",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5734,11 +5712,12 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -5747,7 +5726,7 @@
     "sku": "9555807600539",
     "parent_sku": "9555807600539",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5761,20 +5740,22 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "THE TAPPING TAPIR- LEMONADE & LENGKUAS",
     "sku": "9555807600560",
     "parent_sku": "9555807600560",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5788,19 +5769,20 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "store": [
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "100 PLUS",
     "sku": "9556570311134",
     "parent_sku": "9556570311134",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5814,10 +5796,11 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -5826,7 +5809,7 @@
     "sku": "ROPE",
     "parent_sku": "ROPE",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -5840,11 +5823,10 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
+      "GYM",
       "ONLINE"
     ],
     "enable": true
@@ -5854,7 +5836,7 @@
     "sku": "BELAY",
     "parent_sku": "BELAY",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -5868,11 +5850,11 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": false
   },
@@ -5881,7 +5863,7 @@
     "sku": "9369998041411",
     "parent_sku": "9369998041411",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5896,11 +5878,9 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -5910,7 +5890,7 @@
     "sku": "9369998026906",
     "parent_sku": "9369998026906",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -5924,13 +5904,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -5939,7 +5917,7 @@
     "sku": "bigbrush",
     "parent_sku": "bigbrush",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Rockover Brush",
     "images": [],
@@ -5953,21 +5931,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Small Brush Rockover",
     "sku": "smallbrush",
     "parent_sku": "smallbrush",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": "Small rockover brush",
     "images": [],
@@ -5981,22 +5957,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rope Rental",
     "sku": "ROPERENTAL",
     "parent_sku": "ROPERENTAL",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6010,22 +5983,21 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Rave Strap (Red) US 8.5/UK 7.5",
     "sku": "6950799023695",
     "parent_sku": "6950799023695",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6039,22 +6011,20 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave Strap (Purple) US 7.5/UK 6.5",
     "sku": "6950799027501",
     "parent_sku": "6950799027501",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6068,20 +6038,20 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave Strap (Blue) US 6.5/ UK 5.5",
     "sku": "6950799023930",
     "parent_sku": "6950799023930",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6095,20 +6065,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave Strap (Purple) US 7.0/ UK 6.0",
     "sku": "6950799027495",
     "parent_sku": "6950799027495",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6122,8 +6092,7 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
@@ -6135,7 +6104,7 @@
     "sku": "6950799023985",
     "parent_sku": "6950799023985",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6150,10 +6119,9 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -6163,7 +6131,7 @@
     "sku": "7613119000798",
     "parent_sku": "7613119000798",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6177,9 +6145,8 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
       "GYM",
@@ -6192,35 +6159,7 @@
     "sku": "7613119000880",
     "parent_sku": "7613119000880",
     "category": [
-      "Gears"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 145,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "BOBO",
-    "sku": "7613119000408",
-    "parent_sku": "7613119000408",
-    "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6243,11 +6182,11 @@
     "enable": true
   },
   {
-    "name": "FELIX",
-    "sku": "7613119000019",
-    "parent_sku": "7613119000019",
+    "name": "BOBO",
+    "sku": "7613119000408",
+    "parent_sku": "7613119000408",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6261,8 +6200,91 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "ADMIN",
       "MANAGER",
+      "STAFF"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "FELIX",
+    "sku": "7613119000019",
+    "parent_sku": "7613119000019",
+    "category": [
+      "gears"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 145,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": false
+  },
+  {
+    "name": "MORITZ",
+    "sku": "7613119000095",
+    "parent_sku": "7613119000095",
+    "category": [
+      "gears"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 145,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "LAUREL",
+    "sku": "7613119001481",
+    "parent_sku": "7613119001481",
+    "category": [
+      "gears"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 145,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "store": [
@@ -6272,11 +6294,11 @@
     "enable": true
   },
   {
-    "name": "MORITZ",
-    "sku": "7613119000095",
-    "parent_sku": "7613119000095",
+    "name": "Rave Strap (Red) US 8.0/UK 7.0",
+    "sku": "6950799023688",
+    "parent_sku": "6950799023688",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6284,7 +6306,64 @@
     "unit_price": [
       {
         "currency": "MYR",
-        "value": 145,
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Rave Strap (Purple) US 8.5/ UK 7.5",
+    "sku": "6950799027525",
+    "parent_sku": "6950799027525",
+    "category": [
+      "gears"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "TENAYA TANTA GREEN UK8 US9",
+    "sku": "8435350219475",
+    "parent_sku": "8435350219475",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
         "quantity": 1,
         "unit": "pc"
       }
@@ -6301,11 +6380,11 @@
     "enable": true
   },
   {
-    "name": "LAUREL",
-    "sku": "7613119001481",
-    "parent_sku": "7613119001481",
+    "name": "TENAYA BLUE UK3 US4",
+    "sku": "8435350213190",
+    "parent_sku": "8435350213190",
     "category": [
-      "Gears"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -6313,7 +6392,7 @@
     "unit_price": [
       {
         "currency": "MYR",
-        "value": 145,
+        "value": 459,
         "quantity": 1,
         "unit": "pc"
       }
@@ -6322,17 +6401,16 @@
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
   {
-    "name": "Rave Strap (Red) US 8.0/UK 7.0",
-    "sku": "6950799023688",
-    "parent_sku": "6950799023688",
+    "name": "Tenaya Tanta UK7.5 Green",
+    "sku": "8435350219468",
+    "parent_sku": "8435350219468",
     "category": [
-      "Gears"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -6340,26 +6418,25 @@
     "unit_price": [
       {
         "currency": "MYR",
-        "value": 285,
+        "value": 459,
         "quantity": 1,
         "unit": "pc"
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "store": [
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
-    "name": "Rave Strap (Purple) US 8.5/ UK 7.5",
-    "sku": "6950799027525",
-    "parent_sku": "6950799027525",
+    "name": "Tenaya Tanta UK9 (Blue)",
+    "sku": "8435350213312",
+    "parent_sku": "8435350213312",
     "category": [
-      "Gears"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -6367,7 +6444,7 @@
     "unit_price": [
       {
         "currency": "MYR",
-        "value": 285,
+        "value": 459,
         "quantity": 1,
         "unit": "pc"
       }
@@ -6376,124 +6453,17 @@
       "STAFF"
     ],
     "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
-    "name": "TENAYA TANTA GREEN UK8 US9",
-    "sku": "8435350219475",
-    "parent_sku": "8435350219475",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 459,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER"
-    ],
-    "store": [
       "ONLINE",
       "GYM"
     ],
     "enable": true
-  },
-  {
-    "name": "TENAYA BLUE UK3 US4",
-    "sku": "8435350213190",
-    "parent_sku": "8435350213190",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 459,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Tenaya Tanta UK7.5 Green",
-    "sku": "8435350219468",
-    "parent_sku": "8435350219468",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 459,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "MANAGER"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Tenaya Tanta UK9 (Blue)",
-    "sku": "8435350213312",
-    "parent_sku": "8435350213312",
-    "category": [
-      "Shoes"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 459,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": false
   },
   {
     "name": "Barebells Chocolate Milkshake",
     "sku": "7340001800944",
     "parent_sku": "7340001800944",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": "Chocolate milkshake",
     "images": [],
@@ -6507,10 +6477,11 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -6519,7 +6490,7 @@
     "sku": "7340131601947",
     "parent_sku": "7340131601947",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": "Nocco Limon Del Sol",
     "images": [],
@@ -6534,21 +6505,21 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Barebells Salty Peanut Bar",
     "sku": "7340001800883",
     "parent_sku": "7340001800883",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": "Barebells Salty Peanut Bar",
     "images": [],
@@ -6562,12 +6533,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "ADMIN",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -6576,7 +6548,7 @@
     "sku": "0739339973203",
     "parent_sku": "0739339973203",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6591,21 +6563,19 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "French Vanilla Ice Cream",
     "sku": "0739339973081",
     "parent_sku": "0739339973081",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6634,90 +6604,7 @@
     "sku": "0739339973098",
     "parent_sku": "0739339973098",
     "category": [
-      "Food and Drinks"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 9,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Gula Melaka Ice Cream",
-    "sku": "0739339973135",
-    "parent_sku": "0739339973135",
-    "category": [
-      "Food and Drinks"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 9,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Salted Egg Oreo Ice Cream",
-    "sku": "0739339973142",
-    "parent_sku": "0739339973142",
-    "category": [
-      "Food and Drinks"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 9,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "White Coffee Ice Cream",
-    "sku": "0739339973159",
-    "parent_sku": "0739339973159",
-    "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6732,8 +6619,8 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
       "ONLINE"
@@ -6741,11 +6628,38 @@
     "enable": true
   },
   {
-    "name": "Soursop Ice Cream",
-    "sku": "0739339973166",
-    "parent_sku": "0739339973166",
+    "name": "Gula Melaka Ice Cream",
+    "sku": "0739339973135",
+    "parent_sku": "0739339973135",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "store": [
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Salted Egg Oreo Ice Cream",
+    "sku": "0739339973142",
+    "parent_sku": "0739339973142",
+    "category": [
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6760,6 +6674,60 @@
     ],
     "authority": [
       "ADMIN"
+    ],
+    "store": [
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "White Coffee Ice Cream",
+    "sku": "0739339973159",
+    "parent_sku": "0739339973159",
+    "category": [
+      "food-and-drinks"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "store": [
+      "ONLINE",
+      "GYM"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Soursop Ice Cream",
+    "sku": "0739339973166",
+    "parent_sku": "0739339973166",
+    "category": [
+      "food-and-drinks"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER"
     ],
     "store": [
       "ONLINE",
@@ -6772,36 +6740,7 @@
     "sku": "739339973524",
     "parent_sku": "739339973524",
     "category": [
-      "Food and Drinks"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 9,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
-    ],
-    "store": [
-      "ONLINE",
-      "GYM"
-    ],
-    "enable": false
-  },
-  {
-    "name": "Strawberry Ice Cream",
-    "sku": "0739339973197",
-    "parent_sku": "0739339973197",
-    "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6816,6 +6755,35 @@
     ],
     "authority": [
       "STAFF"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
+    "name": "Strawberry Ice Cream",
+    "sku": "0739339973197",
+    "parent_sku": "0739339973197",
+    "category": [
+      "food-and-drinks"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
@@ -6828,7 +6796,7 @@
     "sku": "Rich Chocolate Ice Cream",
     "parent_sku": "Rich Chocolate Ice Cream",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -6842,12 +6810,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -6856,7 +6824,7 @@
     "sku": "Panjat Teh Ais",
     "parent_sku": "Panjat Teh Ais",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -6870,10 +6838,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -6882,7 +6853,7 @@
     "sku": "Panjat Snacks",
     "parent_sku": "Panjat Snacks",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -6897,12 +6868,11 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -6911,7 +6881,7 @@
     "sku": "10 Sessions Personal Coach",
     "parent_sku": "10 Sessions Personal Coach",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": null,
     "images": [],
@@ -6925,8 +6895,8 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "store": [
@@ -6939,7 +6909,7 @@
     "sku": "6941193775310",
     "parent_sku": "6941193775310",
     "category": [
-      "Gears"
+      "gears"
     ],
     "desc": null,
     "images": [],
@@ -6954,11 +6924,10 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": true
@@ -6968,7 +6937,7 @@
     "sku": "8435350213244",
     "parent_sku": "8435350213244",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -6982,21 +6951,21 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Lead Belay Service",
     "sku": "LEADBELAYSERVICE",
     "parent_sku": "LEADBELAYSERVICE",
     "category": [
-      "Classes"
+      "classes"
     ],
     "desc": null,
     "images": [],
@@ -7010,21 +6979,19 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Drinking Water",
     "sku": "9555888500124",
     "parent_sku": "9555888500124",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -7038,12 +7005,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -7052,7 +7018,7 @@
     "sku": "climbing_holds",
     "parent_sku": "climbing_holds",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7066,11 +7032,11 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -7079,7 +7045,7 @@
     "sku": "tnuts",
     "parent_sku": "tnuts",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7093,20 +7059,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Hanger",
     "sku": "hanger",
     "parent_sku": "hanger",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7120,20 +7086,21 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Panjat Black",
     "sku": "Panjat Black",
     "parent_sku": "Panjat Black",
     "category": [
-      "T-shirts"
+      "t-shirts"
     ],
     "desc": null,
     "images": [],
@@ -7147,34 +7114,7 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
-    ],
-    "store": [
-      "GYM",
-      "ONLINE"
-    ],
-    "enable": true
-  },
-  {
-    "name": "Panjat Nasi Lemah",
-    "sku": "Panjat Nasi Lemah",
-    "parent_sku": "Panjat Nasi Lemah",
-    "category": [
-      "T-shirts"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 55,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
@@ -7185,11 +7125,38 @@
     "enable": true
   },
   {
+    "name": "Panjat Nasi Lemah",
+    "sku": "Panjat Nasi Lemah",
+    "parent_sku": "Panjat Nasi Lemah",
+    "category": [
+      "t-shirts"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 55,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": true
+  },
+  {
     "name": "Tenaya Tanta (Green) UK 8.5/US 9.5",
     "sku": "8435350219482",
     "parent_sku": "8435350219482",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7203,20 +7170,21 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
       "GYM",
       "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Tenaya Tanta (Blue) UK 9.5/ US 10.5",
     "sku": "8435350213329",
     "parent_sku": "8435350213329",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7230,20 +7198,21 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Tenaya Indalo UK 6/ US 7",
     "sku": "8435350218034",
     "parent_sku": "8435350218034",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7257,12 +7226,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
     "enable": true
   },
@@ -7271,7 +7241,7 @@
     "sku": "8435350218041",
     "parent_sku": "8435350218041",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7298,7 +7268,7 @@
     "sku": "8435350213763",
     "parent_sku": "8435350213763",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7312,19 +7282,22 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Tenaya Indalo UK 7.5/ US 8.5",
     "sku": "8435350218065",
     "parent_sku": "8435350218065",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7342,16 +7315,17 @@
       "ADMIN"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Tenaya Indalo UK 7.0/ US 8.0",
     "sku": "8435350218058",
     "parent_sku": "8435350218058",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7366,8 +7340,7 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
       "GYM",
@@ -7380,7 +7353,7 @@
     "sku": "8435350213794",
     "parent_sku": "8435350213794",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7394,6 +7367,8 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "store": [
@@ -7407,7 +7382,7 @@
     "sku": "8435350213756",
     "parent_sku": "8435350213756",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7421,22 +7396,20 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Tenaya Mastia UK 7.0/ US 8.0",
     "sku": "8435350214272",
     "parent_sku": "8435350214272",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7450,13 +7423,11 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -7465,7 +7436,7 @@
     "sku": "8435350214234",
     "parent_sku": "8435350214234",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7480,6 +7451,33 @@
     ],
     "authority": [
       "ADMIN",
+      "MANAGER"
+    ],
+    "store": [
+      "GYM",
+      "ONLINE"
+    ],
+    "enable": false
+  },
+  {
+    "name": "Ocun Lucky Chalkbag Shoes Blue",
+    "sku": "8591804651977",
+    "parent_sku": "8591804651977",
+    "category": [
+      "accessories"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 85,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "authority": [
       "STAFF",
       "MANAGER"
     ],
@@ -7489,39 +7487,11 @@
     "enable": true
   },
   {
-    "name": "Ocun Lucky Chalkbag Shoes Blue",
-    "sku": "8591804651977",
-    "parent_sku": "8591804651977",
-    "category": [
-      "Accessories"
-    ],
-    "desc": null,
-    "images": [],
-    "size": null,
-    "unit_price": [
-      {
-        "currency": "MYR",
-        "value": 85,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    ],
-    "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
-    ],
-    "store": [
-      "ONLINE"
-    ],
-    "enable": false
-  },
-  {
     "name": "Ocun Lucky Chalkbag Shoes Turquoise",
     "sku": "8591804651984",
     "parent_sku": "8591804651984",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7535,21 +7505,20 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "ClimbX Fix Chalkbag Yellow/Black",
     "sku": "6950799019018",
     "parent_sku": "6950799019018",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7563,22 +7532,22 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "ClimbX Fix Chalkbag Blue",
     "sku": "6950799019025",
     "parent_sku": "6950799019025",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7593,10 +7562,9 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
-      "ONLINE",
       "GYM"
     ],
     "enable": false
@@ -7606,7 +7574,7 @@
     "sku": "6950799019001",
     "parent_sku": "6950799019001",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7620,21 +7588,21 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "store": [
+      "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Rave Strap (Grey) UK 5.5/ US 6.5",
     "sku": "6950799023374",
     "parent_sku": "6950799023374",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7648,11 +7616,11 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
     "enable": true
   },
@@ -7661,7 +7629,7 @@
     "sku": "6950799027532",
     "parent_sku": "6950799027532",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7675,12 +7643,12 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -7689,7 +7657,7 @@
     "sku": "6950799023381",
     "parent_sku": "6950799023381",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7704,10 +7672,11 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": false
   },
@@ -7716,7 +7685,7 @@
     "sku": "6950799023404",
     "parent_sku": "6950799023404",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": "",
     "images": [],
@@ -7730,11 +7699,12 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -7743,7 +7713,7 @@
     "sku": "6950799020335",
     "parent_sku": "6950799020335",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7757,20 +7727,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "store": [
       "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Red Point Strap UK 3.0/ US 4.0",
     "sku": "6950799020359",
     "parent_sku": "6950799020359",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7784,20 +7753,20 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
       "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Red Point Strap UK 11.5/ US 12.5",
     "sku": "6950799020526",
     "parent_sku": "6950799020526",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7811,7 +7780,6 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
       "MANAGER"
     ],
@@ -7825,7 +7793,7 @@
     "sku": "6950799020519",
     "parent_sku": "6950799020519",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7840,6 +7808,7 @@
     ],
     "authority": [
       "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
@@ -7853,7 +7822,7 @@
     "sku": "6950799020342",
     "parent_sku": "6950799020342",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7867,20 +7836,22 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "ONLINE",
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Red Point Strap UK 4.5/ US 5.5",
     "sku": "6950799020380",
     "parent_sku": "6950799020380",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7894,12 +7865,12 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "GYM",
-      "ONLINE"
+      "GYM"
     ],
     "enable": true
   },
@@ -7908,7 +7879,7 @@
     "sku": "6950799020496",
     "parent_sku": "6950799020496",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -7922,19 +7893,20 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "DMM Tube Chalk Bag Red",
     "sku": "CB31RD",
     "parent_sku": "CB31RD",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7948,9 +7920,7 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "store": [
       "ONLINE"
@@ -7962,7 +7932,7 @@
     "sku": "CB31BL",
     "parent_sku": "CB31BL",
     "category": [
-      "Accessories"
+      "accessories"
     ],
     "desc": null,
     "images": [],
@@ -7976,20 +7946,20 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Tapping Tapir Grapefruit & Chamomile",
     "sku": "9555807600522",
     "parent_sku": "9555807600522",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -8003,10 +7973,11 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -8015,7 +7986,7 @@
     "sku": "9555807600515",
     "parent_sku": "9555807600515",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -8029,10 +8000,11 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
     "enable": true
   },
@@ -8041,7 +8013,7 @@
     "sku": "8435350217990",
     "parent_sku": "8435350217990",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -8055,19 +8027,21 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER"
     ],
     "store": [
-      "ONLINE"
+      "ONLINE",
+      "GYM"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "ClimbX Rave Red US7.5/UK6.5",
     "sku": "6950799023671",
     "parent_sku": "6950799023671",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -8081,19 +8055,21 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "store": [
       "GYM"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Mineral Water",
     "sku": "9556404101603",
     "parent_sku": "9556404101603",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -8107,8 +8083,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "store": [
       "GYM"
@@ -8120,7 +8097,7 @@
     "sku": "0739339973074",
     "parent_sku": "0739339973074",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -8134,19 +8111,21 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "store": [
-      "GYM"
+      "ONLINE"
     ],
-    "enable": true
+    "enable": false
   },
   {
     "name": "Pineapple & Calamansi",
     "sku": "9555807600577",
     "parent_sku": "9555807600577",
     "category": [
-      "Food and Drinks"
+      "food-and-drinks"
     ],
     "desc": null,
     "images": [],
@@ -8160,11 +8139,9 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": false
@@ -8174,7 +8151,7 @@
     "sku": "8435350213220",
     "parent_sku": "8435350213220",
     "category": [
-      "Shoes"
+      "shoes"
     ],
     "desc": null,
     "images": [],
@@ -8188,22 +8165,21 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "store": [
-      "ONLINE",
-      "GYM"
+      "GYM",
+      "ONLINE"
     ],
-    "enable": false
+    "enable": true
   },
   {
     "name": "Ticket Extension Admin Fee",
     "sku": "TICKET_EXTENSION_FEE",
     "parent_sku": "TICKET_EXTENSION_FEE",
     "category": [
-      "Fees"
+      "fees"
     ],
     "desc": "Admin fees for extending ticket expiry",
     "images": [],
@@ -8217,11 +8193,9 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "store": [
-      "GYM",
       "ONLINE"
     ],
     "enable": false

@@ -10,15 +10,14 @@ const generateMerchandisePath = path.join(__dirname, 'database', 'generateMercha
 // API endpoint where you want to post each merchandise item
 const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace with your actual API endpoint
 
-
 // Function to transform and extract the required fields from the merchandise data
 function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
   const stores = ['GYM', 'ONLINE'];
 
-  // Determine the number of store (1 to the total number of available roles)
+  // Determine the number of roles and stores
   const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
-  const numberOfStore = Math.floor(Math.random() * stores.length) + 1;
+  const numberOfStores = Math.floor(Math.random() * stores.length) + 1;
 
   // Select the roles
   const selectedRoles = [];
@@ -29,23 +28,31 @@ function transformMerchandiseData(merchandise) {
     }
   }
 
-  // Select the store
-  const selectedStore = [];
-  while (selectedStore.length < numberOfStore) {
+  // Select the stores
+  const selectedStores = [];
+  while (selectedStores.length < numberOfStores) {
     const store = faker.helpers.arrayElement(stores);
-    if (!selectedStore.includes(store)) {
-      selectedStore.push(store);
+    if (!selectedStores.includes(store)) {
+      selectedStores.push(store);
     }
   }
 
   // Generate random enable status
   const enable = faker.datatype.boolean();
 
+  // Ensure each category in the array is a string and handle lowercase and space replacement
+  let category = [];
+  if (Array.isArray(merchandise.category)) {
+    category = merchandise.category.map(cat =>
+      typeof cat === 'string' ? cat.toLowerCase().replace(/\s+/g, '-') : ''
+    ).filter(Boolean); // Remove empty strings
+  }
+
   return {
     name: merchandise.name,
     sku: merchandise._id,
     parent_sku: merchandise.parent_sku,
-    category: merchandise.category,
+    category: category, 
     desc: merchandise.desc,
     images: merchandise.img,
     size: merchandise.size,
@@ -55,9 +62,9 @@ function transformMerchandiseData(merchandise) {
       quantity: merchandise.unit_price.quantity,
       unit: merchandise.unit_price.unit
     }],
-    // Add generated authority and enable
+    // Add generated authority,enable and store
     authority: selectedRoles,
-    store: selectedStore,
+    store: selectedStores,
     enable: enable,
   };
 }
@@ -72,8 +79,7 @@ async function postData(url, data) {
   }
 }
 
-// Delay function to avoid rate limiting
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
 
 // Asynchronous function to transform, save, and post merchandise data
 async function transformSaveAndPostMerchandise() {
@@ -91,7 +97,6 @@ async function transformSaveAndPostMerchandise() {
     // Post each merchandise item to the API endpoint one by one
     for (const merchandise of transformedData) {
       await postData(apiUrl, merchandise);
-      await delay(1000); // Delay of 1 second between posts to avoid rate-limiting issues
     }
 
     console.log('All merchandise items posted successfully.');
