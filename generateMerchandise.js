@@ -13,7 +13,7 @@ const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace wi
 // Function to transform and extract the required fields from the merchandise data
 function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
-  const stores = ['GYM', 'ONLINE'];
+  const stores = ['BATUU_3DAMANASARA', 'ONLINE'];
 
   // Determine the number of roles and stores
   const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
@@ -64,7 +64,7 @@ function transformMerchandiseData(merchandise) {
     }],
     // Add generated authority,enable and store
     authority: selectedRoles,
-    store: selectedStores,
+    site: selectedStores,
     enable: enable,
   };
 }

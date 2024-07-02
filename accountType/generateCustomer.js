@@ -42,19 +42,6 @@ function generateRandomCustomer(statuses,identityTypes,genders) {
     phone: malaysianLocale.phone.phoneNumber(),
     DOB: faker.date.between({ from: '1950-01-01', to: '2003-12-31' }).toISOString(),
     gender: faker.helpers.arrayElement(genders),
-    tag: [
-      {
-        color: faker.internet.color(),
-        text: faker.lorem.word(),
-      }
-    ],
-    certs: [
-      {
-        name: faker.lorem.words(2),
-        date: faker.date.past().toISOString(),
-        certifier: faker.company.name(),
-      }
-    ],
     note: faker.hacker.phrase(),
     status: faker.helpers.arrayElement(statuses),
     enable: faker.datatype.boolean(),
