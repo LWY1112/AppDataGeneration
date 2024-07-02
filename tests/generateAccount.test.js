@@ -22,7 +22,23 @@ describe('generateAccounts tests', () => {
     const type = 'user';
 
     const roles = ['Admin', 'User'];
-    const userAccount = { name: 'Test User', role: ['Admin'] };
+    const userAccount = { "name": "Meghan Cruickshank",
+    "identity": {
+      "type": "PASSPORT",
+      "value": "688ecc8e-449d-439a-b93c-5a1d265d1f39"
+    },
+    "photo": "https://avatars.githubusercontent.com/u/60182470",
+    "email": "Cloyd_Zulauf-Conroy97@hotmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "157940617"
+    },
+    "DOB": "2001-04-15T01:43:11.917Z",
+    "gender": "FEMALE",
+    "note": "If we override the capacitor, we can get to the COM feed through the back-end COM application!",
+    "status": "INACTIVE",
+    "enable": false,
+    "uid": "103da30e-cec6-4670-8696-8a3eaa321948" };
 
     fetchRoles.mockResolvedValue(roles);
     generateRandomUser.mockReturnValue(userAccount);
