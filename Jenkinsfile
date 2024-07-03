@@ -5,6 +5,12 @@ pipeline {
         nodejs 'nodejs' // Ensure this matches the NodeJS installation name in Jenkins
     }
 
+    parameters {
+        choice(name: 'TEST_FILE', choices: ['all', 'tests/generateUser.test.js', 'tests/generateEmployee.test.js', 'tests/generateProduct.test.js', 'tests/generateCustomer.test.js'], description: 'Select the test file to run')
+        choice(name: 'TEST_CASE', choices: ['all', 'user', 'employee', 'customer'], description: 'Specify the test case to run within the test file')
+    }
+
+
     environment {
         FILE_PATH = 'database' // Folder where the JSON files will be saved
     }
@@ -24,19 +30,24 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
+        stage('Run Tests') {
             steps {
-                // Assuming you have unit tests configured with Jest
-                bat 'npm test'
+                script {
+                    def testFile = params.TEST_FILE
+                    def testCase = params.TEST_CASE
+
+                    if (testFile == 'all') {
+                        bat 'npx jest'
+                    } else {
+                        if (testCase == 'all') {
+                            bat "npx jest ${testFile}"
+                        } else {
+                            bat "npx jest ${testFile} -t '${testCase}'"
+                        }
+                    }
+                }
             }
         }
-
-        /*stage('Run Integration Tests') {
-            steps {
-                // Assuming you have integration tests configured with Jest
-                bat 'npm run test:integration'
-            }
-        }*/
 
         stage('Static Code Analysis') {
             steps {

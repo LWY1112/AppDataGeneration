@@ -17,7 +17,8 @@ describe('generateAccounts tests', () => {
     jest.resetAllMocks();
   });
 
-  test('generateAccounts generates user accounts and saves them to a file', async () => {
+  //generateAccounts generates user accounts and saves them to a file
+  test('user', async () => {
     const numAccounts = 2;
     const type = 'user';
 
@@ -53,7 +54,8 @@ describe('generateAccounts tests', () => {
     expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(__dirname, '../database', 'generated_user_accounts.json'), JSON.stringify([userAccount, userAccount], null, 2));
   });
 
-  test('generateAccounts generates employee accounts and saves them to a file', async () => {
+  //generateAccounts generates employee accounts and saves them to a file
+  test('employee', async () => {
     const numAccounts = 2;
     const type = 'employee';
 
@@ -74,7 +76,8 @@ describe('generateAccounts tests', () => {
     expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(__dirname, '../database', 'generated_employee_accounts.json'), JSON.stringify([employeeAccount, employeeAccount], null, 2));
   });
 
-  test('generateAccounts generates customer accounts and saves them to a file', async () => {
+  //generateAccounts generates customer accounts and saves them to a file
+  test('customer', async () => {
     const numAccounts = 2;
     const type = 'customer';
   
