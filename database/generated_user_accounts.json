@@ -493,5 +493,39 @@
       "STAFF",
       "ADMIN"
     ]
+  },
+  {
+    "_id": "Magnus79",
+    "email": "Zoie_Kshlerin59@gmail.com",
+    "enable": true,
+    "name": "Ernesto Schmitt",
+    "note": "We need to parse the bluetooth CSS capacitor!",
+    "password": "Lk9JrRf-p7",
+    "phone": {
+      "country_code": "60",
+      "number": "178923243"
+    },
+    "pin": "370995",
+    "role": [
+      "MANAGER",
+      "ADMIN"
+    ]
+  },
+  {
+    "_id": "Ernie71",
+    "email": "Makenna_Rogahn@gmail.com",
+    "enable": true,
+    "name": "Lorena Leuschke",
+    "note": "Try to calculate the CLI card, maybe it will transmit the solid state pixel!",
+    "password": "LvFzpRbkTj",
+    "phone": {
+      "country_code": "60",
+      "number": "181399589"
+    },
+    "pin": "097143",
+    "role": [
+      "MANAGER",
+      "ADMIN"
+    ]
   }
 ]

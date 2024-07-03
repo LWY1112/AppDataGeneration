@@ -587,5 +587,43 @@
     "status": "INACTIVE",
     "enable": false,
     "uid": "b1149b06-60cf-4f7c-af26-bb9bef5cf069"
+  },
+  {
+    "name": "Ottis Metz",
+    "identity": {
+      "type": "IC",
+      "value": "7805121767"
+    },
+    "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/470.jpg",
+    "email": "Albin.Reichert78@hotmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "185892126"
+    },
+    "DOB": "2000-12-09T04:59:03.451Z",
+    "gender": "FEMALE",
+    "note": "We need to input the online ASCII firewall!",
+    "status": "REGISTERED",
+    "enable": true,
+    "uid": "8c23fd3a-d602-4015-8a06-b9061c68b4da"
+  },
+  {
+    "name": "Izabella Franey",
+    "identity": {
+      "type": "IC",
+      "value": "8504021530"
+    },
+    "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+    "email": "Clinton.Daugherty@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "136188402"
+    },
+    "DOB": "2002-05-08T20:50:27.686Z",
+    "gender": "FEMALE",
+    "note": "calculating the protocol won't do anything, we need to synthesize the 1080p ADP capacitor!",
+    "status": "BANNED",
+    "enable": true,
+    "uid": "fb3e0e31-02ed-4890-9e11-9afe08f7cc78"
   }
 ]

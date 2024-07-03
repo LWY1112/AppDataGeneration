@@ -24,9 +24,9 @@ describe('generateUser.js tests', () => {
 
   test('fetchRoles calls the correct API endpoint and returns data', async () => {
     axios.get.mockResolvedValue({ data: roles });
-    const result = await fetchRoles('dummyEndpoint');
+    const result = await fetchRoles('https://batuu.sensoft.cloud:9889/role');
 
-    expect(axios.get).toHaveBeenCalledWith('dummyEndpoint');
+    expect(axios.get).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/role');
     expect(result).toEqual(roles);
   });
 });

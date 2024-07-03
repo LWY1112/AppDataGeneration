@@ -27,25 +27,25 @@ describe('generateCustomer.js tests', () => {
 
   test('fetchStatuses calls the correct API endpoint and returns data', async () => {
     axios.get.mockResolvedValue({ data: statuses });
-    const result = await fetchStatuses('dummyEndpoint');
+    const result = await fetchStatuses('https://batuu.sensoft.cloud:9889/v1/customers/status');
 
-    expect(axios.get).toHaveBeenCalledWith('dummyEndpoint');
+    expect(axios.get).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/v1/customers/status');
     expect(result).toEqual(statuses);
   });
 
   test('fetchIdentityTypes calls the correct API endpoint and returns data', async () => {
     axios.get.mockResolvedValue({ data: identityTypes });
-    const result = await fetchIdentityTypes('dummyEndpoint');
+    const result = await fetchIdentityTypes('https://batuu.sensoft.cloud:9889/identity_type');
 
-    expect(axios.get).toHaveBeenCalledWith('dummyEndpoint');
+    expect(axios.get).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/identity_type');
     expect(result).toEqual(identityTypes);
   });
 
   test('fetchGenders calls the correct API endpoint and returns data', async () => {
     axios.get.mockResolvedValue({ data: genders });
-    const result = await fetchGenders('dummyEndpoint');
+    const result = await fetchGenders('https://batuu.sensoft.cloud:9889/gender');
 
-    expect(axios.get).toHaveBeenCalledWith('dummyEndpoint');
+    expect(axios.get).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/gender');
     expect(result).toEqual(genders);
   });
 });

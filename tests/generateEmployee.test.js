@@ -19,9 +19,9 @@ describe('generateEmployee.js tests', () => {
 
   test('fetchPositions calls the correct API endpoint and returns data', async () => {
     axios.get.mockResolvedValue({ data: positions });
-    const result = await fetchPositions('dummyEndpoint');
+    const result = await fetchPositions('https://batuu.sensoft.cloud:9889/position');
 
-    expect(axios.get).toHaveBeenCalledWith('dummyEndpoint');
+    expect(axios.get).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/position');
     expect(result).toEqual(positions);
   });
 });

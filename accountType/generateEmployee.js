@@ -17,7 +17,7 @@ const malaysianLocale = {
 async function fetchPositions(apiEndpoint) {
   try {
     const response = await axios.get(apiEndpoint);
-    return response.data; // Assuming the API returns an array of positions
+    return response.data;
   } catch (error) {
     console.error('Error fetching positions:', error);
     return []; // Return an empty array if there's an error
