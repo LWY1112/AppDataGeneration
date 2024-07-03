@@ -6,7 +6,7 @@ pipeline {
     }
 
     parameters {
-        choice(name: 'TEST_FILE', choices: ['all', 'tests/generateUser.test.js', 'tests/generateEmployee.test.js', 'tests/generateProduct.test.js', 'tests/generateCustomer.test.js'], description: 'Select the test file to run')
+        choice(name: 'TEST_FILE', choices: ['all', 'tests/generateUser.test.js', 'tests/generateEmployee.test.js', 'tests/generateAccount.test.js', 'tests/generateCustomer.test.js'], description: 'Select the test file to run')
         choice(name: 'TEST_CASE', choices: ['all', 'user', 'employee', 'customer'], description: 'Specify the test case to run within the test file')
     }
 
