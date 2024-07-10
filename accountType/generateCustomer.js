@@ -25,11 +25,13 @@ function generateICNumber() {
 }
 
 // Function to generate a random customer
-function generateRandomCustomer(statuses,identityTypes,genders) {
+function generateRandomCustomer(statuses, identityTypes, genders, countries) {
   const firstName = faker.person.firstName();
   const lastName = faker.person.lastName();
   const identityType = faker.helpers.arrayElement(identityTypes);
   const identityValue = identityType === 'IC' ? generateICNumber() : faker.string.uuid();
+  const country = faker.helpers.arrayElement(countries);
+  const state = faker.helpers.arrayElement(country.states);
 
   return {
     name: `${firstName} ${lastName}`,
@@ -44,40 +46,48 @@ function generateRandomCustomer(statuses,identityTypes,genders) {
     gender: faker.helpers.arrayElement(genders),
     note: faker.hacker.phrase(),
     status: faker.helpers.arrayElement(statuses),
-    enable: faker.datatype.boolean(),
     uid: faker.string.uuid(),
+    address: {
+      street_1: faker.location.streetAddress(),
+      street_2: faker.location.secondaryAddress(),
+      city: faker.location.city(),
+      postcode: faker.location.zipCode(),
+      state: state,
+      country: country.name,
+    },
+    nationality: country.name,
   };
 }
 
-
-async function fetchStatuses(apiEndpoint) {
+// Function to fetch data from an API endpoint
+async function fetchData(apiEndpoint) {
   try {
     const response = await axios.get(apiEndpoint);
     return response.data;
   } catch (error) {
-    console.error('Error fetching statuses:', error);
-    return []; 
-  }
-}
-
-async function fetchIdentityTypes(apiEndpoint) {
-  try {
-    const response = await axios.get(apiEndpoint);
-    return response.data; 
-  } catch (error) {
-    console.error('Error fetching identity type:', error);
-    return []; 
-  }
-}
-
-async function fetchGenders(apiEndpoint) {
-  try {
-    const response = await axios.get(apiEndpoint);
-    return response.data; 
-  } catch (error) {
-    console.error('Error fetching gender:', error);
+    console.error(`Error fetching data from ${apiEndpoint}:`, error);
     return [];
   }
 }
 
-module.exports = { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders };
+// Fetch statuses from API
+async function fetchStatuses(apiEndpoint) {
+  return fetchData(apiEndpoint);
+}
+
+// Fetch identity types from API
+async function fetchIdentityTypes(apiEndpoint) {
+  return fetchData(apiEndpoint);
+}
+
+// Fetch genders from API
+async function fetchGenders(apiEndpoint) {
+  return fetchData(apiEndpoint);
+}
+
+// Fetch countries from API
+async function fetchCountries(apiEndpoint) {
+  return fetchData(apiEndpoint);
+}
+
+module.exports = { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders, fetchCountries };

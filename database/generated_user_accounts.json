@@ -527,5 +527,39 @@
       "MANAGER",
       "ADMIN"
     ]
+  },
+  {
+    "_id": "Melyna.Nader42",
+    "email": "Darrion.Morar@hotmail.com",
+    "enable": true,
+    "name": "Ivy Kessler",
+    "note": "Try to navigate the TCP sensor, maybe it will synthesize the bluetooth transmitter!",
+    "password": "3e9_o7CXbI",
+    "phone": {
+      "country_code": "60",
+      "number": "103953323"
+    },
+    "pin": "166930",
+    "role": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ]
+  },
+  {
+    "_id": "Beau42",
+    "email": "Kristy.Schowalter@hotmail.com",
+    "enable": false,
+    "name": "Donnie Bernhard",
+    "note": "If we bypass the interface, we can get to the API matrix through the primary DNS interface!",
+    "password": "LJ9kLLVFWn",
+    "phone": {
+      "country_code": "60",
+      "number": "159223251"
+    },
+    "pin": "323203",
+    "role": [
+      "STAFF"
+    ]
   }
 ]
