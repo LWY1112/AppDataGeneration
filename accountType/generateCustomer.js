@@ -17,7 +17,7 @@ const malaysianLocale = {
 
 // Function to generate a random shoe size
 function generateShoeSize() {
-  const sizes = ["UK6", "UK7", "UK8", "UK9", "UK10", "US6", "US7", "US8", "US9", "US10", ""];
+  const sizes = ['UK6', 'UK7', 'UK8', 'UK9', 'UK10', 'US6', 'US7', 'US8', 'US9', 'US10', ''];
   return faker.helpers.arrayElement(sizes);
 }
 
