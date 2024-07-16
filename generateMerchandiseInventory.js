@@ -2,11 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
 const { faker } = require('@faker-js/faker/locale/en');
+const XLSX = require('xlsx');
 
 // API endpoints
 const merchandisesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/merchandises/list/ADMIN';
 const sitesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/sites/list/POS';
-const generateInventoryPath = path.join(__dirname, 'database', 'generateMerchandiseInventory.json');
+const generateInventoryJsonPath = path.join(__dirname, 'database', 'generateMerchandiseInventory.json');
+const generateInventoryExcelPath = path.join(__dirname, 'database', 'generateMerchandiseInventory.xlsx');
 
 // Function to fetch merchandises from API
 async function fetchMerchandises() {
@@ -58,8 +60,23 @@ async function generateMerchandiseInventory(numItems) {
     const inventoryItems = selectedMerchandises.map(merchandise => generateRandomInventoryItem(merchandise, sitesList));
 
     // Save the generated inventory to a JSON file
-    fs.writeFileSync(generateInventoryPath, JSON.stringify(inventoryItems, null, 2));
-    console.log(`Successfully saved ${numItems} inventory items to ${generateInventoryPath}`);
+    fs.writeFileSync(generateInventoryJsonPath, JSON.stringify(inventoryItems, null, 2));
+    console.log(`Successfully saved ${numItems} inventory items to ${generateInventoryJsonPath}`);
+
+    // Simplify inventory items for Excel file
+    const excelInventoryItems = inventoryItems.map(({ site, sku, quantity, remark }) => ({
+      site,
+      sku,
+      quantity,
+      remark,
+    }));
+
+    // Save the simplified inventory to an Excel file
+    const worksheet = XLSX.utils.json_to_sheet(excelInventoryItems);
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, 'Inventory');
+    XLSX.writeFile(workbook, generateInventoryExcelPath);
+    console.log(`Successfully saved ${numItems} inventory items to ${generateInventoryExcelPath}`);
   } catch (error) {
     console.error('Error generating merchandise inventory:', error.message);
   }

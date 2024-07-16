@@ -15,6 +15,12 @@ const malaysianLocale = {
   },
 };
 
+// Function to generate a random shoe size
+function generateShoeSize() {
+  const sizes = ["UK6", "UK7", "UK8", "UK9", "UK10", "US6", "US7", "US8", "US9", "US10", ""];
+  return faker.helpers.arrayElement(sizes);
+}
+
 // Function to generate a Malaysian IC number
 function generateICNumber() {
   const year = String(faker.number.int({ min: 1950, max: 2003 })).substr(-2);
@@ -56,6 +62,7 @@ function generateRandomCustomer(statuses, identityTypes, genders, countries) {
       country: country.name,
     },
     nationality: country.name,
+    shoe_size: generateShoeSize(),
   };
 }
 

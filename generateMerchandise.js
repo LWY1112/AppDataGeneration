@@ -10,6 +10,8 @@ const generateMerchandisePath = path.join(__dirname, 'database', 'generateMercha
 // API endpoint where you want to post each merchandise item
 const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace with your actual API endpoint
 
+let sequenceCounter = 1;
+
 // Function to transform and extract the required fields from the merchandise data
 function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
@@ -37,8 +39,11 @@ function transformMerchandiseData(merchandise) {
     }
   }
 
-  // Generate random enable status
+  // Generate random enable and stockable status
   const enable = faker.datatype.boolean();
+  
+
+  const sequence = sequenceCounter++;
 
   // Ensure each category in the array is a string and handle lowercase and space replacement
   let category = [];
@@ -62,10 +67,11 @@ function transformMerchandiseData(merchandise) {
       quantity: merchandise.unit_price.quantity,
       unit: merchandise.unit_price.unit
     }],
-    // Add generated authority,enable and store
+    // Add generated info
     authority: selectedRoles,
     site: selectedStores,
     enable: enable,
+    sequence: sequence,
   };
 }
 
