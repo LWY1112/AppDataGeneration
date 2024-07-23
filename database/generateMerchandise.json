@@ -18,16 +18,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 1
   },
   {
@@ -49,14 +46,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 2
   },
   {
@@ -79,14 +76,14 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 3
   },
   {
@@ -110,14 +107,14 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 4
   },
   {
@@ -139,14 +136,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 5
   },
   {
@@ -168,13 +165,13 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 6
   },
   {
@@ -197,14 +194,12 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 7
   },
   {
@@ -226,13 +221,12 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 8
   },
   {
@@ -254,14 +248,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 9
   },
   {
@@ -283,16 +276,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 10
   },
   {
@@ -314,13 +303,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 11
   },
   {
@@ -342,16 +331,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 12
   },
   {
@@ -378,8 +364,7 @@
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 13
   },
   {
@@ -401,15 +386,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 14
   },
   {
@@ -431,13 +414,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 15
   },
   {
@@ -459,13 +442,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 16
   },
   {
@@ -487,16 +471,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 17
   },
   {
@@ -522,11 +504,10 @@
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 18
   },
   {
@@ -548,14 +529,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 19
   },
   {
@@ -577,13 +558,15 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 20
   },
   {
@@ -605,15 +588,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 21
   },
   {
@@ -636,14 +618,13 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 22
   },
   {
@@ -665,14 +646,15 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 23
   },
   {
@@ -694,15 +676,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 24
   },
   {
@@ -724,14 +706,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 25
   },
   {
@@ -754,13 +736,13 @@
     ],
     "authority": [
       "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 26
   },
   {
@@ -782,14 +764,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 27
   },
   {
@@ -811,14 +792,14 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 28
   },
   {
@@ -840,15 +821,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 29
   },
   {
@@ -870,14 +849,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 30
   },
   {
@@ -899,14 +877,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 31
   },
   {
@@ -928,15 +906,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 32
   },
   {
@@ -958,15 +934,15 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 33
   },
   {
@@ -988,13 +964,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 34
   },
   {
@@ -1016,14 +993,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 35
   },
   {
@@ -1045,15 +1023,15 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 36
   },
   {
@@ -1075,16 +1053,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 37
   },
   {
@@ -1106,15 +1082,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 38
   },
   {
@@ -1136,14 +1111,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 39
   },
   {
@@ -1165,15 +1140,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 40
   },
   {
@@ -1195,14 +1168,14 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 41
   },
   {
@@ -1224,14 +1197,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 42
   },
   {
@@ -1253,14 +1226,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 43
   },
   {
@@ -1287,11 +1260,10 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 44
   },
   {
@@ -1313,14 +1285,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 45
   },
   {
@@ -1342,14 +1314,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 46
   },
   {
@@ -1371,13 +1341,15 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 47
   },
   {
@@ -1399,14 +1371,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 48
   },
   {
@@ -1428,15 +1400,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 49
   },
   {
@@ -1458,14 +1428,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 50
   },
   {
@@ -1488,13 +1458,13 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 51
   },
   {
@@ -1517,15 +1487,13 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 52
   },
   {
@@ -1547,15 +1515,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 53
   },
   {
@@ -1577,13 +1543,15 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 54
   },
   {
@@ -1605,15 +1573,14 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 55
   },
   {
@@ -1635,15 +1602,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 56
   },
   {
@@ -1665,16 +1631,14 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "ADMIN",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 57
   },
   {
@@ -1705,7 +1669,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 58
   },
   {
@@ -1727,14 +1690,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 59
   },
   {
@@ -1756,14 +1718,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 60
   },
   {
@@ -1785,14 +1746,14 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 61
   },
   {
@@ -1814,15 +1775,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 62
   },
   {
@@ -1844,13 +1803,15 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 63
   },
   {
@@ -1872,13 +1833,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 64
   },
   {
@@ -1900,15 +1861,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 65
   },
   {
@@ -1930,14 +1888,13 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 66
   },
   {
@@ -1959,6 +1916,7 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
@@ -1966,7 +1924,6 @@
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 67
   },
   {
@@ -1988,15 +1945,14 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 68
   },
   {
@@ -2019,14 +1975,12 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 69
   },
   {
@@ -2048,15 +2002,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 70
   },
   {
@@ -2078,16 +2030,15 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 71
   },
   {
@@ -2109,13 +2060,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 72
   },
   {
@@ -2137,15 +2088,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 73
   },
   {
@@ -2168,14 +2117,13 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 74
   },
   {
@@ -2197,16 +2145,14 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 75
   },
   {
@@ -2228,15 +2174,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 76
   },
   {
@@ -2258,15 +2202,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 77
   },
   {
@@ -2288,16 +2231,15 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 78
   },
   {
@@ -2319,16 +2261,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 79
   },
   {
@@ -2350,16 +2288,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 80
   },
   {
@@ -2384,10 +2319,10 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 81
   },
   {
@@ -2409,13 +2344,13 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 82
   },
   {
@@ -2437,14 +2372,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 83
   },
   {
@@ -2473,8 +2408,7 @@
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 84
   },
   {
@@ -2497,14 +2431,13 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 85
   },
   {
@@ -2527,14 +2460,12 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 86
   },
   {
@@ -2556,14 +2487,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 87
   },
   {
@@ -2588,10 +2519,10 @@
       "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 88
   },
   {
@@ -2613,14 +2544,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 89
   },
   {
@@ -2642,13 +2572,15 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 90
   },
   {
@@ -2670,14 +2602,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 91
   },
   {
@@ -2699,14 +2630,14 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 92
   },
   {
@@ -2728,16 +2659,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 93
   },
   {
@@ -2759,16 +2686,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 94
   },
   {
@@ -2790,13 +2714,14 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 95
   },
   {
@@ -2818,14 +2743,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 96
   },
   {
@@ -2848,14 +2773,12 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 97
   },
   {
@@ -2877,15 +2800,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 98
   },
   {
@@ -2907,16 +2828,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 99
   },
   {
@@ -2942,10 +2860,10 @@
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 100
   },
   {
@@ -2967,15 +2885,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 101
   },
   {
@@ -2997,15 +2914,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 102
   },
   {
@@ -3027,13 +2941,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 103
   },
   {
@@ -3056,14 +2970,13 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 104
   },
   {
@@ -3085,14 +2998,14 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 105
   },
   {
@@ -3114,14 +3027,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 106
   },
   {
@@ -3143,14 +3055,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 107
   },
   {
@@ -3172,13 +3083,12 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 108
   },
   {
@@ -3200,15 +3110,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 109
   },
   {
@@ -3230,15 +3138,15 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 110
   },
   {
@@ -3260,14 +3168,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 111
   },
   {
@@ -3289,15 +3197,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 112
   },
   {
@@ -3319,13 +3225,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 113
   },
   {
@@ -3347,14 +3254,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 114
   },
   {
@@ -3377,14 +3284,13 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 115
   },
   {
@@ -3406,14 +3312,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 116
   },
   {
@@ -3435,16 +3341,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 117
   },
   {
@@ -3466,15 +3370,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 118
   },
   {
@@ -3496,8 +3398,8 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
@@ -3505,7 +3407,6 @@
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 119
   },
   {
@@ -3527,13 +3428,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 120
   },
   {
@@ -3555,13 +3456,15 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 121
   },
   {
@@ -3583,15 +3486,12 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 122
   },
   {
@@ -3613,16 +3513,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 123
   },
   {
@@ -3644,15 +3543,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 124
   },
   {
@@ -3674,14 +3571,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 125
   },
   {
@@ -3703,13 +3599,13 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 126
   },
   {
@@ -3731,15 +3627,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 127
   },
   {
@@ -3761,14 +3654,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 128
   },
   {
@@ -3790,16 +3682,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 129
   },
   {
@@ -3821,14 +3710,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 130
   },
   {
@@ -3850,14 +3738,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 131
   },
   {
@@ -3879,16 +3766,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 132
   },
   {
@@ -3910,14 +3794,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 133
   },
   {
@@ -3939,15 +3822,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 134
   },
   {
@@ -3969,13 +3850,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 135
   },
   {
@@ -3997,16 +3879,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 136
   },
   {
@@ -4028,16 +3909,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 137
   },
   {
@@ -4059,13 +3937,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 138
   },
   {
@@ -4087,13 +3965,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 139
   },
   {
@@ -4115,13 +3993,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 140
   },
   {
@@ -4143,14 +4021,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 141
   },
   {
@@ -4172,15 +4049,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 142
   },
   {
@@ -4202,15 +4077,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 143
   },
   {
@@ -4232,15 +4104,14 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 144
   },
   {
@@ -4262,15 +4133,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 145
   },
   {
@@ -4293,13 +4162,13 @@
     ],
     "authority": [
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 146
   },
   {
@@ -4321,15 +4190,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 147
   },
   {
@@ -4351,14 +4217,14 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 148
   },
   {
@@ -4380,15 +4246,15 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 149
   },
   {
@@ -4410,15 +4276,14 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 150
   },
   {
@@ -4440,15 +4305,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 151
   },
   {
@@ -4470,15 +4333,15 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 152
   },
   {
@@ -4501,14 +4364,13 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 153
   },
   {
@@ -4530,15 +4392,14 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 154
   },
   {
@@ -4560,14 +4421,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 155
   },
   {
@@ -4589,16 +4450,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 156
   },
   {
@@ -4620,15 +4478,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 157
   },
   {
@@ -4650,15 +4508,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 158
   },
   {
@@ -4680,14 +4538,14 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 159
   },
   {
@@ -4709,16 +4567,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 160
   },
   {
@@ -4745,11 +4599,9 @@
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 161
   },
   {
@@ -4771,14 +4623,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 162
   },
   {
@@ -4800,14 +4650,12 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 163
   },
   {
@@ -4829,15 +4677,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 164
   },
   {
@@ -4859,15 +4705,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 165
   },
   {
@@ -4889,13 +4734,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 166
   },
   {
@@ -4917,15 +4764,15 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 167
   },
   {
@@ -4947,15 +4794,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 168
   },
   {
@@ -4984,7 +4830,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 169
   },
   {
@@ -5010,11 +4855,9 @@
       "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 170
   },
   {
@@ -5036,13 +4879,14 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 171
   },
   {
@@ -5071,7 +4915,6 @@
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 172
   },
   {
@@ -5093,14 +4936,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 173
   },
   {
@@ -5123,13 +4965,14 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 174
   },
   {
@@ -5151,16 +4994,14 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 175
   },
   {
@@ -5188,8 +5029,7 @@
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 176
   },
   {
@@ -5211,16 +5051,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 177
   },
   {
@@ -5248,7 +5084,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 178
   },
   {
@@ -5270,15 +5105,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 179
   },
   {
@@ -5300,14 +5134,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 180
   },
   {
@@ -5329,16 +5164,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 181
   },
   {
@@ -5360,14 +5191,13 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 182
   },
   {
@@ -5389,15 +5219,13 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 183
   },
   {
@@ -5419,8 +5247,6 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
@@ -5428,7 +5254,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 184
   },
   {
@@ -5450,14 +5275,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 185
   },
   {
@@ -5480,14 +5303,15 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 186
   },
   {
@@ -5510,14 +5334,13 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 187
   },
   {
@@ -5540,15 +5363,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 188
   },
   {
@@ -5570,14 +5393,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 189
   },
   {
@@ -5599,6 +5421,8 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
@@ -5606,7 +5430,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 190
   },
   {
@@ -5628,15 +5451,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 191
   },
   {
@@ -5659,14 +5480,13 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 192
   },
   {
@@ -5688,14 +5508,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 193
   },
   {
@@ -5717,14 +5537,15 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 194
   },
   {
@@ -5751,10 +5572,9 @@
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 195
   },
   {
@@ -5776,16 +5596,15 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 196
   },
   {
@@ -5807,14 +5626,12 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 197
   },
   {
@@ -5836,14 +5653,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 198
   },
   {
@@ -5865,15 +5681,14 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 199
   },
   {
@@ -5895,14 +5710,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 200
   },
   {
@@ -5924,15 +5739,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 201
   },
   {
@@ -5954,14 +5767,14 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 202
   },
   {
@@ -5991,7 +5804,6 @@
       "ONLINE"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 203
   },
   {
@@ -6013,8 +5825,6 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
@@ -6022,7 +5832,6 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 204
   },
   {
@@ -6045,14 +5854,12 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 205
   },
   {
@@ -6074,15 +5881,14 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 206
   },
   {
@@ -6104,14 +5910,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 207
   },
   {
@@ -6133,13 +5938,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 208
   },
   {
@@ -6161,14 +5967,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 209
   },
   {
@@ -6190,14 +5996,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 210
   },
   {
@@ -6219,15 +6023,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 211
   },
   {
@@ -6249,15 +6050,15 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 212
   },
   {
@@ -6279,13 +6080,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 213
   },
   {
@@ -6307,13 +6108,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 214
   },
   {
@@ -6335,14 +6138,15 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 215
   },
   {
@@ -6364,15 +6168,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 216
   },
   {
@@ -6394,15 +6196,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 217
   },
   {
@@ -6424,15 +6224,12 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 218
   },
   {
@@ -6454,15 +6251,15 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 219
   },
   {
@@ -6484,14 +6281,15 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 220
   },
   {
@@ -6513,13 +6311,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 221
   },
   {
@@ -6541,14 +6339,15 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 222
   },
   {
@@ -6570,14 +6369,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 223
   },
   {
@@ -6599,14 +6399,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 224
   },
   {
@@ -6628,13 +6428,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 225
   },
   {
@@ -6656,13 +6456,12 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 226
   },
   {
@@ -6689,10 +6488,10 @@
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 227
   },
   {
@@ -6714,13 +6513,14 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 228
   },
   {
@@ -6742,15 +6542,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 229
   },
   {
@@ -6772,16 +6570,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 230
   },
   {
@@ -6803,7 +6599,7 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
@@ -6811,7 +6607,6 @@
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 231
   },
   {
@@ -6833,16 +6628,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 232
   },
   {
@@ -6864,15 +6657,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 233
   },
   {
@@ -6895,14 +6687,13 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 234
   },
   {
@@ -6924,15 +6715,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 235
   },
   {
@@ -6954,13 +6742,13 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 236
   },
   {
@@ -6982,14 +6770,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 237
   },
   {
@@ -7011,14 +6798,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 238
   },
   {
@@ -7041,14 +6827,13 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 239
   },
   {
@@ -7070,15 +6855,12 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 240
   },
   {
@@ -7101,15 +6883,13 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 241
   },
   {
@@ -7131,14 +6911,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 242
   },
   {
@@ -7160,16 +6940,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 243
   },
   {
@@ -7191,14 +6969,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 244
   },
   {
@@ -7221,14 +6999,14 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 245
   },
   {
@@ -7250,14 +7028,13 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 246
   },
   {
@@ -7279,16 +7056,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 247
   },
   {
@@ -7311,14 +7087,13 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 248
   },
   {
@@ -7340,15 +7115,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 249
   },
   {
@@ -7370,13 +7143,14 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 250
   },
   {
@@ -7398,15 +7172,13 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 251
   },
   {
@@ -7428,14 +7200,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 252
   },
   {
@@ -7457,16 +7229,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 253
   },
   {
@@ -7492,10 +7261,10 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 254
   },
   {
@@ -7522,11 +7291,9 @@
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 255
   },
   {
@@ -7548,14 +7315,14 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 256
   },
   {
@@ -7577,14 +7344,14 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 257
   },
   {
@@ -7606,13 +7373,13 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 258
   },
   {
@@ -7634,15 +7401,13 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 259
   },
   {
@@ -7664,14 +7429,15 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 260
   },
   {
@@ -7696,11 +7462,10 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 261
   },
   {
@@ -7722,15 +7487,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 262
   },
   {
@@ -7757,11 +7519,9 @@
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 263
   },
   {
@@ -7791,7 +7551,6 @@
       "ONLINE"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 264
   },
   {
@@ -7818,11 +7577,9 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 265
   },
   {
@@ -7844,16 +7601,15 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 266
   },
   {
@@ -7875,15 +7631,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 267
   },
   {
@@ -7905,14 +7658,15 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 268
   },
   {
@@ -7934,14 +7688,13 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 269
   },
   {
@@ -7963,13 +7716,13 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 270
   },
   {
@@ -7992,14 +7745,13 @@
     ],
     "authority": [
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 271
   },
   {
@@ -8021,14 +7773,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 272
   },
   {
@@ -8050,14 +7800,13 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 273
   },
   {
@@ -8079,16 +7828,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 274
   },
   {
@@ -8110,14 +7855,12 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 275
   },
   {
@@ -8140,14 +7883,12 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 276
   },
   {
@@ -8169,14 +7910,12 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 277
   },
   {
@@ -8198,15 +7937,14 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 278
   },
   {
@@ -8228,13 +7966,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 279
   },
   {
@@ -8256,14 +7995,14 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 280
   },
   {
@@ -8285,15 +8024,13 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 281
   },
   {
@@ -8315,15 +8052,12 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 282
   },
   {
@@ -8345,15 +8079,14 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "stockable": true,
+    "enable": false,
     "sequence": 283
   },
   {
@@ -8375,15 +8108,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 284
   },
   {
@@ -8406,15 +8138,12 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 285
   },
   {
@@ -8436,13 +8165,13 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": false,
     "sequence": 286
   },
   {
@@ -8464,13 +8193,12 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 287
   },
   {
@@ -8492,14 +8220,12 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 288
   },
   {
@@ -8521,14 +8247,13 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 289
   },
   {
@@ -8550,14 +8275,13 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 290
   },
   {
@@ -8579,14 +8303,13 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "stockable": true,
     "sequence": 291
   },
   {
@@ -8613,10 +8336,10 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 292
   },
   {
@@ -8639,14 +8362,12 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": true,
     "sequence": 293
   },
   {
@@ -8671,11 +8392,10 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "stockable": true,
+    "enable": true,
     "sequence": 294
   },
   {
@@ -8697,15 +8417,15 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "stockable": false,
+    "enable": false,
     "sequence": 295
   },
   {
@@ -8727,15 +8447,14 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 296
   },
   {
@@ -8757,16 +8476,12 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "stockable": false,
+    "enable": true,
     "sequence": 297
   },
   {
@@ -8788,13 +8503,15 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "stockable": false,
     "sequence": 298
   }
 ]
