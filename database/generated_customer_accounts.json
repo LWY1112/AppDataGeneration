@@ -1,4 +1,4 @@
-[ 
+[
   {
     "name": "Viva Rohan",
     "identity": {
@@ -53,6 +53,62 @@
       "country": "Kosovo"
     },
     "nationality": "Kosovo",
+    "shoe_size": "UK9"
+  },
+  {
+    "name": "Savion Kertzmann",
+    "identity": {
+      "type": "IC",
+      "value": "8706200557"
+    },
+    "photo": "https://avatars.githubusercontent.com/u/80936975",
+    "email": "Myrna7@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "195718116"
+    },
+    "DOB": "1950-02-19T05:24:12.614Z",
+    "gender": "FEMALE",
+    "note": "Try to transmit the ADP firewall, maybe it will transmit the solid state microchip!",
+    "status": "TERMINATED",
+    "uid": "20fb3a0c-0f84-458a-87c2-44931a155d70",
+    "address": {
+      "street_1": "4256 Edgardo Ranch",
+      "street_2": "Apt. 873",
+      "city": "Greencester",
+      "postcode": "81091",
+      "state": "Qashqadaryo",
+      "country": "Uzbekistan"
+    },
+    "nationality": "Uzbekistan",
+    "shoe_size": "UK7"
+  },
+  {
+    "name": "Emelie Schroeder",
+    "identity": {
+      "type": "PASSPORT",
+      "value": "f00853ed-fb9b-4e83-b980-8f789aafa0d8"
+    },
+    "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/299.jpg",
+    "email": "Anderson_Hills84@yahoo.com",
+    "phone": {
+      "country_code": "60",
+      "number": "127217457"
+    },
+    "DOB": "1976-01-15T02:12:22.974Z",
+    "gender": "FEMALE",
+    "note": "We need to generate the bluetooth USB hard drive!",
+    "status": "BANNED",
+    "uid": "6d0593dd-1161-4bf4-adfb-ca265b8b13e1",
+    "address": {
+      "street_1": "7538 Fahey Ranch",
+      "street_2": "Suite 216",
+      "city": "South Kaylinburgh",
+      "postcode": "99882-7487",
+      "state": "Al Aḩmadī",
+      "country": "Kuwait"
+    },
+    "nationality": "Kuwait",
     "shoe_size": "UK9"
   }
 ]

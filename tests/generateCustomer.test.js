@@ -1,128 +1,155 @@
-const { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders, fetchCountries } = require('./generateCustomer');
+const fs = require('fs');
+const path = require('path');
 const axios = require('axios');
-const { faker } = require('@faker-js/faker/locale/en');
+const { generateAccounts } = require('../generateAccount');
+const { generateRandomUser, fetchRoles } = require('../accountType/generateUser');
+const { generateRandomEmployee, fetchPositions } = require('../accountType/generateEmployee');
+const { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders, fetchCountries } = require('../accountType/generateCustomer');
 
 jest.mock('axios');
+jest.mock('fs');
+jest.mock('../accountType/generateUser');
+jest.mock('../accountType/generateEmployee');
+jest.mock('../accountType/generateCustomer');
 
-describe('generateCustomer.js', () => {
-  const statuses = ['active', 'inactive'];
-  const identityTypes = ['IC', 'Passport'];
-  const genders = ['Male', 'Female'];
-  const countries = [
-    { name: 'Malaysia', states: ['Selangor', 'Penang', 'Johor'] },
-    { name: 'Singapore', states: ['Central', 'East', 'West'] }
-  ];
-
-  describe('generateRandomCustomer', () => {
-    it('should generate a random customer', () => {
-      const customer = generateRandomCustomer(statuses, identityTypes, genders, countries);
-      
-      expect(customer).toHaveProperty('name');
-      expect(customer).toHaveProperty('identity.type');
-      expect(customer).toHaveProperty('identity.value');
-      expect(customer).toHaveProperty('photo');
-      expect(customer).toHaveProperty('email');
-      expect(customer).toHaveProperty('phone');
-      expect(customer).toHaveProperty('DOB');
-      expect(customer).toHaveProperty('gender');
-      expect(customer).toHaveProperty('note');
-      expect(customer).toHaveProperty('status');
-      expect(customer).toHaveProperty('uid');
-      expect(customer).toHaveProperty('address.street_1');
-      expect(customer).toHaveProperty('address.street_2');
-      expect(customer).toHaveProperty('address.city');
-      expect(customer).toHaveProperty('address.postcode');
-      expect(customer).toHaveProperty('address.state');
-      expect(customer).toHaveProperty('address.country');
-      expect(customer).toHaveProperty('nationality');
-      expect(customer).toHaveProperty('shoe_size');
-    });
-
-    it('should generate a customer with valid identity type and value', () => {
-      const customer = generateRandomCustomer(statuses, identityTypes, genders, countries);
-      
-      expect(identityTypes).toContain(customer.identity.type);
-      if (customer.identity.type === 'IC') {
-        expect(customer.identity.value).toMatch(/^\d{8}$/);
-      } else {
-        expect(customer.identity.value).toMatch(/^[a-f0-9\-]{36}$/);
-      }
-    });
-
-    it('should generate a customer with valid gender', () => {
-      const customer = generateRandomCustomer(statuses, identityTypes, genders, countries);
-      
-      expect(genders).toContain(customer.gender);
-    });
+describe('generateAccounts tests', () => {
+  beforeEach(() => {
+    jest.resetAllMocks();
   });
 
-  describe('fetchData', () => {
-    const apiEndpoint = 'https://api.example.com/data'; // Replace with actual API URL
+  // Test for generating user accounts and saving them to a file
+  test('user', async () => {
+    const numAccounts = 2;
+    const type = 'user';
 
-    it('should fetch data from API', async () => {
-      const mockData = ['data1', 'data2'];
-      axios.get.mockResolvedValue({ data: mockData });
+    const roles = ['Admin', 'User'];
+    const userAccount = {
+      _id: 'Karine17',
+      email: 'Mya_Feest@yahoo.com',
+      enable: true,
+      name: 'Shawna Reinger',
+      note: "You can't navigate the sensor without parsing the primary DRAM sensor!",
+      password: 'eyWDevwNbp',
+      phone: {
+        country_code: '60',
+        number: '109713453'
+      },
+      pin: '229462',
+      role: [
+        'ADMIN',
+        'MANAGER',
+        'STAFF'
+      ]
+    };
 
-      const data = await fetchStatuses(apiEndpoint);
-      expect(data).toEqual(mockData);
-    });
+    fetchRoles.mockResolvedValue(roles);
+    generateRandomUser.mockReturnValue(userAccount);
+    axios.post.mockResolvedValue({ data: { message: 'Success' } });
+    fs.existsSync.mockReturnValue(false);
+    fs.writeFileSync.mockImplementation(() => {});
 
-    it('should handle errors when fetching data', async () => {
-      axios.get.mockRejectedValue(new Error('Network Error'));
+    await generateAccounts(numAccounts, type);
 
-      const data = await fetchStatuses(apiEndpoint);
-      expect(data).toEqual([]);
-    });
+    expect(fetchRoles).toHaveBeenCalled();
+    expect(generateRandomUser).toHaveBeenCalledWith(roles);
+    expect(axios.post).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/v1/users', userAccount);
+    expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(__dirname, '../database', 'generated_user_accounts.json'), JSON.stringify([userAccount, userAccount], null, 2));
   });
 
-  describe('fetchStatuses', () => {
-    const apiEndpoint = 'https://api.example.com/statuses'; // Replace with actual API URL
+  // Test for generating employee accounts and saving them to a file
+  test('employee', async () => {
+    const numAccounts = 2;
+    const type = 'employee';
 
-    it('should fetch statuses from API', async () => {
-      const mockStatuses = ['active', 'inactive'];
-      axios.get.mockResolvedValue({ data: mockStatuses });
+    const positions = ['Manager', 'Developer'];
+    const employeeAccount = {
+      name: 'Sydney Pollich',
+      position: 'FULL TIMER',
+      email: 'Sabrina.Kuhn@hotmail.com',
+      phone: {
+        country_code: '60',
+        number: '138799633'
+      },
+      note: 'Try to hack the SAS hard drive, maybe it will index the bluetooth alarm!'
+    };
 
-      const statuses = await fetchStatuses(apiEndpoint);
-      expect(statuses).toEqual(mockStatuses);
-    });
+    fetchPositions.mockResolvedValue(positions);
+    generateRandomEmployee.mockReturnValue(employeeAccount);
+    axios.post.mockResolvedValue({ data: { message: 'Success' } });
+    fs.existsSync.mockReturnValue(false);
+    fs.writeFileSync.mockImplementation(() => {});
+
+    await generateAccounts(numAccounts, type);
+
+    expect(fetchPositions).toHaveBeenCalled();
+    expect(generateRandomEmployee).toHaveBeenCalledWith(positions);
+    expect(axios.post).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/v1/employees', employeeAccount);
+    expect(fs.writeFileSync).toHaveBeenCalledWith(path.join(__dirname, '../database', 'generated_employee_accounts.json'), JSON.stringify([employeeAccount, employeeAccount], null, 2));
   });
 
-  describe('fetchIdentityTypes', () => {
-    const apiEndpoint = 'https://api.example.com/identity-types'; // Replace with actual API URL
+  // Test for generating customer accounts and saving them to a file
+  test('customer', async () => {
+    const numAccounts = 2;
+    const type = 'customer';
 
-    it('should fetch identity types from API', async () => {
-      const mockIdentityTypes = ['IC', 'Passport'];
-      axios.get.mockResolvedValue({ data: mockIdentityTypes });
+    const statuses = ['REGISTERED', 'ACTIVE', 'INACTIVE', 'BANNED', 'TERMINATED'];
+    const identityTypes = ['IC', 'PASSPORT'];
+    const genders = ['MALE', 'FEMALE'];
+    const countries = [
+      { name: 'Malaysia', states: ['Selangor', 'Penang', 'Johor'] },
+      { name: 'Singapore', states: ['Central', 'East', 'West'] }
+    ];
 
-      const identityTypes = await fetchIdentityTypes(apiEndpoint);
-      expect(identityTypes).toEqual(mockIdentityTypes);
-    });
-  });
+    const customerAccount = {
+      name: 'Meghan Cruickshank',
+      identity: {
+        type: 'PASSPORT',
+        value: '688ecc8e-449d-439a-b93c-5a1d265d1f39'
+      },
+      photo: 'https://avatars.githubusercontent.com/u/60182470',
+      email: 'Cloyd_Zulauf-Conroy97@hotmail.com',
+      phone: {
+        country_code: '60',
+        number: '157940617'
+      },
+      DOB: '2001-04-15T01:43:11.917Z',
+      gender: 'FEMALE',
+      note: 'If we override the capacitor, we can get to the COM feed through the back-end COM application!',
+      status: 'INACTIVE',
+      enable: false,
+      uid: '103da30e-cec6-4670-8696-8a3eaa321948',
+      address: {
+        street_1: '123 Main St',
+        street_2: 'Apt 4B',
+        city: 'Kuala Lumpur',
+        postcode: '50000',
+        state: 'Selangor',
+        country: 'Malaysia'
+      },
+      nationality: 'Malaysia',
+      shoe_size: 'UK9'
+    };
 
-  describe('fetchGenders', () => {
-    const apiEndpoint = 'https://api.example.com/genders'; // Replace with actual API URL
+    fetchStatuses.mockResolvedValue(statuses);
+    fetchIdentityTypes.mockResolvedValue(identityTypes);
+    fetchGenders.mockResolvedValue(genders);
+    fetchCountries.mockResolvedValue(countries);
+    generateRandomCustomer.mockReturnValue(customerAccount);
+    axios.post.mockResolvedValue({ data: { message: 'Success' } });
+    fs.existsSync.mockReturnValue(false);
+    fs.writeFileSync.mockImplementation(() => {});
 
-    it('should fetch genders from API', async () => {
-      const mockGenders = ['Male', 'Female'];
-      axios.get.mockResolvedValue({ data: mockGenders });
+    await generateAccounts(numAccounts, type);
 
-      const genders = await fetchGenders(apiEndpoint);
-      expect(genders).toEqual(mockGenders);
-    });
-  });
-
-  describe('fetchCountries', () => {
-    const apiEndpoint = 'https://api.example.com/countries'; // Replace with actual API URL
-
-    it('should fetch countries from API', async () => {
-      const mockCountries = [
-        { name: 'Malaysia', states: ['Selangor', 'Penang', 'Johor'] },
-        { name: 'Singapore', states: ['Central', 'East', 'West'] }
-      ];
-      axios.get.mockResolvedValue({ data: mockCountries });
-
-      const countries = await fetchCountries(apiEndpoint);
-      expect(countries).toEqual(mockCountries);
-    });
+    expect(fetchStatuses).toHaveBeenCalled();
+    expect(fetchIdentityTypes).toHaveBeenCalled();
+    expect(fetchGenders).toHaveBeenCalled();
+    expect(fetchCountries).toHaveBeenCalled();
+    expect(generateRandomCustomer).toHaveBeenCalledWith(statuses, identityTypes, genders, countries);
+    expect(axios.post).toHaveBeenCalledWith('https://batuu.sensoft.cloud:9889/v1/customers', customerAccount);
+    expect(fs.writeFileSync).toHaveBeenCalledWith(
+      path.join(__dirname, '../database', 'generated_customer_accounts.json'),
+      JSON.stringify([customerAccount, customerAccount], null, 2)
+    );
   });
 });
