@@ -1,22 +1,22 @@
 [
   {
-    "_id": "aef561e3-3f95-4838-afcb-ffcb9d6bd20c",
-    "name": "ENIGMA BLACK 10",
-    "category": [
-      "Shoes"
-    ],
-    "desc": "The SAS microchip is down, transmit the wireless interface so we can generate the FTP transmitter!",
-    "size": "UK10",
-    "site": "BATUU_3DAMANASARA"
-  },
-  {
-    "_id": "cc9c50d2-d82b-4a11-ba4a-b7dbb1ea628a",
-    "name": "TENAYA TANTA UK 5 (BLUE)",
+    "_id": "e442c57b-33c8-49e1-891d-a1b4948af062",
+    "name": "TENAYA TANTA UK 8.5 (BLUE)",
     "category": [
       "Shoes"
     ],
     "desc": "",
-    "size": "UK8",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA"
+  },
+  {
+    "_id": "934aa48a-5620-43bf-8dfa-fbdd38e276d0",
+    "name": "ENIGMA NOP 9",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll index the digital HTTP capacitor, that should hard drive the CLI sensor!",
+    "size": "US10",
     "site": "BATUU_3DAMANASARA"
   }
 ]

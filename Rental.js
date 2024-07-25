@@ -5,12 +5,13 @@ const { faker } = require('@faker-js/faker/locale/en');
 const rentalsApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/rentals/list/POS';
 const customersApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/list/POS';
 const rentCheckoutApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/rentals/checkout';
+const returnRentalApiEndpoint = (rental_id) => `https://batuu.sensoft.cloud:9889/v1/rentals/return/${rental_id}`;
 
-// Function to fetch rentals with 'AVAILABLE' status
-const fetchRentals = async () => {
+// Function to fetch rentals with specified status
+const fetchRentals = async (status) => {
   try {
     const response = await axios.post(rentalsApiEndpoint, {
-      query: { status: 'AVAILABLE' }
+      query: { status: status }
     });
     return response.data.rentals;
   } catch (error) {
@@ -48,10 +49,21 @@ const rentToCustomer = async (customer_id, rental_id) => {
   }
 };
 
+// Function to return a rental item
+const returnRental = async (rental_id) => {
+  try {
+    const response = await axios.post(returnRentalApiEndpoint(rental_id));
+    return response.data;
+  } catch (error) {
+    console.error('Error returning rental:', error);
+    return null;
+  }
+};
+
 // Function to generate and post rental assignments
 const assignRentalsToCustomers = async (numAssignments) => {
   try {
-    const rentals = await fetchRentals();
+    const rentals = await fetchRentals('AVAILABLE');
     const customers = await fetchCustomers();
 
     if (rentals.length === 0 || customers.length === 0) {
@@ -77,14 +89,50 @@ const assignRentalsToCustomers = async (numAssignments) => {
   }
 };
 
+// Function to return rental items
+const returnRentals = async (numReturns) => {
+  try {
+    const rentals = await fetchRentals('RENTED');
+
+    if (rentals.length === 0) {
+      console.error('No rentals available for return.');
+      return;
+    }
+
+    // Shuffle arrays using a custom shuffle function
+    const selectedRentals = shuffleArray(rentals).slice(0, numReturns);
+
+    for (let i = 0; i < numReturns; i++) {
+      const rental_id = selectedRentals[i]._id;
+
+      const result = await returnRental(rental_id);
+      if (result) {
+        console.log(`Successfully returned item ${rental_id}`);
+      }
+    }
+  } catch (error) {
+    console.error('Error generating and posting rental returns:', error.message);
+  }
+};
+
 // Check if the number of assignments is provided as a command-line argument
 if (require.main === module) {
   const numAssignments = process.argv[2];
+  const action = process.argv[3];
+  
   if (!numAssignments || isNaN(numAssignments)) {
-    console.error('Please provide a valid number of assignments as a command-line argument.');
+    console.error('Please provide a valid number of assignments or returns as a command-line argument.');
     process.exit(1);
   }
-  assignRentalsToCustomers(Number(numAssignments));
+  
+  if (action === 'rent') {
+    assignRentalsToCustomers(Number(numAssignments));
+  } else if (action === 'return') {
+    returnRentals(Number(numAssignments));
+  } else {
+    console.error('Please provide a valid action (rent or return) as a command-line argument.');
+    process.exit(1);
+  }
 } else {
-  module.exports = { assignRentalsToCustomers };
+  module.exports = { assignRentalsToCustomers, returnRentals };
 }
