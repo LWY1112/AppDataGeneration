@@ -30,7 +30,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Install npm dependencies
-                bat 'npm install'
+                sh 'npm install'
             }
         }
 
@@ -41,12 +41,12 @@ pipeline {
                     def testCase = params.TEST_CASE
 
                     if (testFile == 'all') {
-                        bat 'npx jest'
+                        sh 'npx jest'
                     } else {
                         if (testCase == 'all') {
-                            bat "npx jest ${testFile}"
+                            sh "npx jest ${testFile}"
                         } else {
-                            bat "npx jest ${testFile} -t '${testCase}'"
+                            sh "npx jest ${testFile} -t '${testCase}'"
                         }
                     }
                 }
@@ -56,7 +56,7 @@ pipeline {
         stage('Static Code Analysis') {
             steps {
                 // Run ESLint for static code analysis
-                bat 'npx eslint generateAccount.js'
+                sh 'npx eslint generateAccount.js'
             }
         }
     }
