@@ -37,7 +37,7 @@ pipeline {
         stage('Set Permissions') {
             steps {
                 sh 'chmod +x node_modules/.bin/jest'
-                
+                sh 'chmod +x node_modules/.bin/eslint'
             }
         }
 
