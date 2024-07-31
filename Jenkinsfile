@@ -34,6 +34,12 @@ pipeline {
             }
         }
 
+        stage('Set Permissions') {
+            steps {
+                sh 'chmod +x node_modules/.bin/jest'
+            }
+        }
+
         stage('Run Tests') {
             steps {
                 script {
