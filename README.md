@@ -75,9 +75,3 @@ This program generates random information for testing purposes in a rock climbin
 
 - **Faker.js**: Library used for generating realistic mock data.
 - **Axios**: HTTP client for making API requests.
-
-Feel free to explore the files and folders to understand how each component contributes to the data generation process. If you have any questions or need further clarification, don't hesitate to ask!
-
----
-
-Does this categorization fit your needs?
