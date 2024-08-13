@@ -90,15 +90,20 @@ const generateCheckIns = async (numCheckIns) => {
     const results = [];
 
     for (let i = 0; i < numCheckIns; i++) {
-      const customer_id = selectedCustomers[i]._id;
+      const customer = selectedCustomers[i];
+      const customer_id = customer._id;
       const terminal = selectedTerminals[i % selectedTerminals.length]._id;
       const ticket_id = faker.datatype.uuid();
 
-      console.log(`Attempting to check in customer ${customer_id} at terminal ${terminal} with ticket ${ticket_id}`);
-      const result = await checkInCustomer(customer_id, ticket_id, terminal);
-      if (result) {
-        console.log(`Successfully checked in customer ${customer_id} at terminal ${terminal} with ticket ${ticket_id}`);
-        results.push({ customer_id, terminal, ticket_id });
+      if (customer.status === 'ACTIVE') {
+        console.log(`Attempting to check in customer ${customer_id} at terminal ${terminal} with ticket ${ticket_id}`);
+        const result = await checkInCustomer(customer_id, ticket_id, terminal);
+        if (result) {
+          console.log(`Successfully checked in customer ${customer_id} at terminal ${terminal} with ticket ${ticket_id}`);
+          results.push({ customer_id, terminal, ticket_id });
+        }
+      } else {
+        console.log(`Customer ${customer_id} is not active and cannot be checked in.`);
       }
     }
 

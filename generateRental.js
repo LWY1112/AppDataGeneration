@@ -10,7 +10,10 @@ const generateRentalsJsonPath = path.join(__dirname, 'database', 'generateRental
 // Function to fetch merchandises from API
 const fetchMerchandises = async () => {
   try {
-    const response = await axios.post(merchandisesApiEndpoint);
+    const response = await axios.post(merchandisesApiEndpoint, {
+      query: { rentable: true } // Filter to get only items where rentable is true
+    });
+    
     return response.data.merchandises.filter(merchandise => merchandise.category.includes('shoes'));
   } catch (error) {
     console.error('Error fetching merchandises:', error);
@@ -36,6 +39,7 @@ const generateRandomRentalItem = (merchandise) => {
     desc: desc,
     size: size,
     site: 'BATUU_3DAMANASARA',
+    sku: merchandise.sku // Add the sku field as an array of strings
   };
 };
 

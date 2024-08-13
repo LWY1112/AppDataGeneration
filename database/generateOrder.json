@@ -1,0 +1,47 @@
+[
+  {
+    "customer": {
+      "_id": "C00071",
+      "name": "Raina Miller",
+      "email": "Anahi.Kassulke@gmail.com",
+      "phone": {
+        "country_code": "60",
+        "number": "101952338"
+      },
+      "tier": "NORMAL"
+    },
+    "site": "BATUU_3DAMANASARA",
+    "terminal": "547896321203654",
+    "items": [
+      {
+        "_id": "66a0b0c7ae83b4b97dd9fe63",
+        "name": "Monthly Member (ikea)",
+        "sku": "monthly-member-(ikea)-adult",
+        "category": "Membership",
+        "desc": null,
+        "quantity": 6,
+        "unit_price": {
+          "currency": "MYR",
+          "value": 120
+        }
+      },
+      {
+        "_id": "66b3086fe205cd5cfa7a27eb",
+        "name": "weekly-pass-rookie",
+        "sku": "weekly-pass-rookie12",
+        "category": "family and friends",
+        "desc": "Weekly passs try it out",
+        "quantity": 4,
+        "unit_price": {
+          "type": "NORMAL",
+          "currency": "MYR",
+          "value": 200
+        }
+      }
+    ],
+    "total_item": 10,
+    "subtotal": 1520,
+    "currency": "MYR",
+    "total_amount": 1520
+  }
+]

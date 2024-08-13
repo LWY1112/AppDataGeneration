@@ -1,0 +1,4184 @@
+[
+  {
+    "name": "RENT-RAVE STRAP GRAY",
+    "sku": "RENT-056413f0-f438-4abb-9006-02448e652030",
+    "parent_sku": "RVG00016090",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP GRAY",
+    "images": [],
+    "size": "US 9",
+    "sequence": 5,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 289,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap Blue",
+    "sku": "RENT-29c6e41b-8e41-402f-a3bd-2079ca8c66cb",
+    "parent_sku": "RVB0017055",
+    "category": [
+      "shoes"
+    ],
+    "desc": "Rave Strap Blue",
+    "images": [],
+    "size": "US 5.5",
+    "sequence": 23,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap Red US 5.5",
+    "sku": "RENT-f12d2c52-bdcd-4def-b239-55f5364a4c6c",
+    "parent_sku": "RVR0017055",
+    "category": [
+      "shoes"
+    ],
+    "desc": "Rave Strap Red",
+    "images": [],
+    "size": "US 5.5",
+    "sequence": 20,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap Red",
+    "sku": "RENT-2b6219b2-b12b-4f79-9ee3-d708804789dc",
+    "parent_sku": "6950799023633",
+    "category": [
+      "shoes"
+    ],
+    "desc": "Rave strap red",
+    "images": [],
+    "size": "US 5.5",
+    "sequence": 22,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 289,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OXI S",
+    "sku": "RENT-7c5d9d5e-b03a-4cc5-9fc4-61605cbf727d",
+    "parent_sku": "OS03544085",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OXI S",
+    "images": [],
+    "size": "US 9.5",
+    "sequence": 16,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OZONE QC US 7.5",
+    "sku": "RENT-ff9cd3ca-9b87-4741-a29c-8ece8d629d34",
+    "parent_sku": "OQ00599065",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "US 7.5",
+    "sequence": 27,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 682,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OXI LADY",
+    "sku": "RENT-8e444fd3-8657-4284-a434-bffa957bec3b",
+    "parent_sku": "8591804637216",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OXI LADY",
+    "images": [],
+    "size": "UK6",
+    "sequence": 17,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI BLUE",
+    "sku": "RENT-8ce425d6-e244-4acb-b692-7543a67a6c7c",
+    "parent_sku": "T003OA6",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI BLUE",
+    "images": [],
+    "size": "US 7",
+    "sequence": 26,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA",
+    "sku": "RENT-e632c3f9-8e21-446f-8a38-482eb8248617",
+    "parent_sku": "T008MU6",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA",
+    "images": [],
+    "size": "US 7",
+    "sequence": 13,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-RED POINT STRAP",
+    "sku": "RENT-4fae88e8-0350-47c2-94d5-53fa19f050f2",
+    "parent_sku": "RP0019055",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RED POINT STRAP",
+    "images": [],
+    "size": "US 5.5",
+    "sequence": 10,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI LV",
+    "sku": "RENT-84df99ed-c910-4759-b3af-272f98e2fd4a",
+    "parent_sku": "T010OW7",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI LV",
+    "images": [],
+    "size": "US 8",
+    "sequence": 14,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA",
+    "sku": "RENT-442e4bd1-e3bd-4c61-999a-11d38fe277ea",
+    "parent_sku": "T008MU6.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA",
+    "images": [],
+    "size": "US 7.5",
+    "sequence": 12,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA",
+    "sku": "RENT-5ef84df7-6ff8-4989-b4e0-1b3e9776cdc8",
+    "parent_sku": "8435350213510",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA",
+    "images": [],
+    "size": "US 7.5",
+    "sequence": 15,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI BLUE",
+    "sku": "RENT-81c1f5c5-37b8-4d0c-ac76-f81783686cc4",
+    "parent_sku": "T003OA7",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI BLUE",
+    "images": [],
+    "size": "US 8",
+    "sequence": 24,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OXI LADY",
+    "sku": "RENT-253d3d20-11bd-4aa7-8bf2-4203479f777d",
+    "parent_sku": "8591804637193",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OXI LADY",
+    "images": [],
+    "size": "US 7",
+    "sequence": 18,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI",
+    "sku": "RENT-fe12b61b-85a1-4320-928b-20c259896589",
+    "parent_sku": "T003OA5.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI",
+    "images": [],
+    "size": "US 6.5",
+    "sequence": 19,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OZONE QC US 8",
+    "sku": "RENT-71d44530-1d8d-41c1-9ea1-d7c857b67097",
+    "parent_sku": "OQ00599070",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "US 8",
+    "sequence": 30,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 682,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OZONE QC US 8.5",
+    "sku": "RENT-8dd779b9-68b1-4bda-90a4-496ce99efe33",
+    "parent_sku": "OQ00599075",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "US 8.5",
+    "sequence": 8,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 682,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OZONE OZI S",
+    "sku": "RENT-04fa5f25-1bcd-4f7e-b223-47380c35fb1d",
+    "parent_sku": "OS03544080",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OZONE OXI S",
+    "images": [],
+    "size": "US 9",
+    "sequence": 9,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OXI LADY",
+    "sku": "RENT-6662ccfe-9524-44b5-b6c4-efa7968de6f1",
+    "parent_sku": "8591804637223",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OXI LADY",
+    "images": [],
+    "size": "US 8.5",
+    "sequence": 25,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-OCUN OXI LADY",
+    "sku": "RENT-6cc74fce-49ea-488f-8533-b0d6a0aa3570",
+    "parent_sku": "8591804629129",
+    "category": [
+      "shoes"
+    ],
+    "desc": "OCUN OXI LADY",
+    "images": [],
+    "size": "UK 4.5",
+    "sequence": 32,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 632,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI",
+    "sku": "RENT-214f01ce-a281-4999-ac9a-8183f3a259f0",
+    "parent_sku": "T003OA6.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI",
+    "images": [],
+    "size": "US 7.5",
+    "sequence": 28,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 2,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI BLUE",
+    "sku": "RENT-eb55307d-fdc2-46bf-9c73-a97c7bf39a84",
+    "parent_sku": "T003OA3.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI BLUE",
+    "images": [],
+    "size": "US 4.5",
+    "sequence": 31,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 2,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA OASI BLUE",
+    "sku": "RENT-dc6806b9-c3e2-4081-aa99-0fa5ecd8d49a",
+    "parent_sku": "T003OA4",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA OASI BLUE",
+    "images": [],
+    "size": "US 5",
+    "sequence": 29,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "sku": "RENT-7dcefa2f-ff8b-4462-a5d1-e05b5a021367",
+    "parent_sku": "T008MU4",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA GREEN",
+    "images": [],
+    "size": "US 5",
+    "sequence": 7,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "sku": "RENT-4fd8a5c9-0910-4c0a-88bb-6c9c417e2f9c",
+    "parent_sku": "T008MU3",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA GREEN",
+    "images": [],
+    "size": "US 4",
+    "sequence": 34,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "sku": "RENT-865ca3f4-1a75-4f30-a69c-6e0cbbb4994d",
+    "parent_sku": "T008MU4.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": "TENAYA MUNDAKA GREEN",
+    "images": [],
+    "size": "US 5.5",
+    "sequence": 33,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 670,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-RAVE STRAP GRAY",
+    "sku": "RENT-5a66eae0-0cf6-400a-b80c-19a59d741a91",
+    "parent_sku": "RVG00016125",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP GRAY",
+    "images": [],
+    "size": "12.5",
+    "sequence": 35,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-RAVE STRAP RED",
+    "sku": "RENT-4ffcc203-d806-405a-b9ed-f31d9f4917cf",
+    "parent_sku": "RVR0017060",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP RED",
+    "images": [],
+    "size": "6.0",
+    "sequence": 40,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-RAVE STRAP RED",
+    "sku": "RENT-0f2f26c1-3c9e-4666-b872-4a6caf4cc878",
+    "parent_sku": "RVR0017125",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP RED",
+    "images": [],
+    "size": "US 12.5",
+    "sequence": 38,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-RAVE STRAP BLUE",
+    "sku": "RENT-6fede796-2f67-4c22-8ac4-3c5159308a16",
+    "parent_sku": "RVB0017075",
+    "category": [
+      "shoes"
+    ],
+    "desc": "RAVE STRAP BLUE",
+    "images": [],
+    "size": "7.5",
+    "sequence": 36,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX  US9",
+    "sku": "RENT-e23e824f-d798-4ca8-86bd-0cdae545fd64",
+    "parent_sku": "8594031824305",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "9",
+    "sequence": 159,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US8",
+    "sku": "RENT-45c3d0fe-3bc1-4424-a72c-265966346cbf",
+    "parent_sku": "ART123-07.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "8",
+    "sequence": 168,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US7 1/2",
+    "sku": "RENT-59aebad2-32e4-40ea-9cf9-e8fea096699b",
+    "parent_sku": "ART123-06.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "7 1/2",
+    "sequence": 166,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US7",
+    "sku": "RENT-c11f4128-ac37-4f4c-976b-279db536fbf3",
+    "parent_sku": "ART123-06.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "7",
+    "sequence": 162,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US5 1/2",
+    "sku": "RENT-518160c3-e161-478f-bf5c-53ade75bb862",
+    "parent_sku": "ART123-04.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "5 1/2",
+    "sequence": 164,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US5",
+    "sku": "RENT-bf0236a2-096d-4a5e-acc2-74168ca30965",
+    "parent_sku": "ART123-04.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "5",
+    "sequence": 171,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US4 1/2",
+    "sku": "RENT-888d170d-bde5-4c85-9e9b-c96e71b2ac60",
+    "parent_sku": "ART123-03.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "4 1/2",
+    "sequence": 176,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-ENIGMA BLACK 10 1/2",
+    "sku": "RENT-fd7c4c69-65ec-4cc7-abdf-1532527ced1b",
+    "parent_sku": "ART143-09.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10 1/2",
+    "sequence": 161,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-ENIGMA NOP 9",
+    "sku": "RENT-8455f06e-3f50-44f3-963a-cc0ba78cd0dc",
+    "parent_sku": "ART143-08.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "9",
+    "sequence": 172,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-ENIGMA BLACK 10",
+    "sku": "RENT-90d1f51f-ecba-4dd6-87f6-750a2cd9782a",
+    "parent_sku": "ART143-09.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10",
+    "sequence": 158,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-AVAX US10 1/2",
+    "sku": "RENT-6f32840d-eaba-4c13-9647-f75e9cd5bfbf",
+    "parent_sku": "ART123-09.5",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10 1/2",
+    "sequence": 165,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 455,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-ENIGMA BLACK 8",
+    "sku": "RENT-0c53011e-4d21-4a89-ade6-59a1623199ae",
+    "parent_sku": "ART143-07.0",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "8",
+    "sequence": 170,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap 10.0 US/9.0 UK Red",
+    "sku": "RENT-296781b0-ac2d-4600-a60a-207e2dd8f31c",
+    "parent_sku": "11301000100RD",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "10",
+    "sequence": 167,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 4.5/ UK 3.5",
+    "sku": "RENT-7a12cc01-73f7-4504-bad1-bf71aebddf45",
+    "parent_sku": "6950799020366",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "4.5",
+    "sequence": 96,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 6.0/ UK 5.0",
+    "sku": "RENT-fe16379f-4f9e-4348-b0b8-ba3a020f14ae",
+    "parent_sku": "6950799020397",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "6.0",
+    "sequence": 95,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap(Blue) US 5.0/ UK 4.0",
+    "sku": "RENT-fe3ca457-ef27-4cd9-a83d-358431b3911a",
+    "parent_sku": "6950799023909",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "5.0",
+    "sequence": 94,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 6.5/UK 5.5",
+    "sku": "RENT-7cadcb07-2063-4b25-8f70-f2a30c566ee0",
+    "parent_sku": "6950799020403",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "6.5",
+    "sequence": 97,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 7.0/ UK 6.0",
+    "sku": "RENT-d127f09b-6f6a-4ea9-a6ca-0272bc273581",
+    "parent_sku": "6950799020410",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US7.0/UK6.0",
+    "sequence": 98,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap Grey US 4.5/ UK 3.5",
+    "sku": "RENT-963793a0-e8ee-4dd8-92f3-f4a172698588",
+    "parent_sku": "6950799023336",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US4.5/UK3.5",
+    "sequence": 109,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap blue US 5.5/ UK 4.5",
+    "sku": "RENT-7de14ffe-a855-49e3-a87d-9955bb31c011",
+    "parent_sku": "6950799023916",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US5.5/UK4.5",
+    "sequence": 100,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap Grey US 5.5/ UK 4.5",
+    "sku": "RENT-4bac4b80-4c2d-412f-9525-5800f8a28e07",
+    "parent_sku": "6950799023350",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 5.5/ UK 4.5",
+    "sequence": 99,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap Red US 4.0/ UK 3.0",
+    "sku": "RENT-d749927c-23ee-4ca2-98a3-a8c495e429a4",
+    "parent_sku": "6950799023602",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 4.0 / UK 3.0",
+    "sequence": 102,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 7.5 / UK 6.5",
+    "sku": "RENT-0882feec-ec99-477f-8ff0-50f55c9cd465",
+    "parent_sku": "6950799020427",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US7.5/UK6.5",
+    "sequence": 104,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap Red US 6.0/ UK 5.0",
+    "sku": "RENT-4671814b-a44e-4d8b-9742-c11155c762c4",
+    "parent_sku": "6950799023640",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 6.0 / UK 5.0",
+    "sequence": 101,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 8.0/ UK7.0",
+    "sku": "RENT-6be805b5-1a92-4a65-9369-b60a79c3f758",
+    "parent_sku": "6950799020434",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 8.0/ UK 7.0",
+    "sequence": 105,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 8.5/ UK 7.5",
+    "sku": "RENT-1624b2b5-f364-4572-99c6-fac8737adedf",
+    "parent_sku": "6950799020441",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 8.5/ UK 7.5",
+    "sequence": 107,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 9.0/ UK8.0",
+    "sku": "RENT-e32737e7-c57c-496a-ab68-61ad4e16de88",
+    "parent_sku": "6950799020458",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US 9.0/ UK 8.0",
+    "sequence": 103,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 9.5/ UK 8.5",
+    "sku": "RENT-30dff963-4f3e-4abe-b7e2-52b426314775",
+    "parent_sku": "6950799020465",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 108,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap(Blue) US7.0/UK6.0",
+    "sku": "RENT-c5a33bfe-4455-47fa-88ac-120a97ddeb9b",
+    "parent_sku": "6950799023947",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 131,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap(Blue) US7.5/UK6.5",
+    "sku": "RENT-ab8eed1b-2d7f-44cf-859f-3ce3518119eb",
+    "parent_sku": "6950799023954",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 111,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap (Blue) US 8.5/UK 7.5",
+    "sku": "RENT-eba4df9f-5c99-4838-9a7a-f84faad5ac3d",
+    "parent_sku": "6950799023978",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 106,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US 10/ UK 9.0",
+    "sku": "RENT-c7141195-df9d-4fe2-b775-96e5926ea56c",
+    "parent_sku": "6950799020472",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 110,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap(Grey) US9.0/UK8.0",
+    "sku": "RENT-fa8e76a5-4c1f-4c41-81eb-3faf246ed73e",
+    "parent_sku": "6950799023428",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 113,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap (Blue) US 8.0/ UK 7.0",
+    "sku": "RENT-895dd61e-54b0-42b4-aef2-306f94a63595",
+    "parent_sku": "6950799023961",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 112,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap (Grey) US 10.0/UK 9.0",
+    "sku": "RENT-d1dfe1d1-b34b-4d81-bbde-d2ba26e73e7d",
+    "parent_sku": "6950799023442",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 115,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US10.5/UK9.5",
+    "sku": "RENT-e965156f-914d-4380-b3ed-c63a013e7e8e",
+    "parent_sku": "6950799020489",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 114,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US11.5/UK10.5",
+    "sku": "RENT-a83e1e6a-180a-46b4-973c-e67e0ac5a973",
+    "parent_sku": "6950799020502",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 117,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-CRUSH NLV(Purple) US5.5/UK4.5",
+    "sku": "RENT-96d975ee-f310-4ffa-baf6-40c8ec26963f",
+    "parent_sku": "6950799027228",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 118,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 269,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap (Grey) US6.0/UK5.0",
+    "sku": "RENT-28563b87-69ae-4e02-9ba6-38277a94517b",
+    "parent_sku": "6950799023367",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 121,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-CRUSH NLV (Purple) US 6.0 / UK 5.0",
+    "sku": "RENT-de03b329-7d4b-47bb-a40b-8c1ee47d3cf2",
+    "parent_sku": "6950799027235",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 119,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 269,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-CRUSH NLV(Purple) US7.0/UK6.0",
+    "sku": "RENT-11aef664-ec12-4c0c-8013-5632ad4921cc",
+    "parent_sku": "6950799027259",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 125,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 269,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-CRUSH NLV (Purple) US 6.5/ UK 5.5",
+    "sku": "RENT-186fd137-f6d1-4451-8129-910d82b3958e",
+    "parent_sku": "6950799027242",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 126,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 269,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red point strap US5.0/UK4.0",
+    "sku": "RENT-0ed6c358-57da-444f-95ce-ad15e7680d6b",
+    "parent_sku": "6950799020373",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 127,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave strap(Blue) US6.5/UK 5.5",
+    "sku": "RENT-0ac2ec48-4f1c-47e0-a0e0-4b2db2b1b613",
+    "parent_sku": "11301000065BL",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "",
+    "sequence": 124,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanya UK 10.5",
+    "sku": "RENT-5262436f-fa50-46f6-91e4-38dc6d4100ce",
+    "parent_sku": "8435350213343",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 122,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 431,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Climb X Kinder",
+    "sku": "RENT-d8f830f8-2faa-4700-9311-4d5489e2b7a5",
+    "parent_sku": "kinder",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 134,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 265,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK2 (GREEN)",
+    "sku": "RENT-bf7c0c9b-3d39-45f8-8ab2-b622b0182098",
+    "parent_sku": "8435350219352",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 2",
+    "sequence": 293,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UL 2.5 (GREEN)",
+    "sku": "RENT-86ea6743-634a-44c7-9a5d-2c87bccc05bc",
+    "parent_sku": "8435350219369",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "2.5",
+    "sequence": 294,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 3.5 (GREEN)",
+    "sku": "RENT-df14a713-3f0d-4b76-b7b7-58eca5e69f1f",
+    "parent_sku": "8435350219383",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "3.5",
+    "sequence": 136,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 4.5 (GREEN)",
+    "sku": "RENT-5067cae9-5787-418a-b3e1-5331fd9a236a",
+    "parent_sku": "8435350219406",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "4.5",
+    "sequence": 141,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 6.5 (GREEN)",
+    "sku": "RENT-8c748383-2b95-43e8-99d1-0630d0e83a09",
+    "parent_sku": "8435350219444",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "6.5",
+    "sequence": 139,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 9 (GREEN)",
+    "sku": "RENT-6c694612-13f1-474d-9d1a-52b71effb16b",
+    "parent_sku": "8435350219499",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "9",
+    "sequence": 142,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 9.5",
+    "sku": "RENT-9d051bb1-da04-47ea-b771-ddae0b69924a",
+    "parent_sku": "8435350219505",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "9.5",
+    "sequence": 151,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 4 (BLUE)",
+    "sku": "RENT-c937704e-5bc8-47e3-a29a-e60fc6f74d7d",
+    "parent_sku": "8435350213213",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "4",
+    "sequence": 143,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 5 (BLUE)",
+    "sku": "RENT-d204a0d0-e7cf-4601-9fcf-833c64031d09",
+    "parent_sku": "8435350213237",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "5",
+    "sequence": 145,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 6 (BLUE)",
+    "sku": "RENT-15496b85-fdbe-4734-b13b-de66665886ae",
+    "parent_sku": "8435350213251",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "6",
+    "sequence": 144,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 7 (BLUE)",
+    "sku": "RENT-154b6426-3a3f-443b-b9dd-4b93d9c6f2e1",
+    "parent_sku": "8435350213275",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "7",
+    "sequence": 146,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 7.5 (BLUE)",
+    "sku": "RENT-8a8be887-1e95-4e4e-8fdb-a5f6e11045b7",
+    "parent_sku": "8435350213282",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "7.5",
+    "sequence": 148,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 8 (BLUE)",
+    "sku": "RENT-cc4c8e91-78b7-4760-99d3-77d23f0f46bd",
+    "parent_sku": "8435350213299",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "8",
+    "sequence": 147,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA UK 8.5 (BLUE)",
+    "sku": "RENT-314a8e95-f31f-4c6b-b1ce-aec12fd2b6a9",
+    "parent_sku": "8435350213305",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "8.5",
+    "sequence": 150,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA TANTA GREEN UK8 US9",
+    "sku": "RENT-cd9ae411-b3ea-4bfe-87f2-258d66b3abf5",
+    "parent_sku": "8435350219475",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 204,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-TENAYA BLUE UK3 US4",
+    "sku": "RENT-19250d75-8f5a-4551-83b5-01ce6e972808",
+    "parent_sku": "8435350213190",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 198,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta UK7.5 Green",
+    "sku": "RENT-b0eb2df6-54eb-4d49-b1d7-d8f59aa71141",
+    "parent_sku": "8435350219468",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 200,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta UK9 (Blue)",
+    "sku": "RENT-3d3ff187-8763-4f54-b655-a2d157bdfad1",
+    "parent_sku": "8435350213312",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 205,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta (Blue) UK 5.5/US 6.5",
+    "sku": "RENT-113bf1d1-47db-4ce2-b32d-35ef522769c6",
+    "parent_sku": "8435350213244",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 5.5/US 6.5",
+    "sequence": 234,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta (Green) UK 8.5/US 9.5",
+    "sku": "RENT-f54a280f-ea06-40d0-9bcc-425e22c18078",
+    "parent_sku": "8435350219482",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 8.5/ US 9.5",
+    "sequence": 228,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta (Blue) UK 9.5/ US 10.5",
+    "sku": "RENT-29b932de-5647-4b0d-a1ec-ce24af094b59",
+    "parent_sku": "8435350213329",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 9.5/ US 10.5",
+    "sequence": 227,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Indalo UK 6/ US 7",
+    "sku": "RENT-fb2745f2-9482-4d90-b87b-a56bb1faa5c2",
+    "parent_sku": "8435350218034",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 6/ US 7",
+    "sequence": 231,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 764,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Indalo UK 6.5/ US 7.5",
+    "sku": "RENT-a3ccd362-81e2-4057-95a5-e972ebb73dcb",
+    "parent_sku": "8435350218041",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 6.5/ US 7.5",
+    "sequence": 230,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 764,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Oasi LV UK 6.5/ US 7.5",
+    "sku": "RENT-24019f09-e35d-44d3-b831-ec3732d661ef",
+    "parent_sku": "8435350213763",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 6.5/ US 7.5",
+    "sequence": 232,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Indalo UK 7.5/ US 8.5",
+    "sku": "RENT-79f09320-76e5-458f-9802-cd978c5d960b",
+    "parent_sku": "8435350218065",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 7.5/ US 8.5",
+    "sequence": 237,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 764,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Indalo UK 7.0/ US 8.0",
+    "sku": "RENT-df5ef348-5454-4d09-b911-220db9d5895a",
+    "parent_sku": "8435350218058",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": null,
+    "sequence": 233,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 764,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya OASI LV UK 8.0/ US 9.0",
+    "sku": "RENT-2394ef8d-77c2-45e0-b34f-8b958a603c87",
+    "parent_sku": "8435350213794",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK",
+    "sequence": 235,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya OASI LV UK6.0/ US7.0",
+    "sku": "RENT-3de108f9-ef32-460d-b360-9d6ddb77b4b1",
+    "parent_sku": "8435350213756",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 6.0/ US7.0",
+    "sequence": 239,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 649,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Mastia UK 7.0/ US 8.0",
+    "sku": "RENT-e007bf81-f66e-49a1-bc46-fa891e0e2d17",
+    "parent_sku": "8435350214272",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 7.0/ US 8.0",
+    "sequence": 242,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 695,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Mastia UK 5.0/ US 6.0",
+    "sku": "RENT-d816a57d-4edd-4a4e-845e-0bab29a5075c",
+    "parent_sku": "8435350214234",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 5.0/ US 6.0",
+    "sequence": 236,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 695,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap (Grey) UK 5.5/ US 6.5",
+    "sku": "RENT-dfd18e1c-5d6b-47b9-b75a-86752ddf6f09",
+    "parent_sku": "6950799023374",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 5.5/ US 6.5",
+    "sequence": 244,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap (Purple) UK 8.0/ US 9.0",
+    "sku": "RENT-58813c12-3837-45e1-be9b-6014d22e606e",
+    "parent_sku": "6950799027532",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 8.0/ US 9.0",
+    "sequence": 245,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap (Grey) UK 6.0/ US 7.0",
+    "sku": "RENT-681d08ce-c297-4681-9c9d-26dae73e0664",
+    "parent_sku": "6950799023381",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 6.0/ US 7.0",
+    "sequence": 246,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Rave Strap (Grey) UK 7.0/ US 8.0",
+    "sku": "RENT-6bd7f249-b6dd-4991-9e0c-b5f0701a694d",
+    "parent_sku": "6950799023404",
+    "category": [
+      "shoes"
+    ],
+    "desc": "",
+    "images": [],
+    "size": "UK 7.0/ US 8.0",
+    "sequence": 247,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 2.0/ US 3.0",
+    "sku": "RENT-fb4a46be-f4f3-42ce-8f6a-5a196440e5cb",
+    "parent_sku": "6950799020335",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 2.0/ US 3.0",
+    "sequence": 248,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 3.0/ US 4.0",
+    "sku": "RENT-12b2dc58-5f03-4080-b136-ab5ae9f79c3e",
+    "parent_sku": "6950799020359",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 3.0/ US 4.0",
+    "sequence": 257,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 11.5/ US 12.5",
+    "sku": "RENT-01f6e2c1-0b1f-4403-bb48-386855f79582",
+    "parent_sku": "6950799020526",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 11.5/ US 12.5",
+    "sequence": 253,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 11.0/ US 12.0",
+    "sku": "RENT-f648838c-4df0-41f8-a5d7-6055661bf64c",
+    "parent_sku": "6950799020519",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 11.0/ US 12.0",
+    "sequence": 249,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 2.5/ US 3.5",
+    "sku": "RENT-d6a7d9c8-2fa5-4671-9574-138d6f6c06d0",
+    "parent_sku": "6950799020342",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 2.5/ US 3.5",
+    "sequence": 250,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 4.5/ US 5.5",
+    "sku": "RENT-5d03abfc-c816-43a2-8743-3419100b66e8",
+    "parent_sku": "6950799020380",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 4.5/ US 5.5",
+    "sequence": 251,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Red Point Strap UK 10.0/ US 11.0",
+    "sku": "RENT-c799a842-5125-4df8-b1c6-1675072e22d2",
+    "parent_sku": "6950799020496",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 10.0/ US 11.0",
+    "sequence": 254,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Indalo UK 4/ US 5",
+    "sku": "RENT-8ef1b564-38bc-4c8f-b6ba-0ada938cb778",
+    "parent_sku": "8435350217990",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK4/US5",
+    "sequence": 259,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 764,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "FOUNDATION"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  },
+  {
+    "name": "RENT-ClimbX Rave Red US7.5/UK6.5",
+    "sku": "RENT-b11c30a5-7a7e-4c95-990e-9427d0de8890",
+    "parent_sku": "6950799023671",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "US7.5/ UK 6.5",
+    "sequence": 266,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "MANAGER"
+    ],
+    "site": [
+      "ONLINE",
+      "BATUU_3DAMANASARA"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": true,
+    "__v": 0
+  },
+  {
+    "name": "RENT-Tenaya Tanta Blue UK 4.5/ US 5.5",
+    "sku": "RENT-9c89c95d-b31e-4f3c-84d1-1a41366639aa",
+    "parent_sku": "8435350213220",
+    "category": [
+      "shoes"
+    ],
+    "desc": null,
+    "images": [],
+    "size": "UK 4.5/ US 5.5",
+    "sequence": 264,
+    "unit_price": [
+      {
+        "currency": "MYR",
+        "value": 459,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    ],
+    "discount": [
+      "NORMAL"
+    ],
+    "authority": [
+      "ADMIN"
+    ],
+    "site": [
+      "BATUU_3DAMANASARA",
+      "ONLINE"
+    ],
+    "stockable": false,
+    "rentable": true,
+    "enable": false,
+    "__v": 0
+  }
+]

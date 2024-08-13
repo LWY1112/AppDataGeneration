@@ -110,5 +110,62 @@
     },
     "nationality": "Kuwait",
     "shoe_size": "UK9"
+  },
+  {
+    "name": "Ewell Grimes",
+    "identity": {
+      "type": "IC",
+      "value": "8305205656"
+    },
+    "photo": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+    "email": "Bridie_Homenick43@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "125707221"
+    },
+    "DOB": "1985-07-06T10:35:12.834Z",
+    "gender": "FEMALE",
+    "note": "I'll connect the optical CLI microchip, that should bandwidth the JSON monitor!",
+    "status": "ACTIVE",
+    "uid": "3dccd54a-dd63-4f1d-be2f-aaed6105dda9",
+    "address": {
+      "street_1": "9133 Payton Knolls",
+      "street_2": "Suite 194",
+      "city": "East Kimberly",
+      "postcode": "09748-7625",
+      "state": "Al Jahra Governorate",
+      "country": "Kuwait"
+    },
+    "nationality": "Kuwait",
+    "shoe_size": "US6"
+  },
+  {
+    "name": "Napoleon Armstrong",
+    "identity": {
+      "type": "PASSPORT",
+      "value": "f6d64053-f45e-4232-b6cd-a45b0e801285"
+    },
+    "photo": "https://avatars.githubusercontent.com/u/63440196",
+    "email": "Isom98@hotmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "151162977"
+    },
+    "DOB": "1962-12-17T04:55:45.769Z",
+    "gender": "MALE",
+    "note": "overriding the hard drive won't do anything, we need to back up the multi-byte API program!",
+    "status": "REGISTERED",
+    "uid": "e6103811-2902-48f3-a3ba-58266a4a79e0",
+    "address": {
+      "street_1": "126 Amina Mall",
+      "street_2": "Suite 263",
+      "city": "Nicholaston",
+      "postcode": "09357-2313",
+      "state": "Honiara",
+      "country": "Solomon Islands"
+    },
+    "nationality": "Solomon Islands",
+    "shoe_size": ""
   }
 ]
+

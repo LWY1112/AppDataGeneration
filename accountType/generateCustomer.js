@@ -98,3 +98,6 @@ async function fetchCountries(apiEndpoint) {
 }
 
 module.exports = { generateRandomCustomer, fetchStatuses, fetchIdentityTypes, fetchGenders, fetchCountries };
+
+
+//C00070-C00093 are all under 18

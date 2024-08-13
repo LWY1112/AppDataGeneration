@@ -18,14 +18,19 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 1
+    "enable": true,
+    "sequence": 3,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CRUX Particles",
@@ -46,15 +51,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 2
+    "sequence": 1,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Finger Strap",
@@ -80,11 +89,14 @@
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 3
+    "enable": false,
+    "sequence": 2,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rental Shoes and Harness",
@@ -106,16 +118,17 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 4
+    "enable": true,
+    "sequence": 11,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Lux Tape Black",
@@ -136,15 +149,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 5
+    "sequence": 4,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Lux Tape White",
@@ -169,10 +183,14 @@
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 6
+    "enable": false,
+    "sequence": 6,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "MASK2",
@@ -194,13 +212,18 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 7
+    "enable": true,
+    "sequence": 21,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAVE STRAP GRAY",
@@ -221,13 +244,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 8
+    "enable": false,
+    "sequence": 5,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap Blue",
@@ -248,14 +276,16 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 9
+    "sequence": 23,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap Red US 5.5",
@@ -276,13 +306,16 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 10
+    "enable": true,
+    "sequence": 20,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap Red",
@@ -303,14 +336,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 11
+    "sequence": 22,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN OXI S",
@@ -331,14 +366,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 12
+    "enable": false,
+    "sequence": 16,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN OZONE QC US 7.5",
@@ -359,13 +397,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 13
+    "sequence": 27,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN OXI LADY",
@@ -390,10 +433,14 @@
       "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 14
+    "enable": true,
+    "sequence": 17,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA OASI BLUE",
@@ -414,14 +461,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 15
+    "enable": false,
+    "sequence": 26,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA",
@@ -442,15 +494,18 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 16
+    "enable": true,
+    "sequence": 13,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RED POINT STRAP",
@@ -471,6 +526,7 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
       "ADMIN"
     ],
@@ -478,8 +534,11 @@
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 17
+    "enable": false,
+    "sequence": 10,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA OASI LV",
@@ -501,14 +560,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 18
+    "sequence": 14,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA",
@@ -529,15 +591,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 19
+    "enable": true,
+    "sequence": 12,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA",
@@ -558,16 +622,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 20
+    "enable": true,
+    "sequence": 15,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA OASI BLUE",
@@ -588,15 +653,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 21
+    "sequence": 24,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "OCUN OXI LADY",
@@ -618,14 +685,17 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 22
+    "sequence": 18,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA OASI",
@@ -647,15 +717,16 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 23
+    "enable": true,
+    "sequence": 19,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN OZONE QC US 8",
@@ -676,16 +747,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 24
+    "sequence": 30,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "OCUN OZONE QC US 8.5",
@@ -711,10 +784,13 @@
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 25
+    "sequence": 8,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "OCUN OZONE OZI S",
@@ -735,15 +811,18 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 26
+    "sequence": 9,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN OXI LADY",
@@ -764,14 +843,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 27
+    "sequence": 25,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "OCUN OXI LADY",
@@ -792,15 +876,18 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 28
+    "sequence": 32,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA OASI",
@@ -821,14 +908,16 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 29
+    "enable": true,
+    "sequence": 28,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA OASI BLUE",
@@ -850,13 +939,18 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 30
+    "sequence": 31,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA OASI BLUE",
@@ -877,15 +971,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 31
+    "enable": false,
+    "sequence": 29,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA GREEN",
@@ -906,14 +1003,17 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 32
+    "sequence": 7,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA GREEN",
@@ -939,11 +1039,14 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 33
+    "enable": true,
+    "sequence": 34,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA MUNDAKA GREEN",
@@ -965,14 +1068,17 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 34
+    "enable": true,
+    "sequence": 33,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAVE STRAP GRAY",
@@ -993,16 +1099,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 35
+    "sequence": 35,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAVE STRAP RED",
@@ -1023,16 +1130,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 36
+    "sequence": 40,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAVE STRAP RED",
@@ -1053,15 +1160,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 37
+    "enable": true,
+    "sequence": 38,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAVE STRAP BLUE",
@@ -1082,15 +1192,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 38
+    "enable": true,
+    "sequence": 36,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "OCUN TWIST (M-XL)",
@@ -1111,15 +1222,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 39
+    "sequence": 39,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "SINGING ROCK GARNET RED",
@@ -1140,14 +1253,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 40
+    "sequence": 41,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "SINGING ROCK ONYX",
@@ -1168,15 +1285,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 41
+    "sequence": 43,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "FELIX",
@@ -1197,15 +1315,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 42
+    "enable": true,
+    "sequence": 44,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "ALEX",
@@ -1226,15 +1347,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 43
+    "enable": false,
+    "sequence": 37,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PAUL",
@@ -1255,7 +1380,6 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
@@ -1264,7 +1388,10 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 44
+    "sequence": 46,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "cHARLIE",
@@ -1285,15 +1412,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 45
+    "sequence": 42,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "INGRID",
@@ -1314,13 +1443,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 46
+    "enable": false,
+    "sequence": 51,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PEPPI",
@@ -1341,16 +1476,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 47
+    "sequence": 45,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PAM",
@@ -1371,15 +1506,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 48
+    "enable": true,
+    "sequence": 53,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Staff T-shirt",
@@ -1400,14 +1538,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 49
+    "sequence": 47,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Bundle for any 2 (Less talk or Belaytionship)",
@@ -1428,15 +1569,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 50
+    "enable": true,
+    "sequence": 48,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "White Cotton Shirt",
@@ -1457,15 +1600,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 51
+    "enable": false,
+    "sequence": 49,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Purple Wristband",
@@ -1487,14 +1633,16 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 52
+    "enable": false,
+    "sequence": 50,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Black DriFit Shirt",
@@ -1515,14 +1663,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 53
+    "enable": false,
+    "sequence": 52,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "White Wristband",
@@ -1543,16 +1696,18 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 54
+    "enable": false,
+    "sequence": 55,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Singing Rock Buddy Set",
@@ -1573,15 +1728,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 55
+    "sequence": 54,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Black Wristband",
@@ -1607,10 +1764,14 @@
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 56
+    "enable": false,
+    "sequence": 57,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Iron Patch Black",
@@ -1631,15 +1792,19 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 57
+    "enable": false,
+    "sequence": 67,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Iron Patch White",
@@ -1660,16 +1825,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 58
+    "enable": true,
+    "sequence": 56,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Iron Patch Yellow",
@@ -1691,13 +1856,16 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 59
+    "sequence": 60,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Gray DriFit Shirt",
@@ -1722,10 +1890,14 @@
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 60
+    "enable": false,
+    "sequence": 58,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Pink DriFit Shirt",
@@ -1747,14 +1919,18 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 61
+    "enable": true,
+    "sequence": 59,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Purple DriFit Shirt",
@@ -1775,14 +1951,17 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 62
+    "enable": false,
+    "sequence": 66,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "DriFit Bundle",
@@ -1803,16 +1982,19 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 63
+    "sequence": 61,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Iron-on Patch Bundle",
@@ -1833,14 +2015,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 64
+    "enable": true,
+    "sequence": 62,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Budde Tube ATC",
@@ -1861,13 +2047,16 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 65
+    "enable": false,
+    "sequence": 63,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Monsoon Ball",
@@ -1888,14 +2077,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 66
+    "sequence": 64,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Send Liquid Chalk",
@@ -1916,15 +2108,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 67
+    "enable": true,
+    "sequence": 65,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Chalkball",
@@ -1946,14 +2139,17 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 68
+    "sequence": 69,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Socks",
@@ -1974,14 +2170,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 69
+    "sequence": 68,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Locker",
@@ -2002,14 +2203,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 70
+    "sequence": 70,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Locker",
@@ -2030,16 +2236,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 71
+    "enable": false,
+    "sequence": 71,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "In a Belaytionship Tshirt",
@@ -2060,14 +2268,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 72
+    "sequence": 80,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Less Talk More Chalk Tshirt",
@@ -2088,14 +2298,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 73
+    "sequence": 73,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Conquer Fingerboard",
@@ -2116,15 +2329,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 74
+    "enable": true,
+    "sequence": 76,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "School of Rock",
@@ -2145,15 +2362,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 75
+    "sequence": 72,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Personal Coaching",
@@ -2174,14 +2394,18 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 76
+    "sequence": 82,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Learn to Lead",
@@ -2202,15 +2426,18 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 77
+    "enable": false,
+    "sequence": 74,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Technique Class",
@@ -2231,16 +2458,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 78
+    "enable": true,
+    "sequence": 84,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Technique Class",
@@ -2261,13 +2490,18 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 79
+    "enable": true,
+    "sequence": 77,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Ticket Date Change Admin Fee",
@@ -2288,14 +2522,19 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 80
+    "enable": false,
+    "sequence": 79,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Climbing 101 Workshop",
@@ -2316,14 +2555,18 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 81
+    "sequence": 75,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rope (per m)",
@@ -2345,13 +2588,17 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 82
+    "sequence": 81,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Carabiner Triple Lock Bora",
@@ -2372,15 +2619,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 83
+    "enable": false,
+    "sequence": 83,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RAMA Grey",
@@ -2401,15 +2651,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 84
+    "enable": true,
+    "sequence": 78,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "RAMA Orange",
@@ -2430,15 +2683,17 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 85
+    "enable": true,
+    "sequence": 85,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PEARL M",
@@ -2459,14 +2714,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 86
+    "sequence": 91,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "PEARL S",
@@ -2487,15 +2745,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 87
+    "sequence": 88,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PEARL XS",
@@ -2516,14 +2778,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 88
+    "sequence": 92,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "VERSA 2 XS-M",
@@ -2544,14 +2810,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 89
+    "sequence": 86,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "VERSA 2 L-XXL",
@@ -2573,15 +2842,18 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 90
+    "sequence": 87,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PACKET VERSA 2 XS-M",
@@ -2602,14 +2874,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 91
+    "sequence": 93,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "VIXEN M",
@@ -2630,15 +2905,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 92
+    "enable": true,
+    "sequence": 89,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "PEARL L",
@@ -2659,13 +2935,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 93
+    "sequence": 90,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "VIPER M",
@@ -2687,13 +2967,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 94
+    "sequence": 153,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "VIPER L",
@@ -2714,15 +2998,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 95
+    "enable": true,
+    "sequence": 155,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "MITHRIL M",
@@ -2743,15 +3029,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 96
+    "sequence": 154,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "MITHRIL S",
@@ -2772,14 +3061,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 97
+    "sequence": 157,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TRANCE S",
@@ -2803,11 +3095,13 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 98
+    "sequence": 160,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "MITHRIL L",
@@ -2828,14 +3122,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 99
+    "enable": false,
+    "sequence": 156,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX  US9",
@@ -2857,14 +3154,18 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 100
+    "enable": false,
+    "sequence": 159,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "AVAX US8",
@@ -2885,15 +3186,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 101
+    "enable": true,
+    "sequence": 168,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX US7 1/2",
@@ -2914,13 +3217,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 102
+    "sequence": 166,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX US7",
@@ -2941,14 +3249,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 103
+    "enable": false,
+    "sequence": 162,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX US5 1/2",
@@ -2969,15 +3280,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 104
+    "enable": false,
+    "sequence": 164,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "AVAX US5",
@@ -2998,15 +3310,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 105
+    "sequence": 171,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX US4 1/2",
@@ -3028,13 +3341,16 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 106
+    "enable": true,
+    "sequence": 176,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "ENIGMA BLACK 10 1/2",
@@ -3055,14 +3371,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 107
+    "enable": true,
+    "sequence": 161,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "ENIGMA NOP 9",
@@ -3083,13 +3404,17 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 108
+    "sequence": 172,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "ENIGMA BLACK 10",
@@ -3110,14 +3435,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 109
+    "enable": false,
+    "sequence": 158,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AVAX US10 1/2",
@@ -3138,16 +3466,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 110
+    "sequence": 165,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "ENIGMA BLACK 8",
@@ -3168,15 +3496,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 111
+    "sequence": 170,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "MITHRIL M",
@@ -3197,14 +3528,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 112
+    "enable": false,
+    "sequence": 169,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "SALTIC BONGO",
@@ -3225,15 +3560,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 113
+    "sequence": 163,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Shipment",
@@ -3254,15 +3590,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 114
+    "sequence": 173,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap 10.0 US/9.0 UK Red",
@@ -3283,15 +3622,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 115
+    "sequence": 167,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 4.5/ UK 3.5",
@@ -3312,15 +3652,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 116
+    "sequence": 96,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US 6.0/ UK 5.0",
@@ -3341,15 +3682,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 117
+    "sequence": 95,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap(Blue) US 5.0/ UK 4.0",
@@ -3370,14 +3713,19 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 118
+    "sequence": 94,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US 6.5/UK 5.5",
@@ -3398,16 +3746,19 @@
       }
     ],
     "authority": [
-      "STAFF",
+      "ADMIN",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 119
+    "enable": true,
+    "sequence": 97,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 7.0/ UK 6.0",
@@ -3428,14 +3779,16 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 120
+    "sequence": 98,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap Grey US 4.5/ UK 3.5",
@@ -3456,16 +3809,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 121
+    "sequence": 109,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap blue US 5.5/ UK 4.5",
@@ -3486,13 +3840,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 122
+    "enable": true,
+    "sequence": 100,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap Grey US 5.5/ UK 4.5",
@@ -3513,16 +3871,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 123
+    "enable": true,
+    "sequence": 99,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap Red US 4.0/ UK 3.0",
@@ -3543,14 +3901,19 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 124
+    "enable": true,
+    "sequence": 102,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 7.5 / UK 6.5",
@@ -3571,14 +3934,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 125
+    "sequence": 104,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap Red US 6.0/ UK 5.0",
@@ -3599,14 +3967,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 126
+    "enable": true,
+    "sequence": 101,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 8.0/ UK7.0",
@@ -3627,13 +3998,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 127
+    "sequence": 105,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 8.5/ UK 7.5",
@@ -3654,14 +4030,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 128
+    "enable": true,
+    "sequence": 107,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US 9.0/ UK8.0",
@@ -3682,14 +4063,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 129
+    "enable": false,
+    "sequence": 103,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US 9.5/ UK 8.5",
@@ -3710,14 +4096,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 130
+    "enable": false,
+    "sequence": 108,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap(Blue) US7.0/UK6.0",
@@ -3738,14 +4127,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 131
+    "sequence": 131,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap(Blue) US7.5/UK6.5",
@@ -3766,14 +4159,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 132
+    "enable": false,
+    "sequence": 111,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap (Blue) US 8.5/UK 7.5",
@@ -3794,14 +4190,16 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 133
+    "enable": true,
+    "sequence": 106,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US 10/ UK 9.0",
@@ -3822,14 +4220,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 134
+    "sequence": 110,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap (Blue) US11.5/UK10.5",
@@ -3850,15 +4251,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 135
+    "enable": true,
+    "sequence": 116,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap(Grey) US9.0/UK8.0",
@@ -3879,16 +4281,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 136
+    "enable": true,
+    "sequence": 113,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap (Blue) US 8.0/ UK 7.0",
@@ -3909,14 +4312,18 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 137
+    "enable": false,
+    "sequence": 112,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap (Grey) US 10.0/UK 9.0",
@@ -3937,14 +4344,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 138
+    "enable": true,
+    "sequence": 115,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US10.5/UK9.5",
@@ -3965,14 +4375,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 139
+    "sequence": 114,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red point strap US11.5/UK10.5",
@@ -3996,11 +4411,13 @@
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 140
+    "sequence": 117,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap (Grey) US 7.5/ UK 6.5",
@@ -4021,14 +4438,16 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 141
+    "sequence": 120,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CRUSH NLV(Purple) US5.5/UK4.5",
@@ -4049,14 +4468,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 142
+    "sequence": 118,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave strap (Grey) US6.0/UK5.0",
@@ -4077,13 +4500,18 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 143
+    "sequence": 121,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CRUSH NLV (Purple) US 6.0 / UK 5.0",
@@ -4104,15 +4532,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 144
+    "enable": false,
+    "sequence": 119,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CRUSH NLV(Purple) US7.0/UK6.0",
@@ -4133,14 +4565,19 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 145
+    "sequence": 125,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CRUSH NLV (Purple) US 6.5/ UK 5.5",
@@ -4161,15 +4598,17 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
       "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 146
+    "enable": false,
+    "sequence": 126,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red point strap US5.0/UK4.0",
@@ -4190,13 +4629,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 147
+    "sequence": 127,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave strap(Blue) US6.5/UK 5.5",
@@ -4217,15 +4662,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 148
+    "sequence": 124,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanya UK 10.5",
@@ -4251,11 +4697,13 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 149
+    "enable": true,
+    "sequence": 122,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PR Water Bottle",
@@ -4276,15 +4724,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 150
+    "sequence": 129,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Singing Rock Bora Screw (HMS)",
@@ -4305,14 +4755,18 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 151
+    "sequence": 130,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Singing Rock Colt Screw Black",
@@ -4333,16 +4787,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 152
+    "enable": false,
+    "sequence": 128,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Singing Rock Colt Screw",
@@ -4364,14 +4819,18 @@
     ],
     "authority": [
       "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 153
+    "sequence": 123,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Singing Rock Mini D",
@@ -4400,7 +4859,10 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 154
+    "sequence": 132,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Singing Rock Mini Pear",
@@ -4421,15 +4883,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 155
+    "enable": true,
+    "sequence": 133,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Climb X Kinder",
@@ -4450,14 +4914,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 156
+    "sequence": 134,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Singing Rock Bala",
@@ -4478,16 +4947,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 157
+    "enable": false,
+    "sequence": 135,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "DMM Phantom HMS Screwgate",
@@ -4508,16 +4979,18 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 158
+    "sequence": 138,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "DMM Ceros Screwgate",
@@ -4538,15 +5011,18 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 159
+    "sequence": 275,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "DMM Rhino Screwgate",
@@ -4567,13 +5043,18 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 160
+    "enable": true,
+    "sequence": 137,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "barebells protein bar",
@@ -4594,15 +5075,19 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 161
+    "enable": false,
+    "sequence": 268,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "nice & natural roasted protein bars",
@@ -4623,13 +5108,17 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 162
+    "sequence": 140,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "yogood yogurt coated muesli bar",
@@ -4650,13 +5139,18 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 163
+    "sequence": 267,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "bcaa sport drink",
@@ -4677,14 +5171,18 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 164
+    "enable": false,
+    "sequence": 272,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TUBE CHALKBAG YELLOW",
@@ -4705,15 +5203,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 165
+    "sequence": 269,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CHALKBAG MOUNTAIN DARKGREY",
@@ -4739,11 +5239,13 @@
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 166
+    "sequence": 270,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TUBE CHALKBAG BLUE",
@@ -4764,16 +5266,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 167
+    "enable": false,
+    "sequence": 274,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CHALKBAG MOUNTAIN RED",
@@ -4794,7 +5296,6 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
@@ -4802,7 +5303,10 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 168
+    "sequence": 279,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CHALKBAG MOUNTAIN BLUE",
@@ -4823,14 +5327,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 169
+    "enable": true,
+    "sequence": 271,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CHALKBAG LARGE DARK GREY",
@@ -4852,13 +5359,18 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 170
+    "enable": true,
+    "sequence": 273,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CHALKBAG LARGE GREY",
@@ -4879,15 +5391,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
+      "STAFF",
       "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 171
+    "sequence": 276,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "CHALKBAG COMIC YELLOW",
@@ -4908,14 +5423,17 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 172
+    "enable": false,
+    "sequence": 277,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "CHALKBAG COMIC PINK",
@@ -4936,14 +5454,19 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 173
+    "enable": false,
+    "sequence": 281,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "SASHA",
@@ -4965,7 +5488,6 @@
     ],
     "authority": [
       "STAFF",
-      "ADMIN",
       "MANAGER"
     ],
     "site": [
@@ -4973,7 +5495,10 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 174
+    "sequence": 278,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "HANNA",
@@ -4995,14 +5520,18 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 175
+    "sequence": 280,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "PHIL",
@@ -5023,14 +5552,18 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 176
+    "sequence": 283,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "INGRID",
@@ -5051,13 +5584,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 177
+    "enable": false,
+    "sequence": 282,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "KELLY",
@@ -5078,13 +5615,17 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 178
+    "enable": true,
+    "sequence": 284,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "MAX",
@@ -5106,14 +5647,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 179
+    "enable": true,
+    "sequence": 285,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "RUBEN",
@@ -5139,11 +5683,14 @@
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 180
+    "enable": true,
+    "sequence": 297,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "JAMIE",
@@ -5164,13 +5711,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 181
+    "sequence": 295,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "MANNY",
@@ -5191,14 +5743,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 182
+    "enable": false,
+    "sequence": 287,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "ALEX",
@@ -5219,14 +5774,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 183
+    "enable": false,
+    "sequence": 288,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "AJ",
@@ -5247,14 +5806,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 184
+    "enable": false,
+    "sequence": 286,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Project Rock Hoodie",
@@ -5275,13 +5837,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 185
+    "enable": true,
+    "sequence": 289,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Lvl 1 Staff",
@@ -5303,16 +5869,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 186
+    "enable": true,
+    "sequence": 290,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rental Shoes Only",
@@ -5334,14 +5903,19 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 187
+    "enable": false,
+    "sequence": 298,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rental Harness Only",
@@ -5363,16 +5937,19 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 188
+    "enable": false,
+    "sequence": 296,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Membership Freeze",
@@ -5393,14 +5970,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN",
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 189
+    "sequence": 291,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Competitive Personal Coaching",
@@ -5421,7 +6003,6 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
       "MANAGER"
     ],
@@ -5429,8 +6010,11 @@
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 190
+    "enable": false,
+    "sequence": 292,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK2 (GREEN)",
@@ -5451,6 +6035,7 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER"
     ],
     "site": [
@@ -5458,7 +6043,10 @@
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 191
+    "sequence": 293,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UL 2.5 (GREEN)",
@@ -5479,15 +6067,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 192
+    "sequence": 294,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 3.5 (GREEN)",
@@ -5508,15 +6099,16 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 193
+    "enable": true,
+    "sequence": 136,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK6 (GREEN)",
@@ -5537,16 +6129,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 194
+    "sequence": 149,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 4.5 (GREEN)",
@@ -5567,15 +6160,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 195
+    "enable": true,
+    "sequence": 141,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 6.5 (GREEN)",
@@ -5596,16 +6193,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 196
+    "enable": true,
+    "sequence": 139,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 9 (GREEN)",
@@ -5626,13 +6225,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 197
+    "enable": false,
+    "sequence": 142,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 9.5",
@@ -5654,13 +6259,16 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 198
+    "enable": true,
+    "sequence": 151,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 4 (BLUE)",
@@ -5682,14 +6290,18 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 199
+    "sequence": 143,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 5 (BLUE)",
@@ -5710,15 +6322,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 200
+    "sequence": 145,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 6 (BLUE)",
@@ -5739,14 +6355,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 201
+    "sequence": 144,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 7 (BLUE)",
@@ -5767,15 +6385,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
       "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 202
+    "sequence": 146,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 7.5 (BLUE)",
@@ -5796,15 +6417,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 203
+    "enable": false,
+    "sequence": 148,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 8 (BLUE)",
@@ -5825,14 +6448,17 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 204
+    "enable": true,
+    "sequence": 147,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA UK 8.5 (BLUE)",
@@ -5853,14 +6479,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 205
+    "enable": false,
+    "sequence": 150,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "10 Time Coaching Session (2 months validity)",
@@ -5881,15 +6511,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 206
+    "enable": true,
+    "sequence": 174,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "THE TAPPING TAPIR- APPLE & VANILLA",
@@ -5910,14 +6541,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 207
+    "sequence": 175,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "THE TAPPING TAPIR- ORANGE &JASMINE",
@@ -5938,15 +6573,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 208
+    "enable": true,
+    "sequence": 152,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "THE TAPPING TAPIR- GUAVA & LEMONGRASS",
@@ -5967,15 +6606,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 209
+    "sequence": 177,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "THE TAPPING TAPIR- LEMONADE & LENGKUAS",
@@ -5996,13 +6639,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 210
+    "sequence": 179,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "100 PLUS",
@@ -6023,13 +6670,16 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 211
+    "sequence": 178,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rope Rental",
@@ -6050,8 +6700,6 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
       "MANAGER"
     ],
     "site": [
@@ -6059,7 +6707,10 @@
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 212
+    "sequence": 180,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Belay Device",
@@ -6080,14 +6731,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 213
+    "enable": true,
+    "sequence": 183,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "JEVO REJUVENATE",
@@ -6108,16 +6763,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "STAFF",
       "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 214
+    "sequence": 182,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "JEVO IMMUNITY",
@@ -6138,16 +6796,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 215
+    "sequence": 194,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Big Rockover Brush",
@@ -6168,14 +6827,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 216
+    "sequence": 181,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Small Brush Rockover",
@@ -6196,14 +6857,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 217
+    "enable": true,
+    "sequence": 184,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rope Rental",
@@ -6227,10 +6893,14 @@
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 218
+    "sequence": 187,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap (Red) US 8.5/UK 7.5",
@@ -6251,16 +6921,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 219
+    "sequence": 185,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap (Purple) US 7.5/UK 6.5",
@@ -6281,7 +6951,6 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
       "MANAGER"
     ],
@@ -6289,8 +6958,11 @@
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 220
+    "enable": true,
+    "sequence": 186,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Blue) US 6.5/ UK 5.5",
@@ -6311,14 +6983,18 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 221
+    "enable": true,
+    "sequence": 188,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Purple) US 7.0/ UK 6.0",
@@ -6339,16 +7015,17 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 222
+    "sequence": 190,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Blue) US 9.0/ UK 8.0",
@@ -6369,16 +7046,19 @@
       }
     ],
     "authority": [
+      "STAFF",
       "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 223
+    "enable": false,
+    "sequence": 189,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "LILLY",
@@ -6400,14 +7080,16 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER",
       "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 224
+    "sequence": 195,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "DONALD",
@@ -6428,14 +7110,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 225
+    "sequence": 191,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "BOBO",
@@ -6456,13 +7141,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 226
+    "sequence": 193,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "FELIX",
@@ -6483,16 +7173,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 227
+    "sequence": 192,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "MORITZ",
@@ -6514,14 +7207,16 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 228
+    "enable": false,
+    "sequence": 207,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "LAUREL",
@@ -6542,14 +7237,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 229
+    "sequence": 197,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Red) US 8.0/UK 7.0",
@@ -6570,15 +7269,19 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 230
+    "sequence": 196,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Purple) US 8.5/ UK 7.5",
@@ -6600,14 +7303,16 @@
     ],
     "authority": [
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 231
+    "enable": true,
+    "sequence": 203,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA TANTA GREEN UK8 US9",
@@ -6628,15 +7333,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
+      "ADMIN",
       "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 232
+    "sequence": 204,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "TENAYA BLUE UK3 US4",
@@ -6657,15 +7365,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 233
+    "enable": true,
+    "sequence": 198,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanta UK7.5 Green",
@@ -6687,14 +7397,17 @@
     ],
     "authority": [
       "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 234
+    "enable": true,
+    "sequence": 200,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tenaya Tanta UK9 (Blue)",
@@ -6715,13 +7428,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 235
+    "enable": false,
+    "sequence": 205,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Barebells Chocolate Milkshake",
@@ -6742,14 +7459,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 236
+    "sequence": 199,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Nocco Limon Del Sol",
@@ -6774,10 +7495,14 @@
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 237
+    "sequence": 216,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Barebells Salty Peanut Bar",
@@ -6798,14 +7523,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 238
+    "enable": true,
+    "sequence": 202,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tau Fu Fah Ice Cream",
@@ -6827,14 +7555,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 239
+    "enable": true,
+    "sequence": 201,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "French Vanilla Ice Cream",
@@ -6855,13 +7586,19 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 240
+    "sequence": 206,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Yuzu Ice Cream",
@@ -6882,15 +7619,16 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 241
+    "sequence": 208,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Gula Melaka Ice Cream",
@@ -6911,15 +7649,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 242
+    "enable": false,
+    "sequence": 209,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Salted Egg Oreo Ice Cream",
@@ -6940,15 +7679,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 243
+    "sequence": 211,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "White Coffee Ice Cream",
@@ -6969,15 +7711,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 244
+    "sequence": 210,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Soursop Ice Cream",
@@ -6998,16 +7741,19 @@
       }
     ],
     "authority": [
-      "STAFF",
       "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 245
+    "enable": true,
+    "sequence": 212,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Matcha Ice Cream",
@@ -7035,7 +7781,10 @@
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 246
+    "sequence": 215,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Strawberry Ice Cream",
@@ -7056,16 +7805,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 247
+    "sequence": 213,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rich Chocolate Ice Cream",
@@ -7086,15 +7836,18 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 248
+    "enable": true,
+    "sequence": 218,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Panjat Teh Ais",
@@ -7118,11 +7871,13 @@
       "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 249
+    "sequence": 214,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Panjat Snacks",
@@ -7144,14 +7899,18 @@
     ],
     "authority": [
       "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 250
+    "sequence": 220,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "10 Sessions Personal Coach",
@@ -7172,14 +7931,19 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER"
+      "MANAGER",
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 251
+    "sequence": 217,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Kailas Selma II Helmet",
@@ -7200,15 +7964,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 252
+    "enable": true,
+    "sequence": 219,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanta (Blue) UK 5.5/US 6.5",
@@ -7229,14 +7996,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 253
+    "enable": true,
+    "sequence": 234,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Lead Belay Service",
@@ -7257,15 +8027,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 254
+    "enable": true,
+    "sequence": 223,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Drinking Water",
@@ -7287,14 +8061,16 @@
     ],
     "authority": [
       "MANAGER",
-      "STAFF",
       "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 255
+    "sequence": 221,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Climbing Holds Per KG",
@@ -7316,14 +8092,18 @@
     ],
     "authority": [
       "ADMIN",
+      "MANAGER",
       "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 256
+    "enable": true,
+    "sequence": 222,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "T-nuts",
@@ -7345,14 +8125,17 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 257
+    "sequence": 229,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Hanger",
@@ -7373,14 +8156,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 258
+    "enable": true,
+    "sequence": 224,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Panjat Black",
@@ -7401,14 +8186,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 259
+    "enable": true,
+    "sequence": 225,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Panjat Nasi Lemah",
@@ -7430,15 +8218,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 260
+    "enable": false,
+    "sequence": 226,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanta (Green) UK 8.5/US 9.5",
@@ -7459,14 +8249,17 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": false,
-    "sequence": 261
+    "sequence": 228,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanta (Blue) UK 9.5/ US 10.5",
@@ -7487,13 +8280,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 262
+    "sequence": 227,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tenaya Indalo UK 6/ US 7",
@@ -7514,15 +8311,19 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 263
+    "enable": false,
+    "sequence": 231,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tenaya Indalo UK 6.5/ US 7.5",
@@ -7543,15 +8344,18 @@
       }
     ],
     "authority": [
-      "MANAGER",
       "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 264
+    "sequence": 230,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Oasi LV UK 6.5/ US 7.5",
@@ -7572,15 +8376,18 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF",
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
-      "ONLINE"
+      "ONLINE",
+      "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 265
+    "enable": false,
+    "sequence": 232,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Indalo UK 7.5/ US 8.5",
@@ -7606,11 +8413,13 @@
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 266
+    "sequence": 237,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Indalo UK 7.0/ US 8.0",
@@ -7631,13 +8440,19 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "ADMIN",
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 267
+    "sequence": 233,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tenaya OASI LV UK 8.0/ US 9.0",
@@ -7658,16 +8473,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 268
+    "enable": false,
+    "sequence": 235,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tenaya OASI LV UK6.0/ US7.0",
@@ -7688,14 +8504,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
       "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 269
+    "enable": true,
+    "sequence": 239,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Mastia UK 7.0/ US 8.0",
@@ -7716,14 +8537,17 @@
       }
     ],
     "authority": [
+      "STAFF",
       "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 270
+    "enable": true,
+    "sequence": 242,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Mastia UK 5.0/ US 6.0",
@@ -7744,15 +8568,18 @@
       }
     ],
     "authority": [
-      "STAFF",
       "MANAGER",
-      "ADMIN"
+      "ADMIN",
+      "STAFF"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 271
+    "enable": true,
+    "sequence": 236,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Ocun Lucky Chalkbag Shoes Blue",
@@ -7773,13 +8600,19 @@
       }
     ],
     "authority": [
+      "ADMIN",
+      "STAFF",
       "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 272
+    "enable": true,
+    "sequence": 238,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Ocun Lucky Chalkbag Shoes Turquoise",
@@ -7800,14 +8633,16 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 273
+    "enable": true,
+    "sequence": 243,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "ClimbX Fix Chalkbag Yellow/Black",
@@ -7828,13 +8663,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 274
+    "enable": false,
+    "sequence": 240,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "ClimbX Fix Chalkbag Blue",
@@ -7855,13 +8696,18 @@
       }
     ],
     "authority": [
-      "ADMIN"
+      "STAFF",
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 275
+    "enable": false,
+    "sequence": 252,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "ClimbX Fix Chalkbag Red",
@@ -7882,14 +8728,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "ADMIN",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 276
+    "sequence": 241,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap (Grey) UK 5.5/ US 6.5",
@@ -7913,10 +8764,14 @@
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 277
+    "sequence": 244,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap (Purple) UK 8.0/ US 9.0",
@@ -7937,15 +8792,17 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "ADMIN",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 278
+    "enable": true,
+    "sequence": 245,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rave Strap (Grey) UK 6.0/ US 7.0",
@@ -7967,14 +8824,17 @@
     ],
     "authority": [
       "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 279
+    "sequence": 246,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Rave Strap (Grey) UK 7.0/ US 8.0",
@@ -7996,14 +8856,16 @@
     ],
     "authority": [
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 280
+    "enable": true,
+    "sequence": 247,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 2.0/ US 3.0",
@@ -8024,14 +8886,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 281
+    "sequence": 248,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 3.0/ US 4.0",
@@ -8052,13 +8916,18 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 282
+    "enable": true,
+    "sequence": 257,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 11.5/ US 12.5",
@@ -8079,15 +8948,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "BATUU_3DAMANASARA",
+      "ONLINE"
     ],
-    "enable": false,
-    "sequence": 283
+    "enable": true,
+    "sequence": 253,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 11.0/ US 12.0",
@@ -8109,14 +8980,17 @@
     ],
     "authority": [
       "ADMIN",
-      "STAFF",
-      "MANAGER"
+      "MANAGER",
+      "STAFF"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 284
+    "enable": true,
+    "sequence": 249,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 2.5/ US 3.5",
@@ -8137,14 +9011,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF"
+      "ADMIN"
     ],
     "site": [
       "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 285
+    "sequence": 250,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Red Point Strap UK 4.5/ US 5.5",
@@ -8165,14 +9041,19 @@
       }
     ],
     "authority": [
+      "MANAGER",
       "STAFF",
       "ADMIN"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
     "enable": true,
-    "sequence": 286
+    "sequence": 251,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Red Point Strap UK 10.0/ US 11.0",
@@ -8193,13 +9074,19 @@
       }
     ],
     "authority": [
+      "STAFF",
+      "MANAGER",
       "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 287
+    "sequence": 254,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "DMM Tube Chalk Bag Red",
@@ -8220,13 +9107,18 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
       "ONLINE"
     ],
-    "enable": false,
-    "sequence": 288
+    "enable": true,
+    "sequence": 260,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "DMM Tube Chalk Bag Blue",
@@ -8247,14 +9139,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
       "STAFF"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 289
+    "sequence": 255,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tapping Tapir Grapefruit & Chamomile",
@@ -8275,14 +9170,17 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "STAFF"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": true,
-    "sequence": 290
+    "enable": false,
+    "sequence": 256,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Tapping Tapir Hibiscus & Lime",
@@ -8303,14 +9201,18 @@
       }
     ],
     "authority": [
+      "ADMIN",
       "MANAGER",
-      "ADMIN"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
     "enable": true,
-    "sequence": 291
+    "sequence": 258,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Indalo UK 4/ US 5",
@@ -8331,16 +9233,16 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "MANAGER"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": false,
-    "sequence": 292
+    "sequence": 259,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "ClimbX Rave Red US7.5/UK6.5",
@@ -8361,14 +9263,17 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "ADMIN"
+      "MANAGER"
     ],
     "site": [
+      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 293
+    "enable": true,
+    "sequence": 266,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Mineral Water",
@@ -8389,14 +9294,18 @@
       }
     ],
     "authority": [
-      "STAFF"
+      "STAFF",
+      "MANAGER",
+      "ADMIN"
     ],
     "site": [
-      "ONLINE",
-      "BATUU_3DAMANASARA"
+      "ONLINE"
     ],
-    "enable": true,
-    "sequence": 294
+    "enable": false,
+    "sequence": 261,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Rich Chocolate Ice Cream",
@@ -8417,16 +9326,17 @@
       }
     ],
     "authority": [
-      "ADMIN",
-      "MANAGER",
-      "STAFF"
+      "STAFF",
+      "ADMIN"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
-      "ONLINE"
+      "BATUU_3DAMANASARA"
     ],
     "enable": false,
-    "sequence": 295
+    "sequence": 262,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Pineapple & Calamansi",
@@ -8447,15 +9357,16 @@
       }
     ],
     "authority": [
-      "STAFF",
-      "MANAGER"
+      "STAFF"
     ],
     "site": [
-      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
     "enable": true,
-    "sequence": 296
+    "sequence": 263,
+    "discount": [
+      "FOUNDATION"
+    ]
   },
   {
     "name": "Tenaya Tanta Blue UK 4.5/ US 5.5",
@@ -8476,13 +9387,17 @@
       }
     ],
     "authority": [
-      "MANAGER"
+      "ADMIN"
     ],
     "site": [
+      "BATUU_3DAMANASARA",
       "ONLINE"
     ],
-    "enable": true,
-    "sequence": 297
+    "enable": false,
+    "sequence": 264,
+    "discount": [
+      "NORMAL"
+    ]
   },
   {
     "name": "Ticket Extension Admin Fee",
@@ -8503,15 +9418,16 @@
       }
     ],
     "authority": [
-      "MANAGER",
-      "STAFF",
-      "ADMIN"
+      "ADMIN",
+      "MANAGER"
     ],
     "site": [
-      "ONLINE",
       "BATUU_3DAMANASARA"
     ],
-    "enable": false,
-    "sequence": 298
+    "enable": true,
+    "sequence": 265,
+    "discount": [
+      "FOUNDATION"
+    ]
   }
 ]

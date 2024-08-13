@@ -7,15 +7,30 @@ const { faker } = require('@faker-js/faker/locale/en');
 const rockDBPath = path.join(__dirname, 'database', 'RockDB.merchandises.json');
 const generateMerchandisePath = path.join(__dirname, 'database', 'generateMerchandise.json');
 
-// API endpoint where you want to post each merchandise item
+// API endpoints
 const apiUrl = 'https://batuu.sensoft.cloud:9889/v1/merchandises'; // Replace with your actual API endpoint
+const discountApiUrl = 'https://batuu.sensoft.cloud:9889/v1/customers/tier'; // Discount API endpoint
 
 let sequenceCounter = 1;
 
+// Function to fetch discount values
+async function fetchDiscountValues() {
+  try {
+    const response = await axios.get(discountApiUrl);
+    const discountValues = response.data || [];
+    console.log('Fetched discount values:', discountValues);
+    return discountValues;
+  } catch (error) {
+    console.error('Error fetching discount values:', error.message);
+    return [];
+  }
+}
+
 // Function to transform and extract the required fields from the merchandise data
-function transformMerchandiseData(merchandise) {
+async function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
   const stores = ['BATUU_3DAMANASARA', 'ONLINE'];
+  const discounts = await fetchDiscountValues();
 
   // Determine the number of roles and stores
   const numberOfRoles = Math.floor(Math.random() * roles.length) + 1;
@@ -41,8 +56,6 @@ function transformMerchandiseData(merchandise) {
 
   // Generate random enable and stockable status
   const enable = faker.datatype.boolean();
-  
-
   const sequence = sequenceCounter++;
 
   // Ensure each category in the array is a string and handle lowercase and space replacement
@@ -53,11 +66,14 @@ function transformMerchandiseData(merchandise) {
     ).filter(Boolean); // Remove empty strings
   }
 
+  // Select a random discount
+  const discount = discounts.length > 0 ? [faker.helpers.arrayElement(discounts)] : [];
+
   return {
     name: merchandise.name,
     sku: merchandise._id,
     parent_sku: merchandise.parent_sku,
-    category: category, 
+    category: category,
     desc: merchandise.desc,
     images: merchandise.img,
     size: merchandise.size,
@@ -72,6 +88,7 @@ function transformMerchandiseData(merchandise) {
     site: selectedStores,
     enable: enable,
     sequence: sequence,
+    discount: discount
   };
 }
 
@@ -85,8 +102,6 @@ async function postData(url, data) {
   }
 }
 
-
-
 // Asynchronous function to transform, save, and post merchandise data
 async function transformSaveAndPostMerchandise() {
   try {
@@ -94,7 +109,7 @@ async function transformSaveAndPostMerchandise() {
     const rockDBData = JSON.parse(fs.readFileSync(rockDBPath, 'utf-8'));
 
     // Transform the data
-    const transformedData = rockDBData.map(transformMerchandiseData);
+    const transformedData = await Promise.all(rockDBData.map(transformMerchandiseData));
 
     // Write the updated data to the generateMerchandise.json file (overwrite existing file)
     fs.writeFileSync(generateMerchandisePath, JSON.stringify(transformedData, null, 2));

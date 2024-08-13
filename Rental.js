@@ -5,7 +5,7 @@ const { faker } = require('@faker-js/faker/locale/en');
 const rentalsApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/rentals/list/POS';
 const customersApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/list/POS';
 const rentCheckoutApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/rentals/checkout';
-const returnRentalApiEndpoint = (rental_id) => `https://batuu.sensoft.cloud:9889/v1/rentals/return/${rental_id}`;
+const returnRentalApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/rentals/return';
 
 // Function to fetch rentals with specified status
 const fetchRentals = async (status) => {
@@ -41,7 +41,9 @@ const shuffleArray = (array) => {
 // Function to rent a rental item to a customer
 const rentToCustomer = async (customer_id, rental_id) => {
   try {
-    const response = await axios.post(rentCheckoutApiEndpoint, { customer_id, rental_id });
+    const response = await axios.post(rentCheckoutApiEndpoint, {
+      items: [{ customer_id, rental_id }]
+    });
     return response.data;
   } catch (error) {
     console.error('Error renting to customer:', error);
@@ -49,13 +51,15 @@ const rentToCustomer = async (customer_id, rental_id) => {
   }
 };
 
-// Function to return a rental item
-const returnRental = async (rental_id) => {
+// Function to return rental items
+const returnRental = async (rental_ids) => {
   try {
-    const response = await axios.post(returnRentalApiEndpoint(rental_id));
+    const response = await axios.post(returnRentalApiEndpoint, {
+      rental_ids: rental_ids
+    });
     return response.data;
   } catch (error) {
-    console.error('Error returning rental:', error);
+    console.error('Error returning rentals:', error);
     return null;
   }
 };
@@ -101,14 +105,11 @@ const returnRentals = async (numReturns) => {
 
     // Shuffle arrays using a custom shuffle function
     const selectedRentals = shuffleArray(rentals).slice(0, numReturns);
+    const rental_ids = selectedRentals.map(rental => rental._id);
 
-    for (let i = 0; i < numReturns; i++) {
-      const rental_id = selectedRentals[i]._id;
-
-      const result = await returnRental(rental_id);
-      if (result) {
-        console.log(`Successfully returned item ${rental_id}`);
-      }
+    const result = await returnRental(rental_ids);
+    if (result) {
+      console.log(`Successfully returned ${rental_ids.length} rental items.`);
     }
   } catch (error) {
     console.error('Error generating and posting rental returns:', error.message);
