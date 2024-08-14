@@ -1,4 +1,4 @@
-Here's the revised README with files categorized into Data Generation, Testing, and Other:
+Here's the updated README with the added instructions for running the data generation scripts from the terminal:
 
 ---
 
@@ -23,29 +23,39 @@ This program generates random information for testing purposes in a rock climbin
 
 ### Data Generation
 
+All data generation scripts can be run from the terminal:
+
 - **accountType/**: Contains programs for generating account information for different types of users, including customers, employees, and users. These programs are linked to `generateAccount.js`.
 
 - **generateAccount.js**: Main program for the `accountType` folder. Generates account information for users, customers, and employees, referring to specific JSON files like `generate_user_accounts.json`.
+  - Run by: `node generateAccount.js (how many you want to generate) (user/customer/employee)`.
 
 - **generateCategory.js**: Script used to create merchandise category names and descriptions. This is a one-time use script and refers to `generateCategory.json`.
+  - Run by: `node generateCategory.js`.
 
 - **generateMerchandise.js**: Script used to create merchandise information by referencing `generateMerchandise.json`.
+  - Run by: `node generateMerchandise.js`.
 
 - **generateMerchandiseInventory.js**: Script used to generate merchandise inventory information, referring to `generateMerchandiseInventory.json`.
+  - Run by: `node generateMerchandiseInventory.js (how many you want to generate)`.
 
 - **generateRental.js**: Script used to generate rental information, referring to `generateRental.json`.
+  - Run by: `node generateRental.js (how many you want to generate)`.
 
 - **generateRentalMerchandise.js**: Script used to generate rental merchandise information. It ensures that the merchandise has a `rentable` flag set to true and that SKU and name have a prefix `RENT-` to indicate rental-only items. It refers to `rentalMerchandise.json`.
+  - Run by: `node generateRentalMerchandise.js`.
 
-- **order.js**: Script used to generate order transactions for merchandise, rentals, and passes. It refers to `generateOrder.json`.
+- **proccesedCart.js**: Script used to generate proccesed cart information for merchandise, rentals, and passes. It refers to `proccesedCart.json`.
+  - Run by: `node order.js (merchandise/rental/pass) (how many you want to generate)`.
 
 - **Rental.js**: Script used to create information for renting and returning merchandise.
+  - Run by: `node Rental.js (how many you want to generate) (rent/return)`.
 
 - **assignCert.js**: Script used to assign certifications to customers. It refers to `certAssign.json`.
+  - Run by: `node assignCert.js (how many you want to generate)`.
 
 - **assignWaiver.js**: Script used to assign waivers to customers. It refers to `waiverAssign.json`.
-
-- **checkIns.js**: Script used to create check-in information for customers.
+  - Run by: `node assignWaiver.js (how many you want to generate)`.
 
 ### Testing
 
@@ -75,3 +85,9 @@ This program generates random information for testing purposes in a rock climbin
 
 - **Faker.js**: Library used for generating realistic mock data.
 - **Axios**: HTTP client for making API requests.
+
+Feel free to explore the files and folders to understand how each component contributes to the data generation process. If you have any questions or need further clarification, don't hesitate to ask!
+
+---
+
+This version includes instructions on how to run each data generation script. Is there anything else you'd like to add?

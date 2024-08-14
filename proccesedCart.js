@@ -10,12 +10,12 @@ const passesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/passes/list/ADMIN
 const orderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders';
 
 // File paths
-const generateOrderJsonPath = path.join(__dirname, 'database', 'generateOrder.json');
+const generateOrderJsonPath = path.join(__dirname, 'database', 'proccesedCart.json');
 
 // Function to fetch customers
 const fetchCustomers = async () => {
   try {
-    const response = await axios.post(customersApiEndpoint, { query: { status: 'ACTIVE' } });
+    const response = await axios.post(customersApiEndpoint, /*{ query: { status: 'ACTIVE' } }*/);
     return response.data.customers;
   } catch (error) {
     console.error('Error fetching customers:', error);
@@ -48,25 +48,30 @@ const fetchPasses = async () => {
 // Function to generate a random item
 const generateRandomItem = (item, type) => {
   const quantity = faker.number.int({ min: 1, max: 10 });
-  const baseItem = {
+
+  const generatedItem = {
     _id: item._id,
     name: item.name,
     sku: item.sku,
     category: item.category,
     desc: item.desc || null,
+    type: type.toUpperCase(),
     quantity: quantity,
-    unit_price: item.unit_price[0]
+    unit_price: {
+      currency: 'MYR',
+      value: item.unit_price[0].value,
+      quantity: 1,
+      unit: 'pc'
+    }
   };
-  
-  if (type === 'PASS') {
-    return baseItem;
-  } else {
-    return {
-      ...baseItem,
-      size: item.size || null,
-    };
+
+  if (type !== 'PASS') {
+    generatedItem.size = item.size;
   }
+
+  return generatedItem;
 };
+
 
 // Function to generate and post an order
 const generateAndPostOrder = async (itemType, orderCount) => {
@@ -76,7 +81,12 @@ const generateAndPostOrder = async (itemType, orderCount) => {
     const passes = await fetchPasses();
 
     if (customers.length === 0 || (merchandises.length === 0 && passes.length === 0)) {
-      console.error('No customers or merchandises/passes available for order generation.');
+      console.error('No customers available for order generation.');
+      return;
+    }
+
+    if ((merchandises.length === 0 && passes.length === 0)) {
+      console.error('No merchandises/passes available for order generation.');
       return;
     }
 
@@ -107,26 +117,21 @@ const generateAndPostOrder = async (itemType, orderCount) => {
       // Generate random items
       const selectedItems = faker.helpers.arrayElements(filteredItems, itemCount).map(m => generateRandomItem(m, itemType.toUpperCase()));
 
-      // Calculate total items and subtotal
-      const totalItems = selectedItems.reduce((acc, item) => acc + item.quantity, 0);
-      const subtotal = selectedItems.reduce((acc, item) => acc + (item.unit_price.value * item.quantity), 0);
-
       // Create the order object
       const order = {
         customer: {
           _id: selectedCustomer._id,
           name: selectedCustomer.name,
           email: selectedCustomer.email,
-          phone: selectedCustomer.phone,
+          phone: {
+            country_code: selectedCustomer.phone_country_code,
+            number: selectedCustomer.phone_number
+          },
           tier: selectedCustomer.tier,
         },
         site: 'BATUU_3DAMANASARA',
         terminal: '547896321203654',
-        items: selectedItems,
-        total_item: totalItems,
-        subtotal: subtotal,
-        currency: 'MYR',
-        total_amount: subtotal,
+        items: selectedItems
       };
 
       // Add the order to the existing orders array

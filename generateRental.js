@@ -21,9 +21,9 @@ const fetchMerchandises = async () => {
   }
 };
 
-// Function to generate a random ID
+// Function to generate a random ID limited to 20 characters
 const generateRandomId = () => {
-  return faker.string.uuid();
+  return faker.string.uuid().slice(0, 20);
 };
 
 // Function to generate a random rental item

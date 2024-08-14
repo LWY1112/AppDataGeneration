@@ -1,0 +1,105 @@
+[
+  {
+    "customer": {
+      "_id": "C00084",
+      "name": "Hooi Mun Kin",
+      "email": "michaelhooimk@hotmail.com",
+      "phone": {},
+      "tier": "NORMAL"
+    },
+    "site": "BATUU_3DAMANASARA",
+    "terminal": "547896321203654",
+    "items": [
+      {
+        "_id": "66b19eda3f667c70f100a8cd",
+        "name": "RENT-ClimbX Rave Red US7.5/UK6.5",
+        "sku": "RENT-b11c30a5-7a7e-4c95-990e-9427d0de8890",
+        "category": [
+          "shoes"
+        ],
+        "desc": null,
+        "type": "RENTAL",
+        "quantity": 7,
+        "unit_price": {
+          "currency": "MYR",
+          "value": "20",
+          "quantity": 1,
+          "unit": "pc"
+        },
+        "size": "US7.5/ UK 6.5"
+      },
+      {
+        "_id": "66b19ec73f667c70f100a837",
+        "name": "RENT-Red point strap US 4.5/ UK 3.5",
+        "sku": "RENT-7a12cc01-73f7-4504-bad1-bf71aebddf45",
+        "category": [
+          "shoes"
+        ],
+        "desc": null,
+        "type": "RENTAL",
+        "quantity": 10,
+        "unit_price": {
+          "currency": "MYR",
+          "value": "20",
+          "quantity": 1,
+          "unit": "pc"
+        },
+        "size": "4.5"
+      },
+      {
+        "_id": "66b19ec23f667c70f100a803",
+        "name": "RENT-OCUN OZONE OZI S",
+        "sku": "RENT-04fa5f25-1bcd-4f7e-b223-47380c35fb1d",
+        "category": [
+          "shoes"
+        ],
+        "desc": "OCUN OZONE OXI S",
+        "type": "RENTAL",
+        "quantity": 4,
+        "unit_price": {
+          "currency": "MYR",
+          "value": "60",
+          "quantity": 1,
+          "unit": "pc"
+        },
+        "size": "US 9"
+      },
+      {
+        "_id": "66b19ec83f667c70f100a845",
+        "name": "RENT-Rave strap Grey US 5.5/ UK 4.5",
+        "sku": "RENT-4bac4b80-4c2d-412f-9525-5800f8a28e07",
+        "category": [
+          "shoes"
+        ],
+        "desc": null,
+        "type": "RENTAL",
+        "quantity": 7,
+        "unit_price": {
+          "currency": "MYR",
+          "value": "20",
+          "quantity": 1,
+          "unit": "pc"
+        },
+        "size": "US 5.5/ UK 4.5"
+      },
+      {
+        "_id": "66b19ec23f667c70f100a81d",
+        "name": "RENT-AVAX  US9",
+        "sku": "RENT-e23e824f-d798-4ca8-86bd-0cdae545fd64",
+        "category": [
+          "shoes"
+        ],
+        "desc": null,
+        "type": "RENTAL",
+        "quantity": 6,
+        "unit_price": {
+          "currency": "MYR",
+          "value": "40",
+          "quantity": 1,
+          "unit": "pc"
+        },
+        "size": "9"
+      }
+    ]
+  }
+]
