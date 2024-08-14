@@ -36,7 +36,7 @@ All data generation scripts can be run from the terminal:
   - Run by: `node generateMerchandiseInventory.js (how many you want to generate)`.
 
 - **generateRental.js**: Script used to generate rental information, referring to `generateRental.json`.
-  - Run by: `node generateRental.js (how many you want to generate)`.
+  - Run by: `node generateRental.js`.
 
 - **generateRentalMerchandise.js**: Script used to generate rental merchandise information. It ensures that the merchandise has a `rentable` flag set to true and that SKU and name have a prefix `RENT-` to indicate rental-only items. It refers to `rentalMerchandise.json`.
   - Run by: `node generateRentalMerchandise.js`.

@@ -1,13 +1,1333 @@
 [
   {
-    "_id": "0ba016e5-a308-4812-8",
+    "_id": "fc49df30-8519-45ff-8",
+    "name": "RENT-RAVE STRAP GRAY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't override the firewall without copying the bluetooth XSS circuit!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-056413f0-f438-4abb-9006-02448e652030"
+  },
+  {
+    "_id": "0c67cb0e-eb67-48aa-9",
+    "name": "RENT-Rave Strap Blue",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-29c6e41b-8e41-402f-a3bd-2079ca8c66cb"
+  },
+  {
+    "_id": "466c5f44-bfca-4621-8",
+    "name": "RENT-Rave Strap Red US 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-f12d2c52-bdcd-4def-b239-55f5364a4c6c"
+  },
+  {
+    "_id": "8ef21640-dbdc-4abc-8",
+    "name": "RENT-Rave Strap Red",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-2b6219b2-b12b-4f79-9ee3-d708804789dc"
+  },
+  {
+    "_id": "b1da967e-4b32-44f8-a",
+    "name": "RENT-OCUN OXI S",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we generate the microchip, we can get to the SSL sensor through the neural THX matrix!",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-7c5d9d5e-b03a-4cc5-9fc4-61605cbf727d"
+  },
+  {
+    "_id": "910d00c7-1f24-4e54-b",
+    "name": "RENT-OCUN OZONE QC US 7.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the auxiliary JBOD array, then you can bypass the cross-platform interface!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-ff9cd3ca-9b87-4741-a29c-8ece8d629d34"
+  },
+  {
+    "_id": "9fbc89d5-8fdc-4e3a-9",
+    "name": "RENT-OCUN OXI LADY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8e444fd3-8657-4284-a434-bffa957bec3b"
+  },
+  {
+    "_id": "9a412f5d-67db-4a3c-9",
+    "name": "RENT-TENAYA OASI BLUE",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't generate the bus without transmitting the optical COM sensor!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8ce425d6-e244-4acb-b692-7543a67a6c7c"
+  },
+  {
+    "_id": "e1f4a615-1196-4e22-8",
+    "name": "RENT-TENAYA MUNDAKA",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't input the array without calculating the solid state SCSI monitor!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-e632c3f9-8e21-446f-8a38-482eb8248617"
+  },
+  {
+    "_id": "7fce1d1d-1873-4322-a",
+    "name": "RENT-RED POINT STRAP",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-4fae88e8-0350-47c2-94d5-53fa19f050f2"
+  },
+  {
+    "_id": "b9f586fa-eec2-4f22-b",
+    "name": "RENT-TENAYA OASI LV",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-84df99ed-c910-4759-b3af-272f98e2fd4a"
+  },
+  {
+    "_id": "5ee3a4b8-f0ef-4857-8",
+    "name": "RENT-TENAYA MUNDAKA",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the primary HTTP microchip, then you can copy the auxiliary panel!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-442e4bd1-e3bd-4c61-999a-11d38fe277ea"
+  },
+  {
+    "_id": "609508f5-74ba-457b-b",
+    "name": "RENT-TENAYA MUNDAKA",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-5ef84df7-6ff8-4989-b4e0-1b3e9776cdc8"
+  },
+  {
+    "_id": "af87d330-7992-4829-9",
+    "name": "RENT-TENAYA OASI BLUE",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll quantify the open-source SDD bandwidth, that should application the JBOD panel!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-81c1f5c5-37b8-4d0c-ac76-f81783686cc4"
+  },
+  {
+    "_id": "11796aea-c733-4725-b",
+    "name": "RENT-OCUN OXI LADY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-253d3d20-11bd-4aa7-8bf2-4203479f777d"
+  },
+  {
+    "_id": "b81e7eec-e821-421f-a",
+    "name": "RENT-TENAYA OASI",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fe12b61b-85a1-4320-928b-20c259896589"
+  },
+  {
+    "_id": "53e55129-2aca-4053-9",
+    "name": "RENT-OCUN OZONE QC US 8",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-71d44530-1d8d-41c1-9ea1-d7c857b67097"
+  },
+  {
+    "_id": "1c55272c-a726-4255-b",
+    "name": "RENT-OCUN OZONE QC US 8.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "The TLS application is down, index the 1080p capacitor so we can quantify the THX application!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8dd779b9-68b1-4bda-90a4-496ce99efe33"
+  },
+  {
+    "_id": "33f4a670-27af-41b3-9",
+    "name": "RENT-OCUN OZONE OZI S",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "navigating the program won't do anything, we need to reboot the primary SMTP program!",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-04fa5f25-1bcd-4f7e-b223-47380c35fb1d"
+  },
+  {
+    "_id": "f04125b7-f1c1-4443-9",
+    "name": "RENT-OCUN OXI LADY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6662ccfe-9524-44b5-b6c4-efa7968de6f1"
+  },
+  {
+    "_id": "27dbbb5d-b281-4a21-8",
+    "name": "RENT-OCUN OXI LADY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "overriding the bandwidth won't do anything, we need to synthesize the open-source SSD port!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6cc74fce-49ea-488f-8533-b0d6a0aa3570"
+  },
+  {
+    "_id": "1d5b0fb0-8517-47ea-a",
+    "name": "RENT-TENAYA OASI",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to program the JBOD array, maybe it will calculate the open-source microchip!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-214f01ce-a281-4999-ac9a-8183f3a259f0"
+  },
+  {
+    "_id": "2d5c745b-918a-4485-a",
+    "name": "RENT-TENAYA OASI BLUE",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "overriding the microchip won't do anything, we need to transmit the haptic VGA pixel!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-eb55307d-fdc2-46bf-9c73-a97c7bf39a84"
+  },
+  {
+    "_id": "1ec054ee-f5bb-4b3a-8",
+    "name": "RENT-TENAYA OASI BLUE",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "bypassing the port won't do anything, we need to back up the mobile ADP microchip!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-dc6806b9-c3e2-4081-aa99-0fa5ecd8d49a"
+  },
+  {
+    "_id": "77ec1210-e41d-4e2e-b",
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-7dcefa2f-ff8b-4462-a5d1-e05b5a021367"
+  },
+  {
+    "_id": "dcd92704-f12a-4123-a",
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "We need to back up the bluetooth DNS bus!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-4fd8a5c9-0910-4c0a-88bb-6c9c417e2f9c"
+  },
+  {
+    "_id": "0c655cfa-0da4-429f-8",
+    "name": "RENT-TENAYA MUNDAKA GREEN",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-865ca3f4-1a75-4f30-a69c-6e0cbbb4994d"
+  },
+  {
+    "_id": "48c0d3cb-fc65-4499-a",
+    "name": "RENT-RAVE STRAP GRAY",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't index the driver without calculating the primary SQL system!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-5a66eae0-0cf6-400a-b80c-19a59d741a91"
+  },
+  {
+    "_id": "9beeb334-7f46-4c3c-b",
+    "name": "RENT-RAVE STRAP RED",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to navigate the OCR system, maybe it will hack the redundant hard drive!",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-4ffcc203-d806-405a-b9ed-f31d9f4917cf"
+  },
+  {
+    "_id": "c1a05242-c273-4b36-8",
+    "name": "RENT-RAVE STRAP RED",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-0f2f26c1-3c9e-4666-b872-4a6caf4cc878"
+  },
+  {
+    "_id": "c72d6733-70a2-4522-9",
+    "name": "RENT-RAVE STRAP BLUE",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6fede796-2f67-4c22-8ac4-3c5159308a16"
+  },
+  {
+    "_id": "0801be0d-21ab-4dd6-b",
+    "name": "RENT-AVAX  US9",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-e23e824f-d798-4ca8-86bd-0cdae545fd64"
+  },
+  {
+    "_id": "9cb12bf0-5e39-41cc-a",
+    "name": "RENT-AVAX US8",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll quantify the mobile FTP driver, that should panel the JBOD sensor!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-45c3d0fe-3bc1-4424-a72c-265966346cbf"
+  },
+  {
+    "_id": "474327c9-c5c5-4dbf-b",
+    "name": "RENT-AVAX US7 1/2",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-59aebad2-32e4-40ea-9cf9-e8fea096699b"
+  },
+  {
+    "_id": "a27732c5-ba0b-4544-a",
+    "name": "RENT-AVAX US7",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll index the optical JBOD firewall, that should interface the DNS sensor!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-c11f4128-ac37-4f4c-976b-279db536fbf3"
+  },
+  {
+    "_id": "8ea15d87-dc79-4cef-a",
+    "name": "RENT-AVAX US5 1/2",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-518160c3-e161-478f-bf5c-53ade75bb862"
+  },
+  {
+    "_id": "6c67a1e6-b527-4391-b",
+    "name": "RENT-AVAX US5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "We need to hack the mobile JSON bus!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-bf0236a2-096d-4a5e-acc2-74168ca30965"
+  },
+  {
+    "_id": "6b287232-588b-4ff6-b",
+    "name": "RENT-AVAX US4 1/2",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-888d170d-bde5-4c85-9e9b-c96e71b2ac60"
+  },
+  {
+    "_id": "3517a798-d07e-481d-a",
+    "name": "RENT-ENIGMA BLACK 10 1/2",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fd7c4c69-65ec-4cc7-abdf-1532527ced1b"
+  },
+  {
+    "_id": "eab4cd1d-59c3-4c02-b",
+    "name": "RENT-ENIGMA NOP 9",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8455f06e-3f50-44f3-963a-cc0ba78cd0dc"
+  },
+  {
+    "_id": "f7edc5fe-acff-4c8e-a",
+    "name": "RENT-ENIGMA BLACK 10",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-90d1f51f-ecba-4dd6-87f6-750a2cd9782a"
+  },
+  {
+    "_id": "86a5e3c0-23a2-4f8c-8",
+    "name": "RENT-AVAX US10 1/2",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't navigate the circuit without backing up the digital DNS protocol!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6f32840d-eaba-4c13-9647-f75e9cd5bfbf"
+  },
+  {
+    "_id": "05023007-a4cd-4584-8",
+    "name": "RENT-ENIGMA BLACK 8",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-0c53011e-4d21-4a89-ade6-59a1623199ae"
+  },
+  {
+    "_id": "4f46e955-def0-4dd5-9",
+    "name": "RENT-Rave Strap 10.0 US/9.0 UK Red",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the bluetooth ADP transmitter, then you can index the cross-platform monitor!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-296781b0-ac2d-4600-a60a-207e2dd8f31c"
+  },
+  {
+    "_id": "b290dc82-7c3c-42b3-9",
+    "name": "RENT-Red point strap US 4.5/ UK 3.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "We need to bypass the redundant HDD feed!",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-7a12cc01-73f7-4504-bad1-bf71aebddf45"
+  },
+  {
+    "_id": "a84e404b-84a4-4eb6-b",
+    "name": "RENT-Red point strap US 6.0/ UK 5.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fe16379f-4f9e-4348-b0b8-ba3a020f14ae"
+  },
+  {
+    "_id": "434061b1-f22a-417b-8",
+    "name": "RENT-Rave strap(Blue) US 5.0/ UK 4.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't back up the hard drive without programming the auxiliary SSD capacitor!",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fe3ca457-ef27-4cd9-a83d-358431b3911a"
+  },
+  {
+    "_id": "d4990acb-7a78-4565-b",
+    "name": "RENT-Red point strap US 6.5/UK 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the haptic VGA bandwidth, then you can program the virtual sensor!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-7cadcb07-2063-4b25-8f70-f2a30c566ee0"
+  },
+  {
+    "_id": "909fe534-ebbb-42ff-a",
+    "name": "RENT-Red point strap US 7.0/ UK 6.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d127f09b-6f6a-4ea9-a6ca-0272bc273581"
+  },
+  {
+    "_id": "eec2dd74-7903-4b5c-b",
+    "name": "RENT-Rave strap Grey US 4.5/ UK 3.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-963793a0-e8ee-4dd8-92f3-f4a172698588"
+  },
+  {
+    "_id": "4b5f2c99-0f69-4f03-b",
+    "name": "RENT-Rave strap blue US 5.5/ UK 4.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't navigate the bus without generating the cross-platform OCR application!",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-7de14ffe-a855-49e3-a87d-9955bb31c011"
+  },
+  {
+    "_id": "4f50fa73-de87-4286-9",
+    "name": "RENT-Rave strap Grey US 5.5/ UK 4.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-4bac4b80-4c2d-412f-9525-5800f8a28e07"
+  },
+  {
+    "_id": "51e6f0d2-86f0-4a3e-9",
+    "name": "RENT-Rave strap Red US 4.0/ UK 3.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the bluetooth SAS bus, then you can bypass the wireless system!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d749927c-23ee-4ca2-98a3-a8c495e429a4"
+  },
+  {
+    "_id": "378ad8db-8ca8-474f-9",
+    "name": "RENT-Red point strap US 7.5 / UK 6.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-0882feec-ec99-477f-8ff0-50f55c9cd465"
+  },
+  {
+    "_id": "36e0e020-00cb-4b88-a",
+    "name": "RENT-Rave strap Red US 6.0/ UK 5.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-4671814b-a44e-4d8b-9742-c11155c762c4"
+  },
+  {
+    "_id": "7e74798a-7ce3-41db-8",
+    "name": "RENT-Red point strap US 8.0/ UK7.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6be805b5-1a92-4a65-9369-b60a79c3f758"
+  },
+  {
+    "_id": "2e007869-3a9e-4c72-b",
+    "name": "RENT-Red point strap US 8.5/ UK 7.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-1624b2b5-f364-4572-99c6-fac8737adedf"
+  },
+  {
+    "_id": "7f72044a-1483-46b9-9",
+    "name": "RENT-Red point strap US 9.0/ UK8.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we copy the firewall, we can get to the IB protocol through the bluetooth UDP sensor!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-e32737e7-c57c-496a-ab68-61ad4e16de88"
+  },
+  {
+    "_id": "11693418-650c-4591-b",
+    "name": "RENT-Red point strap US 9.5/ UK 8.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-30dff963-4f3e-4abe-b7e2-52b426314775"
+  },
+  {
+    "_id": "50dfdfe1-570e-411b-9",
+    "name": "RENT-Rave strap(Blue) US7.0/UK6.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-c5a33bfe-4455-47fa-88ac-120a97ddeb9b"
+  },
+  {
+    "_id": "15404b05-bcda-4425-a",
     "name": "RENT-Rave strap(Blue) US7.5/UK6.5",
     "category": [
       "Shoes"
     ],
-    "desc": "Use the 1080p VGA capacitor, then you can back up the auxiliary sensor!",
-    "size": "UK8",
+    "desc": "",
+    "size": "US9",
     "site": "BATUU_3DAMANASARA",
     "sku": "RENT-ab8eed1b-2d7f-44cf-859f-3ce3518119eb"
+  },
+  {
+    "_id": "2754eae7-f201-412b-9",
+    "name": "RENT-Rave strap (Blue) US 8.5/UK 7.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-eba4df9f-5c99-4838-9a7a-f84faad5ac3d"
+  },
+  {
+    "_id": "6c716693-a963-4eed-9",
+    "name": "RENT-Red point strap US 10/ UK 9.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll input the open-source FTP port, that should card the SDD bus!",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-c7141195-df9d-4fe2-b775-96e5926ea56c"
+  },
+  {
+    "_id": "7ad5a632-9a02-432c-a",
+    "name": "RENT-Rave strap(Grey) US9.0/UK8.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we transmit the alarm, we can get to the EXE microchip through the digital UDP panel!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fa8e76a5-4c1f-4c41-81eb-3faf246ed73e"
+  },
+  {
+    "_id": "ea7e1f5e-d09f-4baf-8",
+    "name": "RENT-Rave strap (Blue) US 8.0/ UK 7.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "We need to compress the primary PNG monitor!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-895dd61e-54b0-42b4-aef2-306f94a63595"
+  },
+  {
+    "_id": "be02d01f-4152-4102-b",
+    "name": "RENT-Rave strap (Grey) US 10.0/UK 9.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d1dfe1d1-b34b-4d81-bbde-d2ba26e73e7d"
+  },
+  {
+    "_id": "9f1ad959-1761-4f46-8",
+    "name": "RENT-Red point strap US10.5/UK9.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-e965156f-914d-4380-b3ed-c63a013e7e8e"
+  },
+  {
+    "_id": "86d08102-ee94-4711-b",
+    "name": "RENT-Red point strap US11.5/UK10.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we program the pixel, we can get to the SCSI array through the cross-platform SMS feed!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-a83e1e6a-180a-46b4-973c-e67e0ac5a973"
+  },
+  {
+    "_id": "19c92bd0-d890-4b80-9",
+    "name": "RENT-CRUSH NLV(Purple) US5.5/UK4.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't parse the card without copying the multi-byte DNS array!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-96d975ee-f310-4ffa-baf6-40c8ec26963f"
+  },
+  {
+    "_id": "2bd5bc12-8cd6-4883-8",
+    "name": "RENT-Rave strap (Grey) US6.0/UK5.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-28563b87-69ae-4e02-9ba6-38277a94517b"
+  },
+  {
+    "_id": "7ec28dbc-1b91-4654-8",
+    "name": "RENT-CRUSH NLV (Purple) US 6.0 / UK 5.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-de03b329-7d4b-47bb-a40b-8c1ee47d3cf2"
+  },
+  {
+    "_id": "e1ac1749-a4c1-4e05-8",
+    "name": "RENT-CRUSH NLV(Purple) US7.0/UK6.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't connect the port without programming the open-source UTF8 microchip!",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-11aef664-ec12-4c0c-8013-5632ad4921cc"
+  },
+  {
+    "_id": "56efa8a5-1fd8-4be2-a",
+    "name": "RENT-CRUSH NLV (Purple) US 6.5/ UK 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't quantify the transmitter without quantifying the optical GB protocol!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-186fd137-f6d1-4451-8129-910d82b3958e"
+  },
+  {
+    "_id": "ef53e149-2fa9-48bd-a",
+    "name": "RENT-Red point strap US5.0/UK4.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll synthesize the back-end HEX application, that should application the CSS driver!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-0ed6c358-57da-444f-95ce-ad15e7680d6b"
+  },
+  {
+    "_id": "50b95020-f7c4-4293-b",
+    "name": "RENT-Rave strap(Blue) US6.5/UK 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to calculate the DRAM transmitter, maybe it will calculate the 1080p bus!",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-0ac2ec48-4f1c-47e0-a0e0-4b2db2b1b613"
+  },
+  {
+    "_id": "02c47435-4c1d-4f9b-9",
+    "name": "RENT-Tenaya Tanya UK 10.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-5262436f-fa50-46f6-91e4-38dc6d4100ce"
+  },
+  {
+    "_id": "570c7742-7cbb-49ea-9",
+    "name": "RENT-Climb X Kinder",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to copy the FTP matrix, maybe it will parse the wireless program!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d8f830f8-2faa-4700-9311-4d5489e2b7a5"
+  },
+  {
+    "_id": "8fe04817-be6a-4075-b",
+    "name": "RENT-TENAYA TANTA UK2 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "compressing the feed won't do anything, we need to connect the online OCR system!",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-bf7c0c9b-3d39-45f8-8ab2-b622b0182098"
+  },
+  {
+    "_id": "5e4f450d-d05b-4802-8",
+    "name": "RENT-TENAYA TANTA UL 2.5 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we synthesize the driver, we can get to the AI firewall through the open-source VGA program!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-86ea6743-634a-44c7-9a5d-2c87bccc05bc"
+  },
+  {
+    "_id": "1ab7c5d7-9a33-44dc-b",
+    "name": "RENT-TENAYA TANTA UK 3.5 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-df14a713-3f0d-4b76-b7b7-58eca5e69f1f"
+  },
+  {
+    "_id": "14904804-abbd-42c1-a",
+    "name": "RENT-TENAYA TANTA UK 4.5 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-5067cae9-5787-418a-b3e1-5331fd9a236a"
+  },
+  {
+    "_id": "efd3bc06-1c42-46bc-b",
+    "name": "RENT-TENAYA TANTA UK 6.5 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll parse the 1080p TLS monitor, that should transmitter the SQL bus!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8c748383-2b95-43e8-99d1-0630d0e83a09"
+  },
+  {
+    "_id": "c07e0e08-8825-41f1-8",
+    "name": "RENT-TENAYA TANTA UK 9 (GREEN)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll connect the optical JBOD bus, that should application the XSS monitor!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6c694612-13f1-474d-9d1a-52b71effb16b"
+  },
+  {
+    "_id": "d278a9c1-058c-4a13-9",
+    "name": "RENT-TENAYA TANTA UK 9.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-9d051bb1-da04-47ea-b771-ddae0b69924a"
+  },
+  {
+    "_id": "8b37e69f-7cef-421f-8",
+    "name": "RENT-TENAYA TANTA UK 4 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-c937704e-5bc8-47e3-a29a-e60fc6f74d7d"
+  },
+  {
+    "_id": "42d8e4af-d261-449d-9",
+    "name": "RENT-TENAYA TANTA UK 5 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "I'll program the bluetooth DRAM matrix, that should microchip the CSS monitor!",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d204a0d0-e7cf-4601-9fcf-833c64031d09"
+  },
+  {
+    "_id": "81279d1d-b9ba-4158-a",
+    "name": "RENT-TENAYA TANTA UK 6 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "calculating the feed won't do anything, we need to quantify the solid state RAM alarm!",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-15496b85-fdbe-4734-b13b-de66665886ae"
+  },
+  {
+    "_id": "434c83db-6f43-43ef-9",
+    "name": "RENT-TENAYA TANTA UK 7 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "The AGP protocol is down, navigate the bluetooth alarm so we can copy the SDD microchip!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-154b6426-3a3f-443b-b9dd-4b93d9c6f2e1"
+  },
+  {
+    "_id": "2b4b5e68-2a47-4d0d-8",
+    "name": "RENT-TENAYA TANTA UK 7.5 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't index the feed without generating the online DRAM bus!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8a8be887-1e95-4e4e-8fdb-a5f6e11045b7"
+  },
+  {
+    "_id": "ac46f60f-bb03-4e50-a",
+    "name": "RENT-TENAYA TANTA UK 8 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-cc4c8e91-78b7-4760-99d3-77d23f0f46bd"
+  },
+  {
+    "_id": "997f7089-0e19-47ea-b",
+    "name": "RENT-TENAYA TANTA UK 8.5 (BLUE)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-314a8e95-f31f-4c6b-b1ce-aec12fd2b6a9"
+  },
+  {
+    "_id": "cd102b28-8718-43a6-a",
+    "name": "RENT-TENAYA TANTA GREEN UK8 US9",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-cd9ae411-b3ea-4bfe-87f2-258d66b3abf5"
+  },
+  {
+    "_id": "3657f14c-e62a-4fb5-8",
+    "name": "RENT-TENAYA BLUE UK3 US4",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-19250d75-8f5a-4551-83b5-01ce6e972808"
+  },
+  {
+    "_id": "cdffe021-2bb5-449b-9",
+    "name": "RENT-Tenaya Tanta UK7.5 Green",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "We need to navigate the open-source XSS monitor!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-b0eb2df6-54eb-4d49-b1d7-d8f59aa71141"
+  },
+  {
+    "_id": "3ed2bc47-9fda-474b-b",
+    "name": "RENT-Tenaya Tanta UK9 (Blue)",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to connect the THX pixel, maybe it will index the online sensor!",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-3d3ff187-8763-4f54-b655-a2d157bdfad1"
+  },
+  {
+    "_id": "af122784-5ea8-4c8f-8",
+    "name": "RENT-Tenaya Tanta (Blue) UK 5.5/US 6.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-113bf1d1-47db-4ce2-b32d-35ef522769c6"
+  },
+  {
+    "_id": "dfd7b4b1-92fa-477e-a",
+    "name": "RENT-Tenaya Tanta (Green) UK 8.5/US 9.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-f54a280f-ea06-40d0-9bcc-425e22c18078"
+  },
+  {
+    "_id": "5e267d3f-b843-46a8-9",
+    "name": "RENT-Tenaya Tanta (Blue) UK 9.5/ US 10.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-29b932de-5647-4b0d-a1ec-ce24af094b59"
+  },
+  {
+    "_id": "08d9246a-f9d3-4ad6-8",
+    "name": "RENT-Tenaya Indalo UK 6/ US 7",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fb2745f2-9482-4d90-b87b-a56bb1faa5c2"
+  },
+  {
+    "_id": "2d3ad5c4-fdff-4477-a",
+    "name": "RENT-Tenaya Indalo UK 6.5/ US 7.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-a3ccd362-81e2-4057-95a5-e972ebb73dcb"
+  },
+  {
+    "_id": "0d8345dc-6251-4b05-9",
+    "name": "RENT-Tenaya Oasi LV UK 6.5/ US 7.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-24019f09-e35d-44d3-b831-ec3732d661ef"
+  },
+  {
+    "_id": "06f8dd97-e3cb-471b-9",
+    "name": "RENT-Tenaya Indalo UK 7.5/ US 8.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-79f09320-76e5-458f-9802-cd978c5d960b"
+  },
+  {
+    "_id": "00717289-6dd1-42b1-9",
+    "name": "RENT-Tenaya Indalo UK 7.0/ US 8.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-df5ef348-5454-4d09-b911-220db9d5895a"
+  },
+  {
+    "_id": "cb2fb89d-e782-4d73-b",
+    "name": "RENT-Tenaya OASI LV UK 8.0/ US 9.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we input the port, we can get to the PNG program through the haptic UTF8 array!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-2394ef8d-77c2-45e0-b34f-8b958a603c87"
+  },
+  {
+    "_id": "a1715f35-bbd1-417d-9",
+    "name": "RENT-Tenaya OASI LV UK6.0/ US7.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Try to input the AI hard drive, maybe it will compress the 1080p driver!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-3de108f9-ef32-460d-b360-9d6ddb77b4b1"
+  },
+  {
+    "_id": "465e06c1-9ca3-4d2e-8",
+    "name": "RENT-Tenaya Mastia UK 7.0/ US 8.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-e007bf81-f66e-49a1-bc46-fa891e0e2d17"
+  },
+  {
+    "_id": "896068df-1bae-40d4-b",
+    "name": "RENT-Tenaya Mastia UK 5.0/ US 6.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d816a57d-4edd-4a4e-845e-0bab29a5075c"
+  },
+  {
+    "_id": "5d691db4-9122-48ac-a",
+    "name": "RENT-Rave Strap (Grey) UK 5.5/ US 6.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-dfd18e1c-5d6b-47b9-b75a-86752ddf6f09"
+  },
+  {
+    "_id": "9ef27db3-cba9-4c04-b",
+    "name": "RENT-Rave Strap (Purple) UK 8.0/ US 9.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-58813c12-3837-45e1-be9b-6014d22e606e"
+  },
+  {
+    "_id": "42ad6046-085a-48aa-b",
+    "name": "RENT-Rave Strap (Grey) UK 6.0/ US 7.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-681d08ce-c297-4681-9c9d-26dae73e0664"
+  },
+  {
+    "_id": "187716c5-4219-44e5-b",
+    "name": "RENT-Rave Strap (Grey) UK 7.0/ US 8.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-6bd7f249-b6dd-4991-9e0c-b5f0701a694d"
+  },
+  {
+    "_id": "e197d9ca-c882-45af-8",
+    "name": "RENT-Red Point Strap UK 2.0/ US 3.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the virtual VGA card, then you can compress the primary feed!",
+    "size": "UK10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-fb4a46be-f4f3-42ce-8f6a-5a196440e5cb"
+  },
+  {
+    "_id": "9f1fe2e4-ff54-42d1-a",
+    "name": "RENT-Red Point Strap UK 3.0/ US 4.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "If we synthesize the capacitor, we can get to the XSS application through the back-end JBOD matrix!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-12b2dc58-5f03-4080-b136-ab5ae9f79c3e"
+  },
+  {
+    "_id": "8ca60545-a241-435f-a",
+    "name": "RENT-Red Point Strap UK 11.5/ US 12.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't input the alarm without navigating the open-source EXE capacitor!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-01f6e2c1-0b1f-4403-bb48-386855f79582"
+  },
+  {
+    "_id": "5fe9d114-605f-479c-a",
+    "name": "RENT-Red Point Strap UK 11.0/ US 12.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-f648838c-4df0-41f8-a5d7-6055661bf64c"
+  },
+  {
+    "_id": "f1e36895-c49d-4592-8",
+    "name": "RENT-Red Point Strap UK 2.5/ US 3.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't navigate the transmitter without bypassing the haptic FTP system!",
+    "size": "US9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-d6a7d9c8-2fa5-4671-9574-138d6f6c06d0"
+  },
+  {
+    "_id": "f2f3417e-0c36-463d-b",
+    "name": "RENT-Red Point Strap UK 4.5/ US 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "US10",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-5d03abfc-c816-43a2-8743-3419100b66e8"
+  },
+  {
+    "_id": "4b7d26da-93c4-4042-8",
+    "name": "RENT-Red Point Strap UK 10.0/ US 11.0",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK9",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-c799a842-5125-4df8-b1c6-1675072e22d2"
+  },
+  {
+    "_id": "ead34b29-9521-40e4-b",
+    "name": "RENT-Tenaya Indalo UK 4/ US 5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "",
+    "size": "UK8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-8ef1b564-38bc-4c8f-b6ba-0ada938cb778"
+  },
+  {
+    "_id": "a128abe4-3a8e-42d2-a",
+    "name": "RENT-ClimbX Rave Red US7.5/UK6.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "You can't quantify the program without connecting the digital API program!",
+    "size": "UK7",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-b11c30a5-7a7e-4c95-990e-9427d0de8890"
+  },
+  {
+    "_id": "9e561bba-c222-469b-a",
+    "name": "RENT-Tenaya Tanta Blue UK 4.5/ US 5.5",
+    "category": [
+      "Shoes"
+    ],
+    "desc": "Use the solid state DNS port, then you can back up the mobile array!",
+    "size": "US8",
+    "site": "BATUU_3DAMANASARA",
+    "sku": "RENT-9c89c95d-b31e-4f3c-84d1-1a41366639aa"
   }
 ]

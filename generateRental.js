@@ -44,19 +44,18 @@ const generateRandomRentalItem = (merchandise) => {
 };
 
 // Function to generate and post rental items
-const generateAndPostRentals = async (numItems) => {
+const generateAndPostRentals = async () => {
   try {
     const merchandiseList = await fetchMerchandises();
 
     if (merchandiseList.length === 0) {
-      console.error('No merchandise available for rental generation.');
+      console.error('No rentable merchandise available for rental generation.');
       return;
     }
 
-    const selectedMerchandises = faker.helpers.shuffle(merchandiseList).slice(0, numItems);
     const rentalItems = [];
 
-    for (const merchandise of selectedMerchandises) {
+    for (const merchandise of merchandiseList) {
       const rentalItem = generateRandomRentalItem(merchandise);
       rentalItems.push(rentalItem);
 
@@ -76,14 +75,9 @@ const generateAndPostRentals = async (numItems) => {
   }
 };
 
-// Check if the number of rental items is provided as a command-line argument
+// Run the function directly
 if (require.main === module) {
-  const numItems = process.argv[2];
-  if (!numItems || isNaN(numItems)) {
-    console.error('Please provide a valid number of rental items as a command-line argument.');
-    process.exit(1);
-  }
-  generateAndPostRentals(Number(numItems));
+  generateAndPostRentals();
 } else {
   module.exports = { generateAndPostRentals };
 }
