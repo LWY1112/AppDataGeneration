@@ -1,7 +1,3 @@
-Here's the updated README with the added instructions for running the data generation scripts from the terminal:
-
----
-
 # Rock Climbing App Data Generation Program
 
 This program generates random information for testing purposes in a rock climbing app. It utilizes the Faker.js library to create mock data for customers, employees, users, merchandise, and inventory. The generated data is then either posted to an API using Axios or used to generate additional lists based on fetched API responses.
@@ -88,6 +84,3 @@ All data generation scripts can be run from the terminal:
 
 Feel free to explore the files and folders to understand how each component contributes to the data generation process. If you have any questions or need further clarification, don't hesitate to ask!
 
----
-
-This version includes instructions on how to run each data generation script. Is there anything else you'd like to add?
