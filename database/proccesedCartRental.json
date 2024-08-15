@@ -1,0 +1,52 @@
+{
+  "customer": {
+    "_id": "C00153",
+    "name": "Nicole Lim",
+    "email": "yenyue.lim@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "125210190"
+    },
+    "tier": "NORMAL"
+  },
+  "site": "BATUU_3DAMANASARA",
+  "terminal": "547896321203654",
+  "items": [
+    {
+      "_id": "66b19ed33f667c70f100a871",
+      "name": "RENT-Red point strap US5.0/UK4.0",
+      "sku": "RENT-0ed6c358-57da-444f-95ce-ad15e7680d6b",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "RENTAL",
+      "quantity": 6,
+      "unit_price": {
+        "currency": "MYR",
+        "value": "20",
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": ""
+    },
+    {
+      "_id": "66b19ed93f667c70f100a88f",
+      "name": "RENT-TENAYA TANTA UK 7.5 (BLUE)",
+      "sku": "RENT-8a8be887-1e95-4e4e-8fdb-a5f6e11045b7",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "RENTAL",
+      "quantity": 1,
+      "unit_price": {
+        "currency": "MYR",
+        "value": "40",
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": "7.5"
+    }
+  ]
+}

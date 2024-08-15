@@ -1,0 +1,178 @@
+{
+  "customer": {
+    "_id": "C00028",
+    "name": "Ben Yee",
+    "email": "benjaminyee88@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "1111011174"
+    },
+    "tier": "NORMAL"
+  },
+  "site": "BATUU_3DAMANASARA",
+  "terminal": "547896321203654",
+  "items": [
+    {
+      "_id": "66b19e953f667c70f100a703",
+      "name": "Competitive Personal Coaching",
+      "sku": "C_COACH",
+      "category": [
+        "classes"
+      ],
+      "desc": "Personal coaching for competitive climbers",
+      "type": "MERCHANDISE",
+      "quantity": 3,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 100,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e933f667c70f100a673",
+      "name": "Rave strap(Blue) US 5.0/ UK 4.0",
+      "sku": "6950799023909",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 6,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 285,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": "5.0"
+    },
+    {
+      "_id": "66b19e963f667c70f100a775",
+      "name": "Strawberry Ice Cream",
+      "sku": "0739339973197",
+      "category": [
+        "food-and-drinks"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 4,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e963f667c70f100a76d",
+      "name": "Salted Egg Oreo Ice Cream",
+      "sku": "0739339973142",
+      "category": [
+        "food-and-drinks"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 9,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 9,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e953f667c70f100a72d",
+      "name": "100 PLUS",
+      "sku": "9556570311134",
+      "category": [
+        "food-and-drinks"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 1,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 3,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e923f667c70f100a5b7",
+      "name": "OCUN OZONE QC US 8",
+      "sku": "OQ00599070",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 3,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 682,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": "US 8"
+    },
+    {
+      "_id": "66b19e963f667c70f100a731",
+      "name": "Belay Device",
+      "sku": "BELAY",
+      "category": [
+        "gears"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 10,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 5,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e923f667c70f100a603",
+      "name": "Purple DriFit Shirt",
+      "sku": "P_DSHIRT",
+      "category": [
+        "t-shirts"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 6,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 65,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e953f667c70f100a6e3",
+      "name": "SASHA",
+      "sku": "7613119001467",
+      "category": [
+        "accessories"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 5,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 165,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    }
+  ]
+}

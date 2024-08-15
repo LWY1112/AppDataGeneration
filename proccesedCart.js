@@ -7,15 +7,17 @@ const { faker } = require('@faker-js/faker/locale/en');
 const customersApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/list/POS';
 const merchandisesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/merchandises/list/ADMIN';
 const passesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/passes/list/ADMIN';
-const orderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders';
+const processedCartApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/processedcart';
+const checkoutOrderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/checkoutorder';
 
 // File paths
 const generateOrderJsonPath = path.join(__dirname, 'database', 'proccesedCart.json');
+const processedCartJsonPath = (itemType) => path.join(__dirname, 'database', `proccesedCart${itemType.charAt(0).toUpperCase() + itemType.slice(1)}.json`);
 
 // Function to fetch customers
 const fetchCustomers = async () => {
   try {
-    const response = await axios.post(customersApiEndpoint, /*{ query: { status: 'ACTIVE' } }*/);
+    const response = await axios.post(customersApiEndpoint);
     return response.data.customers;
   } catch (error) {
     console.error('Error fetching customers:', error);
@@ -47,7 +49,7 @@ const fetchPasses = async () => {
 
 // Function to generate a random item
 const generateRandomItem = (item, type) => {
-  const quantity = faker.number.int({ min: 1, max: 10 });
+  const quantity = faker.number.int({ min: 1, max: 5 });
 
   const generatedItem = {
     _id: item._id,
@@ -72,7 +74,6 @@ const generateRandomItem = (item, type) => {
   return generatedItem;
 };
 
-
 // Function to generate and post an order
 const generateAndPostOrder = async (itemType, orderCount) => {
   try {
@@ -81,51 +82,38 @@ const generateAndPostOrder = async (itemType, orderCount) => {
     const passes = await fetchPasses();
 
     if (customers.length === 0 || (merchandises.length === 0 && passes.length === 0)) {
-      console.error('No customers available for order generation.');
+      console.error('No customers or items available for order generation.');
       return;
     }
 
-    if ((merchandises.length === 0 && passes.length === 0)) {
-      console.error('No merchandises/passes available for order generation.');
-      return;
+    let filteredItems = [];
+    if (itemType === 'merchandise') {
+      filteredItems = merchandises.filter(m => !m.rentable);
+    } else if (itemType === 'rental') {
+      filteredItems = merchandises.filter(m => m.rentable);
+    } else if (itemType === 'pass') {
+      filteredItems = passes;
     }
 
-    // Read existing orders from the JSON file
-    let existingOrders = [];
-    if (fs.existsSync(generateOrderJsonPath)) {
-      const fileContent = fs.readFileSync(generateOrderJsonPath, 'utf8');
-      existingOrders = JSON.parse(fileContent);
+    if (filteredItems.length === 0) {
+      console.error(`No ${itemType} available for order generation.`);
+      return;
     }
 
     for (let i = 0; i < orderCount; i++) {
-      // Randomly select one customer
       const selectedCustomer = faker.helpers.arrayElement(customers);
 
-      // Filter items based on type
-      let filteredItems = [];
-      if (itemType === 'merchandise') {
-        filteredItems = merchandises.filter(m => !m.rentable);
-      } else if (itemType === 'rental') {
-        filteredItems = merchandises.filter(m => m.rentable);
-      } else if (itemType === 'pass') {
-        filteredItems = passes;
-      }
-
-      // Randomly select a number of items
-      const itemCount = faker.number.int({ min: 1, max: 10 });
-      
-      // Generate random items
+      const itemCount = faker.number.int({ min: 1, max: 5 });
       const selectedItems = faker.helpers.arrayElements(filteredItems, itemCount).map(m => generateRandomItem(m, itemType.toUpperCase()));
 
-      // Create the order object
       const order = {
         customer: {
           _id: selectedCustomer._id,
           name: selectedCustomer.name,
           email: selectedCustomer.email,
           phone: {
-            country_code: selectedCustomer.phone_country_code,
-            number: selectedCustomer.phone_number
+            country_code: selectedCustomer.phone.country_code || 'N/A',
+            number: selectedCustomer.phone.number || 'N/A'
           },
           tier: selectedCustomer.tier,
         },
@@ -134,22 +122,33 @@ const generateAndPostOrder = async (itemType, orderCount) => {
         items: selectedItems
       };
 
-      // Add the order to the existing orders array
-      existingOrders.push(order);
+      // Save generated data to JSON file
+      const processedCartPath = processedCartJsonPath(itemType);
+      fs.writeFileSync(processedCartPath, JSON.stringify(order, null, 2));
+      console.log(`Successfully saved order to ${processedCartPath}`);
 
-      // Post the order to the API
+      // Post to processed cart API
+      let processedCartResponse;
       try {
-        const response = await axios.post(orderApiEndpoint, order);
-        console.log(`Successfully posted order: ${JSON.stringify(response.data)}`);
+        processedCartResponse = await axios.post(processedCartApiEndpoint, order);
+        console.log(`Successfully posted to processed cart API: ${JSON.stringify(processedCartResponse.data)}`);
       } catch (postError) {
-        console.error('Error posting order:', postError.message);
+        console.error('Error posting to processed cart API:', postError.message);
+        continue;
+      }
+
+      // Save response from processed cart to JSON file
+      fs.writeFileSync(generateOrderJsonPath, JSON.stringify(processedCartResponse.data, null, 2));
+      console.log(`Successfully saved order to ${generateOrderJsonPath}`);
+
+      // Post to checkout order API
+      try {
+        const checkoutResponse = await axios.post(checkoutOrderApiEndpoint, processedCartResponse.data);
+        console.log(`Successfully posted to checkout order API: ${JSON.stringify(checkoutResponse.data)}`);
+      } catch (checkoutError) {
+        console.error('Error posting to checkout order API:', checkoutError.message);
       }
     }
-
-    // Save the updated orders array to the JSON file
-    fs.writeFileSync(generateOrderJsonPath, JSON.stringify(existingOrders, null, 2));
-    console.log(`Successfully updated orders in ${generateOrderJsonPath}`);
-
   } catch (error) {
     console.error('Error generating and posting order:', error.message);
   }

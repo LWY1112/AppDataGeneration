@@ -22,6 +22,7 @@ This program generates random information for testing purposes in a rock climbin
 All data generation scripts can be run from the terminal:
 
 - **accountType/**: Contains programs for generating account information for different types of users, including customers, employees, and users. These programs are linked to `generateAccount.js`.
+  - Run by: `node generateAccount.js (how many you want to generate) (user/customer/employee)`.
 
 - **generateAccount.js**: Main program for the `accountType` folder. Generates account information for users, customers, and employees, referring to specific JSON files like `generate_user_accounts.json`.
   - Run by: `node generateAccount.js (how many you want to generate) (user/customer/employee)`.
@@ -36,13 +37,18 @@ All data generation scripts can be run from the terminal:
   - Run by: `node generateMerchandiseInventory.js (how many you want to generate)`.
 
 - **generateRental.js**: Script used to generate rental information, referring to `generateRental.json`.
-  - Run by: `node generateRental.js`.
+  - Run by: `node generateRental.js (how many you want to generate)`.
 
 - **generateRentalMerchandise.js**: Script used to generate rental merchandise information. It ensures that the merchandise has a `rentable` flag set to true and that SKU and name have a prefix `RENT-` to indicate rental-only items. It refers to `rentalMerchandise.json`.
   - Run by: `node generateRentalMerchandise.js`.
 
-- **proccesedCart.js**: Script used to generate proccesed cart information for merchandise, rentals, and passes. It refers to `proccesedCart.json`.
-  - Run by: `node order.js (merchandise/rental/pass) (how many you want to generate)`.
+- **proccesedCart.js**: Script used to generate processed cart information. It refers to different JSON files based on the item type:
+  - Merchandise: `proccesedCartMerchandise.json`
+  - Rental: `proccesedCartRental.json`
+  - Pass: `proccesedCartPass.json`
+  
+  After generating the processed cart data, it sends the data to the `proccesedCart` API, receives the processed information, and then sends it to the `checkout order` API.
+  - Run by: `node proccesedCart.js (merchandise/rental/pass) (how many you want to generate)`.
 
 - **Rental.js**: Script used to create information for renting and returning merchandise.
   - Run by: `node Rental.js (how many you want to generate) (rent/return)`.
@@ -81,6 +87,4 @@ All data generation scripts can be run from the terminal:
 
 - **Faker.js**: Library used for generating realistic mock data.
 - **Axios**: HTTP client for making API requests.
-
-Feel free to explore the files and folders to understand how each component contributes to the data generation process. If you have any questions or need further clarification, don't hesitate to ask!
 
