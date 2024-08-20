@@ -28,7 +28,13 @@
         "quantity": 1,
         "unit": "pc"
       },
-      "size": "UK 3.0/ US 4.0"
+      "size": "UK 3.0/ US 4.0",
+      "actual_price": {
+        "currency": "MYR",
+        "value": 20,
+        "quantity": 1,
+        "unit": "pc"
+      }
     },
     {
       "_id": "66b19ed93f667c70f100a891",
@@ -46,7 +52,26 @@
         "quantity": 1,
         "unit": "pc"
       },
-      "size": "8"
+      "size": "8",
+      "actual_price": {
+        "currency": "MYR",
+        "value": 40,
+        "quantity": 1,
+        "unit": "pc"
+      }
     }
-  ]
+  ],
+  "total_item": 2,
+  "subtotal": 60,
+  "currency": "MYR",
+  "total_amount": 60,
+  "payment": {
+    "method": [
+      {
+        "type": "CASH",
+        "amount": 60
+      }
+    ],
+    "change": 0
+  }
 }

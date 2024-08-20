@@ -13,19 +13,6 @@ const discountApiUrl = 'https://batuu.sensoft.cloud:9889/v1/customers/tier'; // 
 
 let sequenceCounter = 1;
 
-// Function to fetch discount values
-async function fetchDiscountValues() {
-  try {
-    const response = await axios.get(discountApiUrl);
-    const discountValues = response.data || [];
-    console.log('Fetched discount values:', discountValues);
-    return discountValues;
-  } catch (error) {
-    console.error('Error fetching discount values:', error.message);
-    return [];
-  }
-}
-
 // Function to transform and extract the required fields from the merchandise data
 async function transformMerchandiseData(merchandise) {
   const roles = ['ADMIN', 'MANAGER', 'STAFF'];
@@ -66,8 +53,20 @@ async function transformMerchandiseData(merchandise) {
     ).filter(Boolean); // Remove empty strings
   }
 
-  // Select a random discount
-  const discount = discounts.length > 0 ? [faker.helpers.arrayElement(discounts)] : [];
+  // Select random discount(s)
+  let discount = [];
+  const discountSelection = Math.floor(Math.random() * 3); // Randomly choose 0, 1, or 2
+
+  if (discountSelection === 1) {
+    discount = [faker.helpers.arrayElement(discounts)];
+  } else if (discountSelection === 2) {
+    // Ensure no duplicates and only add if there are at least two discount options
+    if (discounts.length > 1) {
+      discount = faker.helpers.shuffle(discounts).slice(0, 2);
+    } else {
+      discount = discounts;
+    }
+  }
 
   return {
     name: merchandise.name,

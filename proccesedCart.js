@@ -7,8 +7,8 @@ const { faker } = require('@faker-js/faker/locale/en');
 const customersApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/customers/list/POS';
 const merchandisesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/merchandises/list/ADMIN';
 const passesApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/passes/list/ADMIN';
-const processedCartApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/processedcart';
-const checkoutOrderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/checkoutorder';
+const processedCartApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders/process_cart';
+const checkoutOrderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders/store_checkout';
 
 // File paths
 const generateOrderJsonPath = path.join(__dirname, 'database', 'proccesedCart.json');
@@ -137,13 +137,27 @@ const generateAndPostOrder = async (itemType, orderCount) => {
         continue;
       }
 
-      // Save response from processed cart to JSON file
-      fs.writeFileSync(generateOrderJsonPath, JSON.stringify(processedCartResponse.data, null, 2));
-      console.log(`Successfully saved order to ${generateOrderJsonPath}`);
+      // Add the payment field with the total amount
+      const modifiedOrder = {
+        ...processedCartResponse.data,
+        payment: {
+          method: [
+            {
+              type: 'CASH',
+              amount: processedCartResponse.data.total_amount
+            }
+          ],
+          change: 0
+        }
+      };
+
+      // Save modified data with the payment field to the JSON file
+      fs.writeFileSync(generateOrderJsonPath, JSON.stringify(modifiedOrder, null, 2));
+      console.log(`Successfully saved modified order with payment to ${generateOrderJsonPath}`);
 
       // Post to checkout order API
       try {
-        const checkoutResponse = await axios.post(checkoutOrderApiEndpoint, processedCartResponse.data);
+        const checkoutResponse = await axios.post(checkoutOrderApiEndpoint, modifiedOrder);
         console.log(`Successfully posted to checkout order API: ${JSON.stringify(checkoutResponse.data)}`);
       } catch (checkoutError) {
         console.error('Error posting to checkout order API:', checkoutError.message);

@@ -1,11 +1,11 @@
 {
   "customer": {
-    "_id": "C00222",
-    "name": "Racheal Ow Jing Yan",
-    "email": "rachealow@gmail.com",
+    "_id": "C00056",
+    "name": "Chan Chee Leon",
+    "email": "leon_proko@hotmail.com",
     "phone": {
       "country_code": "60",
-      "number": "166518877"
+      "number": "162203518"
     },
     "tier": "FOUNDATION"
   },
@@ -13,31 +13,16 @@
   "terminal": "547896321203654",
   "items": [
     {
-      "_id": "66b3086fe205cd5cfa7a27eb",
-      "name": "weekly-pass-rookie",
-      "sku": "weekly-pass-rookie12",
-      "category": "family and friends",
-      "desc": "Weekly passs try it out",
-      "type": "PASS",
-      "quantity": 6,
-      "unit_price": {
-        "currency": "MYR",
-        "value": 200,
-        "quantity": 1,
-        "unit": "pc"
-      }
-    },
-    {
-      "_id": "66a0b0c7ae83b4b97dd9fe63",
-      "name": "Monthly Member (ikea)",
-      "sku": "monthly-member-(ikea)-adult",
-      "category": "Membership",
+      "_id": "66bef62affa6dd578eab4528",
+      "name": "6-Month Membership",
+      "sku": "6-Month Membership",
+      "category": "MEMBERSHIP",
       "desc": null,
       "type": "PASS",
       "quantity": 3,
       "unit_price": {
         "currency": "MYR",
-        "value": 120,
+        "value": 31,
         "quantity": 1,
         "unit": "pc"
       }
