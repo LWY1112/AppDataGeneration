@@ -1,0 +1,50 @@
+{
+  "customer": {
+    "_id": "C00154",
+    "name": "Nie Naik Wei Qin",
+    "email": "benjaminnie_95@hotmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "193696888"
+    },
+    "tier": "NORMAL"
+  },
+  "site": "BATUU_3DAMANASARA",
+  "terminal": "547896321203654",
+  "items": [
+    {
+      "_id": "66bef62affa6dd578eab4528",
+      "name": "6-Month Membership",
+      "sku": "6-Month Membership",
+      "category": "MEMBERSHIP",
+      "desc": null,
+      "type": "PASS",
+      "quantity": 3,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 31,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "actual_price": {
+        "currency": "MYR",
+        "value": 31,
+        "quantity": 1,
+        "unit": "pc"
+      }
+    }
+  ],
+  "total_item": 3,
+  "subtotal": 93,
+  "currency": "MYR",
+  "total_amount": 93,
+  "payment": {
+    "method": [
+      {
+        "type": "CASH",
+        "amount": 93
+      }
+    ],
+    "change": 0
+  }
+}

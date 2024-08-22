@@ -1,13 +1,13 @@
 {
   "customer": {
-    "_id": "C00056",
-    "name": "Chan Chee Leon",
-    "email": "leon_proko@hotmail.com",
+    "_id": "C00154",
+    "name": "Nie Naik Wei Qin",
+    "email": "benjaminnie_95@hotmail.com",
     "phone": {
       "country_code": "60",
-      "number": "162203518"
+      "number": "193696888"
     },
-    "tier": "FOUNDATION"
+    "tier": "NORMAL"
   },
   "site": "BATUU_3DAMANASARA",
   "terminal": "547896321203654",

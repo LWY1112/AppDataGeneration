@@ -1,0 +1,70 @@
+{
+  "customer": {
+    "_id": "C00229",
+    "name": "Nicholas Siew",
+    "email": "nicsiew@gmail.com",
+    "phone": {
+      "country_code": "60",
+      "number": "123708827"
+    },
+    "tier": "FOUNDATION"
+  },
+  "site": "BATUU_3DAMANASARA",
+  "terminal": "547896321203654",
+  "items": [
+    {
+      "_id": "66b19e923f667c70f100a5e3",
+      "name": "INGRID",
+      "sku": "60600509",
+      "category": [
+        "gears"
+      ],
+      "desc": "COREZONE 8B PLUS CHALKBAGS",
+      "type": "MERCHANDISE",
+      "quantity": 5,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 135,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": ""
+    },
+    {
+      "_id": "66b19e943f667c70f100a68b",
+      "name": "Red point strap US 9.5/ UK 8.5",
+      "sku": "6950799020465",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 1,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 295,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": null
+    },
+    {
+      "_id": "66b19e933f667c70f100a65f",
+      "name": "ENIGMA NOP 9",
+      "sku": "ART143-08.0",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "MERCHANDISE",
+      "quantity": 3,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 445,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": "9"
+    }
+  ]
+}

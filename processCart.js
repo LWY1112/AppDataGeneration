@@ -11,8 +11,8 @@ const processedCartApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders/pro
 const checkoutOrderApiEndpoint = 'https://batuu.sensoft.cloud:9889/v1/orders/store_checkout';
 
 // File paths
-const generateOrderJsonPath = path.join(__dirname, 'database', 'proccesedCart.json');
-const processedCartJsonPath = (itemType) => path.join(__dirname, 'database', `proccesedCart${itemType.charAt(0).toUpperCase() + itemType.slice(1)}.json`);
+const generateOrderJsonPath = path.join(__dirname, 'database', 'processCart.json');
+const processedCartJsonPath = (itemType) => path.join(__dirname, 'database', `processCart${itemType.charAt(0).toUpperCase() + itemType.slice(1)}.json`);
 
 // Function to fetch customers
 const fetchCustomers = async () => {

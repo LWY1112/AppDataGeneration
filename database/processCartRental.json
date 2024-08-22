@@ -1,0 +1,34 @@
+{
+  "customer": {
+    "_id": "C00142",
+    "name": "Natalie Young",
+    "email": "natyoung@live.com",
+    "phone": {
+      "country_code": "60",
+      "number": "125257113"
+    },
+    "tier": "NORMAL"
+  },
+  "site": "BATUU_3DAMANASARA",
+  "terminal": "547896321203654",
+  "items": [
+    {
+      "_id": "66b19ec83f667c70f100a83b",
+      "name": "RENT-Rave strap(Blue) US 5.0/ UK 4.0",
+      "sku": "RENT-fe3ca457-ef27-4cd9-a83d-358431b3911a",
+      "category": [
+        "shoes"
+      ],
+      "desc": null,
+      "type": "RENTAL",
+      "quantity": 2,
+      "unit_price": {
+        "currency": "MYR",
+        "value": 20,
+        "quantity": 1,
+        "unit": "pc"
+      },
+      "size": "5.0"
+    }
+  ]
+}
