@@ -42,10 +42,11 @@ All data generation scripts can be run from the terminal:
 - **generateRentalMerchandise.js**: Script used to generate rental merchandise information. It ensures that the merchandise has a `rentable` flag set to true and that SKU and name have a prefix `RENT-` to indicate rental-only items. It refers to `rentalMerchandise.json`.
   - Run by: `node generateRentalMerchandise.js`.
 
-- **proccesedCart.js**: Script used to generate processed cart information. It refers to different JSON files based on the item type:
-  - Merchandise: `proccesedCartMerchandise.json`
-  - Rental: `proccesedCartRental.json`
-  - Pass: `proccesedCartPass.json`
+- **processCart.js**: Script used to generate processed cart information. It refers to different JSON files based on the item type:
+  - Merchandise: `processCartMerchandise.json`
+  - Rental: `processCartRental.json`
+  - Pass: `processCartPass.json`
+  - Checkout Order: `processCart.json`
   
   After generating the processed cart data, it sends the data to the `proccesedCart` API, receives the processed information, and then sends it to the `checkout order` API.
   - Run by: `node proccesedCart.js (merchandise/rental/pass) (how many you want to generate)`.
